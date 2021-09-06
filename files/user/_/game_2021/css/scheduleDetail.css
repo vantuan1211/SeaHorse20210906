@@ -1583,6 +1583,11 @@
 	max-width: 690px;
 	margin: 0 auto;
 }
+.detail-box-live .detail-hdg-lv2{
+	background: none;
+	height: auto;
+	margin-bottom: 30px;
+}
 .detail-box-live .detail-hdg-lv3{
 	color: #fff;
 	font-size: 20px;
