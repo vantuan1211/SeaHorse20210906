@@ -968,7 +968,7 @@
 }
 .detail-hdg-lv2__content{
 	position: relative;
-	top: -38px;
+	top: -34px;
 }
 .detail-hdg-lv2__content .detail-txt-en:after{
 	content: '';
@@ -977,7 +977,7 @@
 	height: 5px;
 	background: #333D98;
 	position: absolute;
-	bottom: 40px;
+	bottom: 37px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -1011,7 +1011,7 @@
 .detail-hdg-lv2 small{
 	font-size: 18px;
 	letter-spacing: 0.01em;
-	margin-top: 25px;
+	margin-top: 17px;
 	line-height: 1.5;
 }
 @media(min-width: 768px){
