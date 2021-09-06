@@ -1590,6 +1590,11 @@
 	max-width: 690px;
 	margin: 0 auto;
 }
+.detail-box-live .detail-hdg-lv2{
+	background: none;
+	height: auto;
+	margin-bottom: 30px;
+}
 .detail-box-live .detail-hdg-lv3{
 	color: #fff;
 	font-size: 20px;
@@ -2751,8 +2756,8 @@
 }
 .detail-box-player__list__number{
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	bottom: -2px;
+	left: -2px;
 	z-index: 2;
 	font-size: 20px;
 	font-weight: bold;
@@ -2763,12 +2768,18 @@
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 40px 0 0 40px;
+	border-width: 43px 0 0 43px;
 	border-color: transparent transparent transparent #333D98;
 	position: absolute;
 	z-index: 1;
 	bottom: 0;
 	left: 0;
+}
+.detail-box-player__list__name{
+	font-size: 15px;
+	line-height: 1.2;
+	color: #fff;
+	margin-top: 14px;
 }
 
 /*.detail-box-player{
