@@ -987,7 +987,7 @@
 }
 .detail-hdg-lv2--01 small{
 	font-size: 16px;
-	margin-top: 0;
+	margin-top: 0 !important;
 }
 .detail-hdg-lv2--02{
 	color: #fff;
@@ -1037,7 +1037,7 @@
 	padding: 37px 0 35px;
 }
 .detail-box--primary{
-	background: #EEEBF1;
+	background: #333d98;
 	color: #222;
 }
 .detail-box--secondary{
@@ -1047,9 +1047,6 @@
 /*.detail-box--primary .detail-hdg-lv2{
 	color: #333D98;
 }*/
-.detail-box-pickup{
-	background: #333D98;
-}
 .detail-box-pickup .detail-hdg-lv2__content .detail-txt-en:after{
 	background: #fff;
 }
