@@ -2695,8 +2695,10 @@
 }
 .detail-box-player__info__name--en{
 	font-size: 13px;
+	font-weight: bold;
 	letter-spacing: 0.04em;
 	color: #333D98;
+	text-transform: uppercase;
 }
 .detail-box-player__info{
 	display: flex;
