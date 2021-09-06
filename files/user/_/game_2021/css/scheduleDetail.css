@@ -981,6 +981,14 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
+.detail-hdg-lv2--01{
+	background: none;
+	font-size: 36px;
+}
+.detail-hdg-lv2--01 small{
+	font-size: 16px;
+	margin-top: 0;
+}
 .detail-hdg-lv2--02{
 	color: #fff;
 	background: #2b3280;
