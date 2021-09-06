@@ -959,11 +959,11 @@
 	font-size: 30px;
 	letter-spacing: 0.06em;
 	text-align: center;
-	max-width: 400px;
+	max-width: 345px;
 	position: relative;
 	background: #fff;
 	margin: 0 auto 40px;
-	font-size: 50px;
+	font-size: 40px;
 	height: 94px;
 }
 .detail-hdg-lv2__content{
@@ -1015,13 +1015,20 @@
 	line-height: 1.5;
 }
 @media(min-width: 768px){
-	/*.detail-hdg-lv2{
-		font-size: 40px;
+	.detail-hdg-lv2{
+		font-size: 50px;
 		margin-bottom: 30px;
+		max-width: 400px;
+	}
+	.detail-hdg-lv2__content{
+		top: -34px;
+	}
+	.detail-hdg-lv2__content .detail-txt-en:after{
+		bottom: 37px;
 	}
 	.detail-hdg-lv2--01{
 		font-size: 32px;
-	}*/
+	}
 	/*.detail-hdg-lv2 small{
 		margin-top: 13px;
 	}*/
