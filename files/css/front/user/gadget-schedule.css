@@ -1,0 +1,1457 @@
+@media print,  screen and (min-width: 1400px) {
+    .schedule-detail {
+        width: 100%;
+    }
+}
+@media print, screen and (min-width: 768px) {
+  .schedule-contents-wrap a, .schedule-contents-wrap a {
+    transition: opacity .15s;
+    -webkit-transition: opacity .15s;
+  }
+  .schedule-contents-wrap a:hover, .schedule-contents-wrap a:hover {
+    opacity: .7;
+  }
+  .schedule-contents-wrap {
+    margin: 0 0 30px 30px;
+    position: relative;
+  }
+  .schedule-header {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px 15px 45px 0;
+    margin-left: 35px;
+    background: #fff;
+    z-index: 1;
+  }
+  .schedule-header .season-name {
+    position: absolute;
+    z-index: 1;
+    padding-top: 15px;
+    font-size: 16px;
+  }
+  .schedule-header .style-btn-box {
+    float: right;
+  }
+  .schedule-header .style-btn-box li {
+    display: inline-block;
+  }
+  .schedule-header .style-btn-box li a {
+    display: inline-block;
+    border: solid 1px #bfbfbf;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 13px;
+    padding-right: 10px;
+    color: #000;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-list {
+    background: url(/files/user/_/common/img/icn-list-calender.png?v=1530099400) no-repeat 10px center;
+    padding-left: 36px;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-list:hover, .schedule-header .style-btn-box li a.ico-calender-list.active {
+    background: url(/files/user/_/common/img/icn-list-calender.png?v=1530099400) no-repeat 10px center #efefef;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-default {
+    background: url(/files/user/_/common/img/icn-default-calender.png?v=1530099400) no-repeat 10px center;
+    padding-left: 34px;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-default:hover, .schedule-header .style-btn-box li a.ico-calender-default.active {
+    background: url(/files/user/_/common/img/icn-default-calender.png?v=1530099400) no-repeat 10px center #efefef;
+  }
+  .schedule-header .this-month {
+    position: absolute;
+    left: 50%;
+    top: 9px;
+    line-height: 60px;
+    margin-left: -46px;
+  }
+  .schedule-header .this-month span {
+    font-size: 60px;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+  }
+  .schedule-header:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    left: -24px;
+    top: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  /* SCHEDULE CALENDER */
+  .schedule-wrap {
+    padding: 52px 15px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    margin-top: -30px;
+  }
+  .schedule-wrap .shedule-week {
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+  }
+  .schedule-wrap .shedule-week li {
+    float: left;
+    width: 14.28%;
+    text-align: center;
+    color: #8e8e8e;
+  }
+  .schedule-wrap .shedule-week li span {
+    font-size: 16px;
+  }
+  .schedule-wrap .shedule-week li.sat {
+    color: #5680ff;
+  }
+  .schedule-wrap .shedule-week li.sun {
+    color: #ed5945;
+  }
+  .schedule-wrap .schedule-ul {
+    overflow: hidden;
+  }
+  .schedule-wrap .schedule-ul li {
+    float: left;
+    width: 14.28%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border-right: solid 1px #fff !important;
+    border-bottom: solid 1px #fff !important;
+    position: relative;
+    min-height: 340px;
+  }
+  .schedule-wrap .schedule-ul li .a-h {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.1em;
+    position: absolute;
+    width: 100%;
+    font-size: 12px;
+  }
+  .schedule-wrap .schedule-ul li .a-h.away {
+    background: #8e8e8e;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail {
+    padding: 10px 15px;
+    position: relative;
+    margin-top: 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 24px;
+    margin-top: -4px;
+    color: #737373;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day.sat {
+    color: #5680ff;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day.sun {
+    color: #ed5945;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day.off {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .team-logo {
+    text-align: center;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .team-logo img {
+    width: 45px;
+    height: auto;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .stadium-name {
+    text-align: center;
+    font-size: 10px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-area {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    text-align: center;
+    color: #737373;
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-area:after {
+    content: "-";
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    top: 0%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-area .score.score-left {
+    margin-right: 5px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-area .score.score-right {
+    margin-left: 5px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .start-time {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    color: #848484;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector {
+    position: relative;
+    margin-right: 100px;
+    line-height: 20px;
+    width: 100%;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    padding-left: 0.3em;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector .arw {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector .pulldown {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    border: 2px solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector .pulldown li {
+    float: none;
+    width: 100%;
+    background: #fff;
+    min-height: auto;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector .pulldown li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector:hover .pulldown {
+    display: block;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector:hover .pulldown li {
+    float: none;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector:hover .pulldown li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .event-btn {
+    display: block;
+    border: solid 2px;
+    line-height: 20px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    padding-left: 0.3em;
+    font-size: 13px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .ticket-btn {
+    display: block;
+    line-height: 24px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    padding-left: 0.3em;
+    font-size: 13px;
+    margin-bottom: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .schedule-detail-child {
+    position: relative;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .schedule-detail-child .result-circle {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 1px #999999;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .schedule-detail-child .result-circle.win {
+    background: #fff;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .schedule-detail-child .result-circle.lose {
+    background: #000;
+    border: solid 1px #000;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .schedule-detail-child .result-circle.live-mode {
+    background: none;
+    border: none;
+    width: 47px;
+    top: 10px;
+    font-family: "abolition",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .schedule-detail-child .disable {
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+  /* SCHEDULE LIST */
+  .schedule-list-wrap {
+    padding: 52px 15px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    margin-top: -30px;
+  }
+  .schedule-list-wrap .schedule-ul li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: solid 1px #fff;
+    position: relative;
+    min-width: 635px;
+    width: 100%;
+    top: 0;
+    min-height: 87px;
+  }
+  .schedule-list-wrap .schedule-ul li .a-h {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 20px;
+    padding: 16px 5px 0 5px;
+    height: 100%;
+    font-size: 11px;
+    word-wrap: break-word;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.2em;
+  }
+  .schedule-list-wrap .schedule-ul li .a-h.away {
+    background: #8e8e8e;
+  }
+  .schedule-list-wrap .schedule-ul li .a-h.game-type {
+    left: 20px;
+    margin: 0px;
+    background: #3e3e3e;
+    padding-top: 30px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail td {
+    vertical-align: middle;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 36px;
+    text-align: center;
+    color: #585858;
+    width: 8%;
+    min-width: 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 50px !important;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box .week-name {
+    font-size: 16px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box .sat {
+    color: #5680ff;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box .sun {
+    color: #ed5945;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .team-logo {
+    text-align: center;
+    width: 8%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+    min-width: 50px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .game-type {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    font-size: 12px;
+}
+  .schedule-list-wrap .schedule-ul li .schedule-detail .team-logo img {
+    width: 100%;
+    height: auto;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .team-name {
+    width: 24%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .stadium-detail {
+    width: 8%;
+    min-width: 70px;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 10px;
+    color: #000;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 36px;
+    text-align: center;
+    color: #737373;
+    width: 13%;
+    min-width: 112px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+    position: relative;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area:after {
+    content: "-";
+    position: absolute;
+    left: 50%;
+    top: 13px;
+    margin-left: -5px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area .score.score-left {
+    margin-right: 5px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area .score.score-right {
+    margin-left: 5px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box {
+    width: 10%;
+    padding: 0 5px;
+    height: 30px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector {
+    line-height: 30px;
+    width: 100%;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 80px;
+    cursor: pointer;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .arw {
+    position: absolute;
+    top: 14px;
+    right: 5px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .pulldown {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .pulldown li {
+    float: none;
+    width: 100%;
+    background: #fff;
+    min-height: auto;
+    min-width: 100%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .pulldown li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector:hover .pulldown {
+    display: block;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector:hover .pulldown li {
+    float: none;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector:hover .pulldown li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    min-width: 100%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box {
+    width: 19%;
+    min-width: 133px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box .start-title {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box .start-time {
+    display: inline-block;
+    font-family: "abolition",sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 20px;
+    color: #737373;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .event-box {
+    width: 10%;
+    padding: 0 0 0 5px;
+    height: 30px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .event-box .event-btn {
+    border: solid 2px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    padding-left: 0.3em;
+    font-size: 16px;
+    min-width: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .ticket-box {
+    width: 10%;
+    padding: 0 5px;
+    height: 30px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .ticket-box .ticket-btn {
+    line-height: 30px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    padding-left: 0.3em;
+    font-size: 13px;
+    display: inline-block;
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box {
+    width: 6%;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box.live-mode {
+    font-family: "abolition",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box span {
+    display: inline-block;
+    padding-left: 15px;
+    font-family: "abolition",sans-serif;
+    font-size: 18px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box .result-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 1px #999999;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box .result-circle.win {
+    background: #fff;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box .result-circle.lose {
+    background: #000;
+    border: solid 1px #000;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .disable {
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body.body--schedule .layout-content {
+    overflow: visible;
+  }
+  .schedule-contents-wrap {
+    margin: 10px;
+    position: relative;
+  }
+  .schedule-contents-wrap .component-month-selector {
+    margin-left: 60px;
+  }
+  .schedule-header {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px 15px 45px 0;
+    margin-left: 28px;
+    background: #fff;
+    z-index: 1;
+  }
+  .schedule-header .season-name {
+    position: absolute;
+    z-index: 1;
+    padding-top: 15px;
+    font-size: 16px;
+  }
+  .schedule-header .style-btn-box {
+    float: right;
+  }
+  .schedule-header .style-btn-box li {
+    display: inline-block;
+  }
+  .schedule-header .style-btn-box li a {
+    display: inline-block;
+    border: solid 1px #bfbfbf;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    color: #000;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-list {
+    background: url(/files/user/_/common/img/icn-list-calender.png?v=1530099400) no-repeat 10px center;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-list:hover, .schedule-header .style-btn-box li a.ico-calender-list.active {
+    background: url(/files/user/_/common/img/icn-list-calender.png?v=1530099400) no-repeat 10px center #efefef;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-default {
+    background: url(/files/user/_/common/img/icn-default-calender.png?v=1530099400) no-repeat 10px center;
+  }
+  .schedule-header .style-btn-box li a.ico-calender-default:hover, .schedule-header .style-btn-box li a.ico-calender-default.active {
+    background: url(/files/user/_/common/img/icn-default-calender.png?v=1530099400) no-repeat 10px center #efefef;
+  }
+  .schedule-header .this-month {
+    position: absolute;
+    left: 50%;
+    top: 9px;
+    line-height: 60px;
+    margin-left: -46px;
+  }
+  .schedule-header .this-month span {
+    font-size: 60px;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+  }
+  .schedule-header:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    left: -20px;
+    top: 9px;
+    width: 40px;
+    height: 39px;
+    transform: rotate(42deg);
+    -webkit-transform: rotate(42deg);
+  }
+  
+  /* SCHEDULE CALENDER */
+  .schedule-wrap {
+    padding: 45px 15px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    margin-top: -35px;
+  }
+  .schedule-wrap .shedule-week {
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+  }
+  .schedule-wrap .shedule-week li {
+    float: left;
+    width: 14.28%;
+    text-align: center;
+    color: #8e8e8e;
+  }
+  .schedule-wrap .shedule-week li span {
+    font-size: 12px;
+  }
+  .schedule-wrap .shedule-week li.sat {
+    color: #5680ff;
+  }
+  .schedule-wrap .shedule-week li.sun {
+    color: #ed5945;
+  }
+  .schedule-wrap .schedule-ul {
+    overflow: hidden;
+  }
+  .schedule-wrap .schedule-ul li {
+    float: left;
+    width: 14.28%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: #f3f3f3;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .schedule-detail-child.selected .detail-area {
+    display: block;
+  }
+  .schedule-wrap .schedule-ul li .a-h {
+    /* display: none; */
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.1em;
+    position: absolute;
+    width: 100%;
+    font-size: 8px;
+    background-color: #8e8e8e;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail {
+    padding: 5px;
+    position: relative;
+    min-height: 132px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail.border-main {
+    border-style: solid;
+    border-width: 2px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail.away {
+    border: solid 2px #959595;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    color: #737373;
+    /* text-align: center; */
+    margin-top:20px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day.sat {
+    color: #5680ff;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day.sun {
+    color: #ed5945;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .day.off {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .team-name {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #959595;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .live-mode {
+    font-family: "abolition",sans-serif;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-circle {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid 1px #999999;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top:-16px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-circle.win {
+    background: #fff;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-circle.lose {
+    background: #000;
+    border: solid 1px #000;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .start-time {
+    font-family: "abolition",sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    text-align: center;
+    color: #737373;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area {
+    display: none;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .close:after, .schedule-wrap .schedule-ul li .schedule-detail .detail-area .close:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    border: 1px solid #797979;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .close:before {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .close:after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .day-box {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #585858;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .day-box .sat {
+    color: #5680ff;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .day-box .sun {
+    color: #ed5945;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .day-box .day {
+    font-size: 36px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .day-box .day .week-name {
+    font-size: 16px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .stadium-detail {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: left;
+    font-size: 10px;
+    color: #000;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .stadium-detail .stadium-team .team-name {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .stadium-detail .stadium-team .stadium-name span {
+    display: inline-block;
+    padding-left: 15px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .stadium-detail .team-logo {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
+    width: 24%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .stadium-detail .team-logo img {
+    width: 100%;
+    height: auto;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-area {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 36px;
+    margin: -10px auto 3px;
+    text-align: center;
+    color: #737373;
+    position: relative;
+    width: 100px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-area:after {
+    content: "-";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -5%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-area .score.score-left {
+    margin-right: 5%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-area .score.score-right {
+    margin-left: 5%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box {
+    height: 30px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector {
+    line-height: 30px;
+    width: 30%;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 80px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector .arw {
+    position: absolute;
+    top: 14px;
+    right: 5px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector .pulldown {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: -93px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector .pulldown li {
+    float: none;
+    width: 100%;
+    background: #fff;
+    min-height: auto;
+    min-width: 100%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector .pulldown li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector.selected .pulldown {
+    display: block;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector.selected .pulldown li {
+    float: none;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .result-selector-box .result-selector.selected .pulldown li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    min-width: 100%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .event-btn {
+    border: solid 2px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 16px;
+    width: 30%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .ticket-btn {
+    line-height: 30px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    display: inline-block;
+    width: 30%;
+    margin: 0 3%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .start-time {
+    font-size: 36px;
+    margin: -10px auto 3px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .live-mode {
+    font-family: "abolition",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    position: absolute;
+    top: 64%;
+    left: 67%;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .detail-area .disable {
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+  /* SCHEDULE LIST */
+  .schedule-list-wrap {
+    padding: 45px 15px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    margin-top: -35px;
+  }
+  .schedule-list-wrap .schedule-ul li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    top: 0;
+    min-height: 87px;
+  }
+  .schedule-list-wrap .schedule-ul li:nth-child(odd) {
+    background: #f6f4f5;
+  }
+  .schedule-list-wrap .schedule-ul li .a-h {
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+    word-wrap: break-word;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+  .schedule-list-wrap .schedule-ul li .a-h.game-type {
+    background: #3e3e3e ;
+  }
+  .schedule-list-wrap .schedule-ul li .a-h.away {
+    background: #8e8e8e;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    top: -20px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail td {
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 36px;
+    text-align: center;
+    color: #585858;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box .week-name {
+    font-size: 16px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box .sat {
+    color: #5680ff;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box .sun {
+    color: #ed5945;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .stadium-detail {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: left;
+    font-size: 10px;
+    color: #000;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .stadium-detail .stadium-team .team-name {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .stadium-detail .stadium-team .stadium-name span {
+    display: inline-block;
+    padding-left: 15px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .stadium-detail .team-logo {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
+    width: 24%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .stadium-detail .team-logo img {
+    width: 100%;
+    height: auto;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area {
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 36px;
+    text-align: center;
+    color: #737373;
+    position: relative;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area .sp-score .score-box {
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area .sp-score .score-box:after {
+    content: "-";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -5%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area .sp-score .score-box .score.score-left {
+    margin-right: 5%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area .sp-score .score-box .score.score-right {
+    margin-left: 5%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box {
+    height: 30px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector {
+    line-height: 30px;
+    width: 30%;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 80px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .arw {
+    position: absolute;
+    top: 14px;
+    right: 5px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .pulldown {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .pulldown li {
+    float: none;
+    width: 100%;
+    background: #fff;
+    min-height: 30px;
+    min-width: 100%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector .pulldown li a {
+    width: 100%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector.selected .pulldown {
+    display: block;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector.selected .pulldown li {
+    float: none;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector.selected .pulldown li a {
+    line-height: 30px;
+    width: 100%;
+    display: block;
+    min-width: 100%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-selector-box .result-selector.disable {
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box .start-title {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box .start-time {
+    display: inline-block;
+    font-family: "abolition",sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: #737373;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .event-btn {
+    border: solid 2px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 16px;
+    width: 30%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .ticket-btn {
+    line-height: 30px;
+    text-align: center;
+    font-family: "abolition",sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    display: inline-block;
+    width: 30%;
+    margin: 0 3%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box {
+    position: relative;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box.live-mode {
+    font-family: "abolition",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    position: absolute;
+    top: 67%;
+    left: 26%;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 1px #999999;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle.win {
+    background: #fff;
+    position: absolute;
+    top: 19px;
+    left: 68%;
+    margin-left: -10px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle.win:after {
+    content: "W";
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    font-size: 13px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle.lose {
+    background: #000;
+    border: solid 1px #000;
+    position: absolute;
+    top: 19px;
+    left: 30%;
+    margin-left: -10px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle.lose:after {
+    content: "L";
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    font-size: 13px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle span {
+    display: inline-block;
+    padding-left: 15px;
+    font-family: "abolition",sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: -7px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .disable {
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1109px) {
+  .schedule-list-wrap .schedule-ul li .schedule-detail .team-name {
+    padding: 0 5px;
+    min-width: 100px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .day-box {
+    font-size: 30px;
+    min-width: 80px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box {
+    text-align: left;
+    min-width: 20px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box span {
+    display: none;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box.live-mode {
+    font-size: 12px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .result-area {
+    font-size: 28px;
+    min-width: 80px;
+    padding: 0;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .team-logo {
+    padding: 0 5px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .stadium-detail {
+    padding: 0 5px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box {
+    padding: 0 5px 0 0;
+    min-width: 112px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .start-time-box .start-time {
+    padding-left: 10px;
+  }
+  .schedule-list-wrap .schedule-ul li .schedule-detail .event-box .event-btn {
+    min-width: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1218px) {
+  .schedule-wrap .schedule-ul li .schedule-detail {
+    padding: 10px 10px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-area {
+    font-size: 28px;
+    min-width: 80px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector .arw {
+    right: 5px;
+  }
+  .schedule-wrap .schedule-ul li .schedule-detail .result-selector {
+    letter-spacing: 0.1em;
+    padding-left: 0.1em;
+  }
+}
+
+/*# sourceMappingURL=../css/schedule.css.map */

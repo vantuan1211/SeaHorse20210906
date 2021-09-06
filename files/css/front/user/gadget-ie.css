@@ -1,0 +1,14 @@
+html.no-csstransforms3d .flexbox {
+  -js-display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .ie11 .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box .result-circle,
+  .ie10 .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box .result-circle,
+  .ie9 .schedule-list-wrap .schedule-ul li .schedule-detail .result-circle-box .result-circle {
+    top: 100%;
+    margin-top: 2px;
+  }
+}
+
+/*# sourceMappingURL=../css/ie.css.map */

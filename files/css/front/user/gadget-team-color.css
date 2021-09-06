@@ -1,0 +1,6249 @@
+.team-ht .component-block .block-header,
+.team-gc .component-block .block-header {
+  color: #333 !important;
+}
+
+.team-oh .bg-oh {
+  background: #ff8A05 !important;
+}
+
+.team-oh .bg-sub-oh {
+  background: #ed6c00 !important;
+}
+
+.team-oh .txt-main {
+  color: #ff8A05 !important;
+}
+
+.team-oh .bg-main {
+  color: #FFF;
+  background: #ff8A05 !important;
+}
+
+.team-oh .border-main {
+  border-color: #ff8A05 !important;
+}
+
+.team-oh .bg-border-main {
+  color: #fff;
+  border-color: #ff8A05 !important;
+  background: #ff8A05 !important;
+}
+
+.team-oh .txt-sub {
+  color: #ed6c00 !important;
+}
+
+.team-oh .bg-sub, .team-oh .is-slice.is-bg-sub:after {
+  background: #ed6c00 !important;
+}
+
+.team-oh .formError .formErrorContent, .team-oh .formError .formErrorArrow div {
+  background: #ff8A05 !important;
+}
+
+.team-oh .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #ff8A05;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-oh input[type="text"]:focus, .team-oh input[type="email"]:focus {
+  outline: solid 3px #ff8A05 !important;
+}
+
+.team-oh textarea:focus {
+  outline: solid 3px #ff8A05 !important;
+}
+
+.team-oh .is-team-slice-color .is-slice.is-bg-main:after, .team-oh .layout-popup-tnav .right {
+  background: #ff8A05 !important;
+}
+
+.team-oh .layout-team-header .team-nav li > a:hover span {
+  color: #ff8A05 !important;
+}
+
+.team-oh .component-sidenav a {
+  border: 1px solid #ff8A05 !important;
+}
+
+.team-oh .component-sidenav a:hover {
+  background: #ff8A05 !important;
+}
+
+.team-oh .layout-team-header .team-nav li:hover .is-animate {
+  color: #ff8A05 !important;
+}
+
+.team-oh .layout-second .second-body article > p b, .team-oh .layout-second .second-body article .color01 {
+  color: #ff8A05;
+}
+
+.team-oh .layout-second .second-body article .color03 {
+  color: #ed6c00;
+}
+
+.team-oh .layout-second .second-body article a {
+  color: #ff8A05;
+}
+
+.team-oh .link-wrap .strong {
+  color: #FFF !important;
+  background: #ff8A05;
+}
+
+.team-oh .layout-second .second-body article .box-color {
+  border: 5px solid #ff8A05;
+}
+
+.team-oh .tbl-tips thead th:before, .team-oh .tbl-tips thead th:after {
+  border-top: 1px solid #ff8A05;
+}
+
+.team-oh .stats-tab li {
+  background: #ff8A05;
+}
+
+.team-oh .stats-tab li.show-tab {
+  color: #ff8A05;
+  background: #FFF;
+}
+
+.team-oh .report-box .personal .name {
+  color: #ff8A05;
+}
+
+.team-oh .layout-game-list li .play-detail .center .txt-main {
+  color: #ed6c00 !important;
+}
+
+.team-oh .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-oh .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ez .bg-ez {
+  background: #004182 !important;
+}
+
+.team-ez .bg-sub-ez {
+  background: #ccc !important;
+}
+
+.team-ez .txt-main {
+  color: #004182 !important;
+}
+
+.team-ez .bg-main {
+  color: #FFF;
+  background: #004182 !important;
+}
+
+.team-ez .border-main {
+  border-color: #004182 !important;
+}
+
+.team-ez .bg-border-main {
+  color: #fff;
+  border-color: #004182 !important;
+  background: #004182 !important;
+}
+
+.team-ez .txt-sub {
+  color: #ccc !important;
+}
+
+.team-ez .bg-sub, .team-ez .is-slice.is-bg-sub:after {
+  background: #ccc !important;
+}
+
+.team-ez .formError .formErrorContent, .team-ez .formError .formErrorArrow div {
+  background: #004182 !important;
+}
+
+.team-ez .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #004182;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ez input[type="text"]:focus, .team-ez input[type="email"]:focus {
+  outline: solid 3px #004182 !important;
+}
+
+.team-ez textarea:focus {
+  outline: solid 3px #004182 !important;
+}
+
+.team-ez .is-team-slice-color .is-slice.is-bg-main:after, .team-ez .layout-popup-tnav .right {
+  background: #004182 !important;
+}
+
+.team-ez .layout-team-header .team-nav li > a:hover span {
+  color: #004182 !important;
+}
+
+.team-ez .component-sidenav a {
+  border: 1px solid #004182 !important;
+}
+
+.team-ez .component-sidenav a:hover {
+  background: #004182 !important;
+}
+
+.team-ez .layout-team-header .team-nav li:hover .is-animate {
+  color: #004182 !important;
+}
+
+.team-ez .layout-second .second-body article > p b, .team-ez .layout-second .second-body article .color01 {
+  color: #004182;
+}
+
+.team-ez .layout-second .second-body article .color03 {
+  color: #ccc;
+}
+
+.team-ez .layout-second .second-body article a {
+  color: #004182;
+}
+
+.team-ez .link-wrap .strong {
+  color: #FFF !important;
+  background: #004182;
+}
+
+.team-ez .layout-second .second-body article .box-color {
+  border: 5px solid #004182;
+}
+
+.team-ez .tbl-tips thead th:before, .team-ez .tbl-tips thead th:after {
+  border-top: 1px solid #004182;
+}
+
+.team-ez .stats-tab li {
+  background: #004182;
+}
+
+.team-ez .stats-tab li.show-tab {
+  color: #004182;
+  background: #FFF;
+}
+
+.team-ez .report-box .personal .name {
+  color: #004182;
+}
+
+.team-ez .layout-game-list li .play-detail .center .txt-main {
+  color: #ccc !important;
+}
+
+.team-ez .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ez .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-na .bg-na {
+  background: #EA5404 !important;
+}
+
+.team-na .bg-sub-na {
+  background: #003F98 !important;
+}
+
+.team-na .txt-main {
+  color: #EA5404 !important;
+}
+
+.team-na .bg-main {
+  color: #FFF;
+  background: #EA5404 !important;
+}
+
+.team-na .border-main {
+  border-color: #EA5404 !important;
+}
+
+.team-na .bg-border-main {
+  color: #fff;
+  border-color: #EA5404 !important;
+  background: #EA5404 !important;
+}
+
+.team-na .txt-sub {
+  color: #003F98 !important;
+}
+
+.team-na .bg-sub, .team-na .is-slice.is-bg-sub:after {
+  background: #003F98 !important;
+}
+
+.team-na .formError .formErrorContent, .team-na .formError .formErrorArrow div {
+  background: #EA5404 !important;
+}
+
+.team-na .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #EA5404;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-na input[type="text"]:focus, .team-na input[type="email"]:focus {
+  outline: solid 3px #EA5404 !important;
+}
+
+.team-na textarea:focus {
+  outline: solid 3px #EA5404 !important;
+}
+
+.team-na .is-team-slice-color .is-slice.is-bg-main:after, .team-na .layout-popup-tnav .right {
+  background: #EA5404 !important;
+}
+
+.team-na .layout-team-header .team-nav li > a:hover span {
+  color: #EA5404 !important;
+}
+
+.team-na .component-sidenav a {
+  border: 1px solid #EA5404 !important;
+}
+
+.team-na .component-sidenav a:hover {
+  background: #EA5404 !important;
+}
+
+.team-na .layout-team-header .team-nav li:hover .is-animate {
+  color: #EA5404 !important;
+}
+
+.team-na .layout-second .second-body article > p b, .team-na .layout-second .second-body article .color01 {
+  color: #EA5404;
+}
+
+.team-na .layout-second .second-body article .color03 {
+  color: #003F98;
+}
+
+.team-na .layout-second .second-body article a {
+  color: #EA5404;
+}
+
+.team-na .link-wrap .strong {
+  color: #FFF !important;
+  background: #EA5404;
+}
+
+.team-na .layout-second .second-body article .box-color {
+  border: 5px solid #EA5404;
+}
+
+.team-na .tbl-tips thead th:before, .team-na .tbl-tips thead th:after {
+  border-top: 1px solid #EA5404;
+}
+
+.team-na .stats-tab li {
+  background: #EA5404;
+}
+
+.team-na .stats-tab li.show-tab {
+  color: #EA5404;
+  background: #FFF;
+}
+
+.team-na .report-box .personal .name {
+  color: #EA5404;
+}
+
+.team-na .layout-game-list li .play-detail .center .txt-main {
+  color: #003F98 !important;
+}
+
+.team-na .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-na .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-tt .bg-tt {
+  background: #000 !important;
+}
+
+.team-tt .bg-sub-tt {
+  background: #E2000B !important;
+}
+
+.team-tt .txt-main {
+  color: #000 !important;
+}
+
+.team-tt .bg-main {
+  color: #FFF;
+  background: #000 !important;
+}
+
+.team-tt .border-main {
+  border-color: #000 !important;
+}
+
+.team-tt .bg-border-main {
+  color: #fff;
+  border-color: #000 !important;
+  background: #000 !important;
+}
+
+.team-tt .txt-sub {
+  color: #E2000B !important;
+}
+
+.team-tt .bg-sub, .team-tt .is-slice.is-bg-sub:after {
+  background: #E2000B !important;
+}
+
+.team-tt .formError .formErrorContent, .team-tt .formError .formErrorArrow div {
+  background: #000 !important;
+}
+
+.team-tt .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #000;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-tt input[type="text"]:focus, .team-tt input[type="email"]:focus {
+  outline: solid 3px #000 !important;
+}
+
+.team-tt textarea:focus {
+  outline: solid 3px #000 !important;
+}
+
+.team-tt .is-team-slice-color .is-slice.is-bg-main:after, .team-tt .layout-popup-tnav .right {
+  background: #000 !important;
+}
+
+.team-tt .layout-team-header .team-nav li > a:hover span {
+  color: #000 !important;
+}
+
+.team-tt .component-sidenav a {
+  border: 1px solid #000 !important;
+}
+
+.team-tt .component-sidenav a:hover {
+  background: #000 !important;
+}
+
+.team-tt .layout-team-header .team-nav li:hover .is-animate {
+  color: #000 !important;
+}
+
+.team-tt .layout-second .second-body article > p b, .team-tt .layout-second .second-body article .color01 {
+  color: #000;
+}
+
+.team-tt .layout-second .second-body article .color03 {
+  color: #E2000B;
+}
+
+.team-tt .layout-second .second-body article a {
+  color: #000;
+}
+
+.team-tt .link-wrap .strong {
+  color: #FFF !important;
+  background: #000;
+}
+
+.team-tt .layout-second .second-body article .box-color {
+  border: 5px solid #000;
+}
+
+.team-tt .tbl-tips thead th:before, .team-tt .tbl-tips thead th:after {
+  border-top: 1px solid #000;
+}
+
+.team-tt .stats-tab li {
+  background: #000;
+}
+
+.team-tt .stats-tab li.show-tab {
+  color: #000;
+  background: #FFF;
+}
+
+.team-tt .report-box .personal .name {
+  color: #000;
+}
+
+.team-tt .layout-game-list li .play-detail .center .txt-main {
+  color: #E2000B !important;
+}
+
+.team-tt .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-tt .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-tn .bg-tn {
+  background: #0b408d !important;
+}
+
+.team-tn .bg-sub-tn {
+  background: #fff462 !important;
+}
+
+.team-tn .txt-main {
+  color: #0b408d !important;
+}
+
+.team-tn .bg-main {
+  color: #FFF;
+  background: #0b408d !important;
+}
+
+.team-tn .border-main {
+  border-color: #0b408d !important;
+}
+
+.team-tn .bg-border-main {
+  color: #fff;
+  border-color: #0b408d !important;
+  background: #0b408d !important;
+}
+
+.team-tn .txt-sub {
+  color: #fff462 !important;
+}
+
+.team-tn .bg-sub, .team-tn .is-slice.is-bg-sub:after {
+  background: #fff462 !important;
+}
+
+.team-tn .formError .formErrorContent, .team-tn .formError .formErrorArrow div {
+  background: #0b408d !important;
+}
+
+.team-tn .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #0b408d;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-tn input[type="text"]:focus, .team-tn input[type="email"]:focus {
+  outline: solid 3px #0b408d !important;
+}
+
+.team-tn textarea:focus {
+  outline: solid 3px #0b408d !important;
+}
+
+.team-tn .is-team-slice-color .is-slice.is-bg-main:after, .team-tn .layout-popup-tnav .right {
+  background: #0b408d !important;
+}
+
+.team-tn .layout-team-header .team-nav li > a:hover span {
+  color: #0b408d !important;
+}
+
+.team-tn .component-sidenav a {
+  border: 1px solid #0b408d !important;
+}
+
+.team-tn .component-sidenav a:hover {
+  background: #0b408d !important;
+}
+
+.team-tn .layout-team-header .team-nav li:hover .is-animate {
+  color: #0b408d !important;
+}
+
+.team-tn .layout-second .second-body article > p b, .team-tn .layout-second .second-body article .color01 {
+  color: #0b408d;
+}
+
+.team-tn .layout-second .second-body article .color03 {
+  color: #fff462;
+}
+
+.team-tn .layout-second .second-body article a {
+  color: #0b408d;
+}
+
+.team-tn .link-wrap .strong {
+  color: #FFF !important;
+  background: #0b408d;
+}
+
+.team-tn .layout-second .second-body article .box-color {
+  border: 5px solid #0b408d;
+}
+
+.team-tn .tbl-tips thead th:before, .team-tn .tbl-tips thead th:after {
+  border-top: 1px solid #0b408d;
+}
+
+.team-tn .stats-tab li {
+  background: #0b408d;
+}
+
+.team-tn .stats-tab li.show-tab {
+  color: #0b408d;
+  background: #FFF;
+}
+
+.team-tn .report-box .personal .name {
+  color: #0b408d;
+}
+
+.team-tn .layout-game-list li .play-detail .center .txt-main {
+  color: #fff462 !important;
+}
+
+.team-tn .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-tn .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-py .bg-py {
+  background: #5f1985 !important;
+}
+
+.team-py .bg-sub-py {
+  background: #ef8200 !important;
+}
+
+.team-py .txt-main {
+  color: #5f1985 !important;
+}
+
+.team-py .bg-main {
+  color: #FFF;
+  background: #5f1985 !important;
+}
+
+.team-py .border-main {
+  border-color: #5f1985 !important;
+}
+
+.team-py .bg-border-main {
+  color: #fff;
+  border-color: #5f1985 !important;
+  background: #5f1985 !important;
+}
+
+.team-py .txt-sub {
+  color: #ef8200 !important;
+}
+
+.team-py .bg-sub, .team-py .is-slice.is-bg-sub:after {
+  background: #ef8200 !important;
+}
+
+.team-py .formError .formErrorContent, .team-py .formError .formErrorArrow div {
+  background: #5f1985 !important;
+}
+
+.team-py .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #5f1985;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-py input[type="text"]:focus, .team-py input[type="email"]:focus {
+  outline: solid 3px #5f1985 !important;
+}
+
+.team-py textarea:focus {
+  outline: solid 3px #5f1985 !important;
+}
+
+.team-py .is-team-slice-color .is-slice.is-bg-main:after, .team-py .layout-popup-tnav .right {
+  background: #5f1985 !important;
+}
+
+.team-py .layout-team-header .team-nav li > a:hover span {
+  color: #5f1985 !important;
+}
+
+.team-py .component-sidenav a {
+  border: 1px solid #5f1985 !important;
+}
+
+.team-py .component-sidenav a:hover {
+  background: #5f1985 !important;
+}
+
+.team-py .layout-team-header .team-nav li:hover .is-animate {
+  color: #5f1985 !important;
+}
+
+.team-py .layout-second .second-body article > p b, .team-py .layout-second .second-body article .color01 {
+  color: #5f1985;
+}
+
+.team-py .layout-second .second-body article .color03 {
+  color: #ef8200;
+}
+
+.team-py .layout-second .second-body article a {
+  color: #5f1985;
+}
+
+.team-py .link-wrap .strong {
+  color: #FFF !important;
+  background: #5f1985;
+}
+
+.team-py .layout-second .second-body article .box-color {
+  border: 5px solid #5f1985;
+}
+
+.team-py .tbl-tips thead th:before, .team-py .tbl-tips thead th:after {
+  border-top: 1px solid #5f1985;
+}
+
+.team-py .stats-tab li {
+  background: #5f1985;
+}
+
+.team-py .stats-tab li.show-tab {
+  color: #5f1985;
+  background: #FFF;
+}
+
+.team-py .report-box .personal .name {
+  color: #5f1985;
+}
+
+.team-py .layout-game-list li .play-detail .center .txt-main {
+  color: #ef8200 !important;
+}
+
+.team-py .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-py .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ks .bg-ks {
+  background: #c09933 !important;
+}
+
+.team-ks .bg-sub-ks {
+  background: #023D87 !important;
+}
+
+.team-ks .txt-main {
+  color: #c09933 !important;
+}
+
+.team-ks .bg-main {
+  color: #FFF;
+  background: #c09933 !important;
+}
+
+.team-ks .border-main {
+  border-color: #c09933 !important;
+}
+
+.team-ks .bg-border-main {
+  color: #fff;
+  border-color: #c09933 !important;
+  background: #c09933 !important;
+}
+
+.team-ks .txt-sub {
+  color: #023D87 !important;
+}
+
+.team-ks .bg-sub, .team-ks .is-slice.is-bg-sub:after {
+  background: #023D87 !important;
+}
+
+.team-ks .formError .formErrorContent, .team-ks .formError .formErrorArrow div {
+  background: #c09933 !important;
+}
+
+.team-ks .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #c09933;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ks input[type="text"]:focus, .team-ks input[type="email"]:focus {
+  outline: solid 3px #c09933 !important;
+}
+
+.team-ks textarea:focus {
+  outline: solid 3px #c09933 !important;
+}
+
+.team-ks .is-team-slice-color .is-slice.is-bg-main:after, .team-ks .layout-popup-tnav .right {
+  background: #c09933 !important;
+}
+
+.team-ks .layout-team-header .team-nav li > a:hover span {
+  color: #c09933 !important;
+}
+
+.team-ks .component-sidenav a {
+  border: 1px solid #c09933 !important;
+}
+
+.team-ks .component-sidenav a:hover {
+  background: #c09933 !important;
+}
+
+.team-ks .layout-team-header .team-nav li:hover .is-animate {
+  color: #c09933 !important;
+}
+
+.team-ks .layout-second .second-body article > p b, .team-ks .layout-second .second-body article .color01 {
+  color: #c09933;
+}
+
+.team-ks .layout-second .second-body article .color03 {
+  color: #023D87;
+}
+
+.team-ks .layout-second .second-body article a {
+  color: #c09933;
+}
+
+.team-ks .link-wrap .strong {
+  color: #FFF !important;
+  background: #c09933;
+}
+
+.team-ks .layout-second .second-body article .box-color {
+  border: 5px solid #c09933;
+}
+
+.team-ks .tbl-tips thead th:before, .team-ks .tbl-tips thead th:after {
+  border-top: 1px solid #c09933;
+}
+
+.team-ks .stats-tab li {
+  background: #c09933;
+}
+
+.team-ks .stats-tab li.show-tab {
+  color: #c09933;
+  background: #FFF;
+}
+
+.team-ks .report-box .personal .name {
+  color: #c09933;
+}
+
+.team-ks .layout-game-list li .play-detail .center .txt-main {
+  color: #023D87 !important;
+}
+
+.team-ks .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ks .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-rf .bg-rf {
+  background: #0b318f !important;
+}
+
+.team-rf .bg-sub-rf {
+  background: #BE8A23 !important;
+}
+
+.team-rf .txt-main {
+  color: #0b318f !important;
+}
+
+.team-rf .bg-main {
+  color: #FFF;
+  background: #0b318f !important;
+}
+
+.team-rf .border-main {
+  border-color: #0b318f !important;
+}
+
+.team-rf .bg-border-main {
+  color: #fff;
+  border-color: #0b318f !important;
+  background: #0b318f !important;
+}
+
+.team-rf .txt-sub {
+  color: #BE8A23 !important;
+}
+
+.team-rf .bg-sub, .team-rf .is-slice.is-bg-sub:after {
+  background: #BE8A23 !important;
+}
+
+.team-rf .formError .formErrorContent, .team-rf .formError .formErrorArrow div {
+  background: #0b318f !important;
+}
+
+.team-rf .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #0b318f;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-rf input[type="text"]:focus, .team-rf input[type="email"]:focus {
+  outline: solid 3px #0b318f !important;
+}
+
+.team-rf textarea:focus {
+  outline: solid 3px #0b318f !important;
+}
+
+.team-rf .is-team-slice-color .is-slice.is-bg-main:after, .team-rf .layout-popup-tnav .right {
+  background: #0b318f !important;
+}
+
+.team-rf .layout-team-header .team-nav li > a:hover span {
+  color: #0b318f !important;
+}
+
+.team-rf .component-sidenav a {
+  border: 1px solid #0b318f !important;
+}
+
+.team-rf .component-sidenav a:hover {
+  background: #0b318f !important;
+}
+
+.team-rf .layout-team-header .team-nav li:hover .is-animate {
+  color: #0b318f !important;
+}
+
+.team-rf .layout-second .second-body article > p b, .team-rf .layout-second .second-body article .color01 {
+  color: #0b318f;
+}
+
+.team-rf .layout-second .second-body article .color03 {
+  color: #BE8A23;
+}
+
+.team-rf .layout-second .second-body article a {
+  color: #0b318f;
+}
+
+.team-rf .link-wrap .strong {
+  color: #FFF !important;
+  background: #0b318f;
+}
+
+.team-rf .layout-second .second-body article .box-color {
+  border: 5px solid #0b318f;
+}
+
+.team-rf .tbl-tips thead th:before, .team-rf .tbl-tips thead th:after {
+  border-top: 1px solid #0b318f;
+}
+
+.team-rf .stats-tab li {
+  background: #0b318f;
+}
+
+.team-rf .stats-tab li.show-tab {
+  color: #0b318f;
+  background: #FFF;
+}
+
+.team-rf .report-box .personal .name {
+  color: #0b318f;
+}
+
+.team-rf .layout-game-list li .play-detail .center .txt-main {
+  color: #BE8A23 !important;
+}
+
+.team-rf .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-rf .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-tg .bg-tg {
+  background: #d90000 !important;
+}
+
+.team-tg .bg-sub-tg {
+  background: #ffb300 !important;
+}
+
+.team-tg .txt-main {
+  color: #d90000 !important;
+}
+
+.team-tg .bg-main {
+  color: #FFF;
+  background: #d90000 !important;
+}
+
+.team-tg .border-main {
+  border-color: #d90000 !important;
+}
+
+.team-tg .bg-border-main {
+  color: #fff;
+  border-color: #d90000 !important;
+  background: #d90000 !important;
+}
+
+.team-tg .txt-sub {
+  color: #ffb300 !important;
+}
+
+.team-tg .bg-sub, .team-tg .is-slice.is-bg-sub:after {
+  background: #ffb300 !important;
+}
+
+.team-tg .formError .formErrorContent, .team-tg .formError .formErrorArrow div {
+  background: #d90000 !important;
+}
+
+.team-tg .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #d90000;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-tg input[type="text"]:focus, .team-tg input[type="email"]:focus {
+  outline: solid 3px #d90000 !important;
+}
+
+.team-tg textarea:focus {
+  outline: solid 3px #d90000 !important;
+}
+
+.team-tg .is-team-slice-color .is-slice.is-bg-main:after, .team-tg .layout-popup-tnav .right {
+  background: #d90000 !important;
+}
+
+.team-tg .layout-team-header .team-nav li > a:hover span {
+  color: #d90000 !important;
+}
+
+.team-tg .component-sidenav a {
+  border: 1px solid #d90000 !important;
+}
+
+.team-tg .component-sidenav a:hover {
+  background: #d90000 !important;
+}
+
+.team-tg .layout-team-header .team-nav li:hover .is-animate {
+  color: #d90000 !important;
+}
+
+.team-tg .layout-second .second-body article > p b, .team-tg .layout-second .second-body article .color01 {
+  color: #d90000;
+}
+
+.team-tg .layout-second .second-body article .color03 {
+  color: #ffb300;
+}
+
+.team-tg .layout-second .second-body article a {
+  color: #d90000;
+}
+
+.team-tg .link-wrap .strong {
+  color: #FFF !important;
+  background: #d90000;
+}
+
+.team-tg .layout-second .second-body article .box-color {
+  border: 5px solid #d90000;
+}
+
+.team-tg .tbl-tips thead th:before, .team-tg .tbl-tips thead th:after {
+  border-top: 1px solid #d90000;
+}
+
+.team-tg .stats-tab li {
+  background: #d90000;
+}
+
+.team-tg .stats-tab li.show-tab {
+  color: #d90000;
+  background: #FFF;
+}
+
+.team-tg .report-box .personal .name {
+  color: #d90000;
+}
+
+.team-tg .layout-game-list li .play-detail .center .txt-main {
+  color: #ffb300 !important;
+}
+
+.team-tg .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-tg .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-an .bg-an {
+  background: #E40073 !important;
+}
+
+.team-an .bg-sub-an {
+  background: #BE8A23 !important;
+}
+
+.team-an .txt-main {
+  color: #E40073 !important;
+}
+
+.team-an .bg-main {
+  color: #FFF;
+  background: #E40073 !important;
+}
+
+.team-an .border-main {
+  border-color: #E40073 !important;
+}
+
+.team-an .bg-border-main {
+  color: #fff;
+  border-color: #E40073 !important;
+  background: #E40073 !important;
+}
+
+.team-an .txt-sub {
+  color: #BE8A23 !important;
+}
+
+.team-an .bg-sub, .team-an .is-slice.is-bg-sub:after {
+  background: #BE8A23 !important;
+}
+
+.team-an .formError .formErrorContent, .team-an .formError .formErrorArrow div {
+  background: #E40073 !important;
+}
+
+.team-an .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #E40073;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-an input[type="text"]:focus, .team-an input[type="email"]:focus {
+  outline: solid 3px #E40073 !important;
+}
+
+.team-an textarea:focus {
+  outline: solid 3px #E40073 !important;
+}
+
+.team-an .is-team-slice-color .is-slice.is-bg-main:after, .team-an .layout-popup-tnav .right {
+  background: #E40073 !important;
+}
+
+.team-an .layout-team-header .team-nav li > a:hover span {
+  color: #E40073 !important;
+}
+
+.team-an .component-sidenav a {
+  border: 1px solid #E40073 !important;
+}
+
+.team-an .component-sidenav a:hover {
+  background: #E40073 !important;
+}
+
+.team-an .layout-team-header .team-nav li:hover .is-animate {
+  color: #E40073 !important;
+}
+
+.team-an .layout-second .second-body article > p b, .team-an .layout-second .second-body article .color01 {
+  color: #E40073;
+}
+
+.team-an .layout-second .second-body article .color03 {
+  color: #BE8A23;
+}
+
+.team-an .layout-second .second-body article a {
+  color: #E40073;
+}
+
+.team-an .link-wrap .strong {
+  color: #FFF !important;
+  background: #E40073;
+}
+
+.team-an .layout-second .second-body article .box-color {
+  border: 5px solid #E40073;
+}
+
+.team-an .tbl-tips thead th:before, .team-an .tbl-tips thead th:after {
+  border-top: 1px solid #E40073;
+}
+
+.team-an .stats-tab li {
+  background: #E40073;
+}
+
+.team-an .stats-tab li.show-tab {
+  color: #E40073;
+  background: #FFF;
+}
+
+.team-an .report-box .personal .name {
+  color: #E40073;
+}
+
+.team-an .layout-game-list li .play-detail .center .txt-main {
+  color: #BE8A23 !important;
+}
+
+.team-an .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-an .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ss .bg-ss {
+  background: #036eb8 !important;
+}
+
+.team-ss .bg-sub-ss {
+  background: #003256 !important;
+}
+
+.team-ss .txt-main {
+  color: #036eb8 !important;
+}
+
+.team-ss .bg-main {
+  color: #FFF;
+  background: #036eb8 !important;
+}
+
+.team-ss .border-main {
+  border-color: #036eb8 !important;
+}
+
+.team-ss .bg-border-main {
+  color: #fff;
+  border-color: #036eb8 !important;
+  background: #036eb8 !important;
+}
+
+.team-ss .txt-sub {
+  color: #003256 !important;
+}
+
+.team-ss .bg-sub, .team-ss .is-slice.is-bg-sub:after {
+  background: #003256 !important;
+}
+
+.team-ss .formError .formErrorContent, .team-ss .formError .formErrorArrow div {
+  background: #036eb8 !important;
+}
+
+.team-ss .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #036eb8;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ss input[type="text"]:focus, .team-ss input[type="email"]:focus {
+  outline: solid 3px #036eb8 !important;
+}
+
+.team-ss textarea:focus {
+  outline: solid 3px #036eb8 !important;
+}
+
+.team-ss .is-team-slice-color .is-slice.is-bg-main:after, .team-ss .layout-popup-tnav .right {
+  background: #036eb8 !important;
+}
+
+.team-ss .layout-team-header .team-nav li > a:hover span {
+  color: #036eb8 !important;
+}
+
+.team-ss .component-sidenav a {
+  border: 1px solid #036eb8 !important;
+}
+
+.team-ss .component-sidenav a:hover {
+  background: #036eb8 !important;
+}
+
+.team-ss .layout-team-header .team-nav li:hover .is-animate {
+  color: #036eb8 !important;
+}
+
+.team-ss .layout-second .second-body article > p b, .team-ss .layout-second .second-body article .color01 {
+  color: #036eb8;
+}
+
+.team-ss .layout-second .second-body article .color03 {
+  color: #003256;
+}
+
+.team-ss .layout-second .second-body article a {
+  color: #036eb8;
+}
+
+.team-ss .link-wrap .strong {
+  color: #FFF !important;
+  background: #036eb8;
+}
+
+.team-ss .layout-second .second-body article .box-color {
+  border: 5px solid #036eb8;
+}
+
+.team-ss .tbl-tips thead th:before, .team-ss .tbl-tips thead th:after {
+  border-top: 1px solid #036eb8;
+}
+
+.team-ss .stats-tab li {
+  background: #036eb8;
+}
+
+.team-ss .stats-tab li.show-tab {
+  color: #036eb8;
+  background: #FFF;
+}
+
+.team-ss .report-box .personal .name {
+  color: #036eb8;
+}
+
+.team-ss .layout-game-list li .play-detail .center .txt-main {
+  color: #003256 !important;
+}
+
+.team-ss .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ss .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-rk .bg-rk {
+  background: #db0e0e !important;
+}
+
+.team-rk .bg-sub-rk {
+  background: #ffd700 !important;
+}
+
+.team-rk .txt-main {
+  color: #db0e0e !important;
+}
+
+.team-rk .bg-main {
+  color: #FFF;
+  background: #db0e0e !important;
+}
+
+.team-rk .border-main {
+  border-color: #db0e0e !important;
+}
+
+.team-rk .bg-border-main {
+  color: #fff;
+  border-color: #db0e0e !important;
+  background: #db0e0e !important;
+}
+
+.team-rk .txt-sub {
+  color: #ffd700 !important;
+}
+
+.team-rk .bg-sub, .team-rk .is-slice.is-bg-sub:after {
+  background: #ffd700 !important;
+}
+
+.team-rk .formError .formErrorContent, .team-rk .formError .formErrorArrow div {
+  background: #db0e0e !important;
+}
+
+.team-rk .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #db0e0e;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-rk input[type="text"]:focus, .team-rk input[type="email"]:focus {
+  outline: solid 3px #db0e0e !important;
+}
+
+.team-rk textarea:focus {
+  outline: solid 3px #db0e0e !important;
+}
+
+.team-rk .is-team-slice-color .is-slice.is-bg-main:after, .team-rk .layout-popup-tnav .right {
+  background: #db0e0e !important;
+}
+
+.team-rk .layout-team-header .team-nav li > a:hover span {
+  color: #db0e0e !important;
+}
+
+.team-rk .component-sidenav a {
+  border: 1px solid #db0e0e !important;
+}
+
+.team-rk .component-sidenav a:hover {
+  background: #db0e0e !important;
+}
+
+.team-rk .layout-team-header .team-nav li:hover .is-animate {
+  color: #db0e0e !important;
+}
+
+.team-rk .layout-second .second-body article > p b, .team-rk .layout-second .second-body article .color01 {
+  color: #db0e0e;
+}
+
+.team-rk .layout-second .second-body article .color03 {
+  color: #ffd700;
+}
+
+.team-rk .layout-second .second-body article a {
+  color: #db0e0e;
+}
+
+.team-rk .link-wrap .strong {
+  color: #FFF !important;
+  background: #db0e0e;
+}
+
+.team-rk .layout-second .second-body article .box-color {
+  border: 5px solid #db0e0e;
+}
+
+.team-rk .tbl-tips thead th:before, .team-rk .tbl-tips thead th:after {
+  border-top: 1px solid #db0e0e;
+}
+
+.team-rk .stats-tab li {
+  background: #db0e0e;
+}
+
+.team-rk .stats-tab li.show-tab {
+  color: #db0e0e;
+  background: #FFF;
+}
+
+.team-rk .report-box .personal .name {
+  color: #db0e0e;
+}
+
+.team-rk .layout-game-list li .play-detail .center .txt-main {
+  color: #ffd700 !important;
+}
+
+.team-rk .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-rk .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-rh .bg-rh {
+  background: #8FC31F !important;
+}
+
+.team-rh .bg-sub-rh {
+  background: #3E1E87 !important;
+}
+
+.team-rh .txt-main {
+  color: #8FC31F !important;
+}
+
+.team-rh .bg-main {
+  color: #FFF;
+  background: #8FC31F !important;
+}
+
+.team-rh .border-main {
+  border-color: #8FC31F !important;
+}
+
+.team-rh .bg-border-main {
+  color: #fff;
+  border-color: #8FC31F !important;
+  background: #8FC31F !important;
+}
+
+.team-rh .txt-sub {
+  color: #3E1E87 !important;
+}
+
+.team-rh .bg-sub, .team-rh .is-slice.is-bg-sub:after {
+  background: #3E1E87 !important;
+}
+
+.team-rh .formError .formErrorContent, .team-rh .formError .formErrorArrow div {
+  background: #8FC31F !important;
+}
+
+.team-rh .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #8FC31F;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-rh input[type="text"]:focus, .team-rh input[type="email"]:focus {
+  outline: solid 3px #8FC31F !important;
+}
+
+.team-rh textarea:focus {
+  outline: solid 3px #8FC31F !important;
+}
+
+.team-rh .is-team-slice-color .is-slice.is-bg-main:after, .team-rh .layout-popup-tnav .right {
+  background: #8FC31F !important;
+}
+
+.team-rh .layout-team-header .team-nav li > a:hover span {
+  color: #8FC31F !important;
+}
+
+.team-rh .component-sidenav a {
+  border: 1px solid #8FC31F !important;
+}
+
+.team-rh .component-sidenav a:hover {
+  background: #8FC31F !important;
+}
+
+.team-rh .layout-team-header .team-nav li:hover .is-animate {
+  color: #8FC31F !important;
+}
+
+.team-rh .layout-second .second-body article > p b, .team-rh .layout-second .second-body article .color01 {
+  color: #8FC31F;
+}
+
+.team-rh .layout-second .second-body article .color03 {
+  color: #3E1E87;
+}
+
+.team-rh .layout-second .second-body article a {
+  color: #8FC31F;
+}
+
+.team-rh .link-wrap .strong {
+  color: #FFF !important;
+  background: #8FC31F;
+}
+
+.team-rh .layout-second .second-body article .box-color {
+  border: 5px solid #8FC31F;
+}
+
+.team-rh .tbl-tips thead th:before, .team-rh .tbl-tips thead th:after {
+  border-top: 1px solid #8FC31F;
+}
+
+.team-rh .stats-tab li {
+  background: #8FC31F;
+}
+
+.team-rh .stats-tab li.show-tab {
+  color: #8FC31F;
+  background: #FFF;
+}
+
+.team-rh .report-box .personal .name {
+  color: #8FC31F;
+}
+
+.team-rh .layout-game-list li .play-detail .center .txt-main {
+  color: #3E1E87 !important;
+}
+
+.team-rh .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-rh .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-mn .bg-mn {
+  background: #e60012 !important;
+}
+
+.team-mn .bg-sub-mn {
+  background: #b6a32e !important;
+}
+
+.team-mn .txt-main {
+  color: #e60012 !important;
+}
+
+.team-mn .bg-main {
+  color: #FFF;
+  background: #e60012 !important;
+}
+
+.team-mn .border-main {
+  border-color: #e60012 !important;
+}
+
+.team-mn .bg-border-main {
+  color: #fff;
+  border-color: #e60012 !important;
+  background: #e60012 !important;
+}
+
+.team-mn .txt-sub {
+  color: #b6a32e !important;
+}
+
+.team-mn .bg-sub, .team-mn .is-slice.is-bg-sub:after {
+  background: #b6a32e !important;
+}
+
+.team-mn .formError .formErrorContent, .team-mn .formError .formErrorArrow div {
+  background: #e60012 !important;
+}
+
+.team-mn .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #e60012;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-mn input[type="text"]:focus, .team-mn input[type="email"]:focus {
+  outline: solid 3px #e60012 !important;
+}
+
+.team-mn textarea:focus {
+  outline: solid 3px #e60012 !important;
+}
+
+.team-mn .is-team-slice-color .is-slice.is-bg-main:after, .team-mn .layout-popup-tnav .right {
+  background: #e60012 !important;
+}
+
+.team-mn .layout-team-header .team-nav li > a:hover span {
+  color: #e60012 !important;
+}
+
+.team-mn .component-sidenav a {
+  border: 1px solid #e60012 !important;
+}
+
+.team-mn .component-sidenav a:hover {
+  background: #e60012 !important;
+}
+
+.team-mn .layout-team-header .team-nav li:hover .is-animate {
+  color: #e60012 !important;
+}
+
+.team-mn .layout-second .second-body article > p b, .team-mn .layout-second .second-body article .color01 {
+  color: #e60012;
+}
+
+.team-mn .layout-second .second-body article .color03 {
+  color: #b6a32e;
+}
+
+.team-mn .layout-second .second-body article a {
+  color: #e60012;
+}
+
+.team-mn .link-wrap .strong {
+  color: #FFF !important;
+  background: #e60012;
+}
+
+.team-mn .layout-second .second-body article .box-color {
+  border: 5px solid #e60012;
+}
+
+.team-mn .tbl-tips thead th:before, .team-mn .tbl-tips thead th:after {
+  border-top: 1px solid #e60012;
+}
+
+.team-mn .stats-tab li {
+  background: #e60012;
+}
+
+.team-mn .stats-tab li.show-tab {
+  color: #e60012;
+  background: #FFF;
+}
+
+.team-mn .report-box .personal .name {
+  color: #e60012;
+}
+
+.team-mn .layout-game-list li .play-detail .center .txt-main {
+  color: #b6a32e !important;
+}
+
+.team-mn .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-mn .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-yb .bg-yb {
+  background: #000d36 !important;
+}
+
+.team-yb .bg-sub-yb {
+  background: #bf0016 !important;
+}
+
+.team-yb .txt-main {
+  color: #000d36 !important;
+}
+
+.team-yb .bg-main {
+  color: #FFF;
+  background: #000d36 !important;
+}
+
+.team-yb .border-main {
+  border-color: #000d36 !important;
+}
+
+.team-yb .bg-border-main {
+  color: #fff;
+  border-color: #000d36 !important;
+  background: #000d36 !important;
+}
+
+.team-yb .txt-sub {
+  color: #bf0016 !important;
+}
+
+.team-yb .bg-sub, .team-yb .is-slice.is-bg-sub:after {
+  background: #bf0016 !important;
+}
+
+.team-yb .formError .formErrorContent, .team-yb .formError .formErrorArrow div {
+  background: #000d36 !important;
+}
+
+.team-yb .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #000d36;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-yb input[type="text"]:focus, .team-yb input[type="email"]:focus {
+  outline: solid 3px #000d36 !important;
+}
+
+.team-yb textarea:focus {
+  outline: solid 3px #000d36 !important;
+}
+
+.team-yb .is-team-slice-color .is-slice.is-bg-main:after, .team-yb .layout-popup-tnav .right {
+  background: #000d36 !important;
+}
+
+.team-yb .layout-team-header .team-nav li > a:hover span {
+  color: #000d36 !important;
+}
+
+.team-yb .component-sidenav a {
+  border: 1px solid #000d36 !important;
+}
+
+.team-yb .component-sidenav a:hover {
+  background: #000d36 !important;
+}
+
+.team-yb .layout-team-header .team-nav li:hover .is-animate {
+  color: #000d36 !important;
+}
+
+.team-yb .layout-second .second-body article > p b, .team-yb .layout-second .second-body article .color01 {
+  color: #000d36;
+}
+
+.team-yb .layout-second .second-body article .color03 {
+  color: #bf0016;
+}
+
+.team-yb .layout-second .second-body article a {
+  color: #000d36;
+}
+
+.team-yb .link-wrap .strong {
+  color: #FFF !important;
+  background: #000d36;
+}
+
+.team-yb .layout-second .second-body article .box-color {
+  border: 5px solid #000d36;
+}
+
+.team-yb .tbl-tips thead th:before, .team-yb .tbl-tips thead th:after {
+  border-top: 1px solid #000d36;
+}
+
+.team-yb .stats-tab li {
+  background: #000d36;
+}
+
+.team-yb .stats-tab li.show-tab {
+  color: #000d36;
+  background: #FFF;
+}
+
+.team-yb .report-box .personal .name {
+  color: #000d36;
+}
+
+.team-yb .layout-game-list li .play-detail .center .txt-main {
+  color: #bf0016 !important;
+}
+
+.team-yb .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-yb .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-rt .bg-rt {
+  background: #12315a !important;
+}
+
+.team-rt .bg-sub-rt {
+  background: #ffd400 !important;
+}
+
+.team-rt .txt-main {
+  color: #12315a !important;
+}
+
+.team-rt .bg-main {
+  color: #FFF;
+  background: #12315a !important;
+}
+
+.team-rt .border-main {
+  border-color: #12315a !important;
+}
+
+.team-rt .bg-border-main {
+  color: #fff;
+  border-color: #12315a !important;
+  background: #12315a !important;
+}
+
+.team-rt .txt-sub {
+  color: #ffd400 !important;
+}
+
+.team-rt .bg-sub, .team-rt .is-slice.is-bg-sub:after {
+  background: #ffd400 !important;
+}
+
+.team-rt .formError .formErrorContent, .team-rt .formError .formErrorArrow div {
+  background: #12315a !important;
+}
+
+.team-rt .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #12315a;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-rt input[type="text"]:focus, .team-rt input[type="email"]:focus {
+  outline: solid 3px #12315a !important;
+}
+
+.team-rt textarea:focus {
+  outline: solid 3px #12315a !important;
+}
+
+.team-rt .is-team-slice-color .is-slice.is-bg-main:after, .team-rt .layout-popup-tnav .right {
+  background: #12315a !important;
+}
+
+.team-rt .layout-team-header .team-nav li > a:hover span {
+  color: #12315a !important;
+}
+
+.team-rt .component-sidenav a {
+  border: 1px solid #12315a !important;
+}
+
+.team-rt .component-sidenav a:hover {
+  background: #12315a !important;
+}
+
+.team-rt .layout-team-header .team-nav li:hover .is-animate {
+  color: #12315a !important;
+}
+
+.team-rt .layout-second .second-body article > p b, .team-rt .layout-second .second-body article .color01 {
+  color: #12315a;
+}
+
+.team-rt .layout-second .second-body article .color03 {
+  color: #ffd400;
+}
+
+.team-rt .layout-second .second-body article a {
+  color: #12315a;
+}
+
+.team-rt .link-wrap .strong {
+  color: #FFF !important;
+  background: #12315a;
+}
+
+.team-rt .layout-second .second-body article .box-color {
+  border: 5px solid #12315a;
+}
+
+.team-rt .tbl-tips thead th:before, .team-rt .tbl-tips thead th:after {
+  border-top: 1px solid #12315a;
+}
+
+.team-rt .stats-tab li {
+  background: #12315a;
+}
+
+.team-rt .stats-tab li.show-tab {
+  color: #12315a;
+  background: #FFF;
+}
+
+.team-rt .report-box .personal .name {
+  color: #12315a;
+}
+
+.team-rt .layout-game-list li .play-detail .center .txt-main {
+  color: #ffd400 !important;
+}
+
+.team-rt .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-rt .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ns .bg-ns {
+  background: #004731 !important;
+}
+
+.team-ns .bg-sub-ns {
+  background: #DDA41A !important;
+}
+
+.team-ns .txt-main {
+  color: #004731 !important;
+}
+
+.team-ns .bg-main {
+  color: #FFF;
+  background: #004731 !important;
+}
+
+.team-ns .border-main {
+  border-color: #004731 !important;
+}
+
+.team-ns .bg-border-main {
+  color: #fff;
+  border-color: #004731 !important;
+  background: #004731 !important;
+}
+
+.team-ns .txt-sub {
+  color: #DDA41A !important;
+}
+
+.team-ns .bg-sub, .team-ns .is-slice.is-bg-sub:after {
+  background: #DDA41A !important;
+}
+
+.team-ns .formError .formErrorContent, .team-ns .formError .formErrorArrow div {
+  background: #004731 !important;
+}
+
+.team-ns .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #004731;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ns input[type="text"]:focus, .team-ns input[type="email"]:focus {
+  outline: solid 3px #004731 !important;
+}
+
+.team-ns textarea:focus {
+  outline: solid 3px #004731 !important;
+}
+
+.team-ns .is-team-slice-color .is-slice.is-bg-main:after, .team-ns .layout-popup-tnav .right {
+  background: #004731 !important;
+}
+
+.team-ns .layout-team-header .team-nav li > a:hover span {
+  color: #004731 !important;
+}
+
+.team-ns .component-sidenav a {
+  border: 1px solid #004731 !important;
+}
+
+.team-ns .component-sidenav a:hover {
+  background: #004731 !important;
+}
+
+.team-ns .layout-team-header .team-nav li:hover .is-animate {
+  color: #004731 !important;
+}
+
+.team-ns .layout-second .second-body article > p b, .team-ns .layout-second .second-body article .color01 {
+  color: #004731;
+}
+
+.team-ns .layout-second .second-body article .color03 {
+  color: #DDA41A;
+}
+
+.team-ns .layout-second .second-body article a {
+  color: #004731;
+}
+
+.team-ns .link-wrap .strong {
+  color: #FFF !important;
+  background: #004731;
+}
+
+.team-ns .layout-second .second-body article .box-color {
+  border: 5px solid #004731;
+}
+
+.team-ns .tbl-tips thead th:before, .team-ns .tbl-tips thead th:after {
+  border-top: 1px solid #004731;
+}
+
+.team-ns .stats-tab li {
+  background: #004731;
+}
+
+.team-ns .stats-tab li.show-tab {
+  color: #004731;
+  background: #FFF;
+}
+
+.team-ns .report-box .personal .name {
+  color: #004731;
+}
+
+.team-ns .layout-game-list li .play-detail .center .txt-main {
+  color: #DDA41A !important;
+}
+
+.team-ns .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ns .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-tf .bg-tf {
+  background: #ffff00 !important;
+}
+
+.team-tf .bg-sub-tf {
+  background: #191970 !important;
+}
+
+.team-tf .txt-main {
+  color: #ffff00 !important;
+}
+
+.team-tf .bg-main {
+  color: #FFF;
+  background: #ffff00 !important;
+}
+
+.team-tf .border-main {
+  border-color: #ffff00 !important;
+}
+
+.team-tf .bg-border-main {
+  color: #fff;
+  border-color: #ffff00 !important;
+  background: #ffff00 !important;
+}
+
+.team-tf .txt-sub {
+  color: #191970 !important;
+}
+
+.team-tf .bg-sub, .team-tf .is-slice.is-bg-sub:after {
+  background: #191970 !important;
+}
+
+.team-tf .formError .formErrorContent, .team-tf .formError .formErrorArrow div {
+  background: #ffff00 !important;
+}
+
+.team-tf .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #ffff00;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-tf input[type="text"]:focus, .team-tf input[type="email"]:focus {
+  outline: solid 3px #ffff00 !important;
+}
+
+.team-tf textarea:focus {
+  outline: solid 3px #ffff00 !important;
+}
+
+.team-tf .is-team-slice-color .is-slice.is-bg-main:after, .team-tf .layout-popup-tnav .right {
+  background: #ffff00 !important;
+}
+
+.team-tf .layout-team-header .team-nav li > a:hover span {
+  color: #ffff00 !important;
+}
+
+.team-tf .component-sidenav a {
+  border: 1px solid #ffff00 !important;
+}
+
+.team-tf .component-sidenav a:hover {
+  background: #ffff00 !important;
+}
+
+.team-tf .layout-team-header .team-nav li:hover .is-animate {
+  color: #ffff00 !important;
+}
+
+.team-tf .layout-second .second-body article > p b, .team-tf .layout-second .second-body article .color01 {
+  color: #ffff00;
+}
+
+.team-tf .layout-second .second-body article .color03 {
+  color: #191970;
+}
+
+.team-tf .layout-second .second-body article a {
+  color: #ffff00;
+}
+
+.team-tf .link-wrap .strong {
+  color: #FFF !important;
+  background: #ffff00;
+}
+
+.team-tf .layout-second .second-body article .box-color {
+  border: 5px solid #ffff00;
+}
+
+.team-tf .tbl-tips thead th:before, .team-tf .tbl-tips thead th:after {
+  border-top: 1px solid #ffff00;
+}
+
+.team-tf .stats-tab li {
+  background: #ffff00;
+}
+
+.team-tf .stats-tab li.show-tab {
+  color: #ffff00;
+  background: #FFF;
+}
+
+.team-tf .report-box .personal .name {
+  color: #ffff00;
+}
+
+.team-tf .layout-game-list li .play-detail .center .txt-main {
+  color: #191970 !important;
+}
+
+.team-tf .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-tf .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-gc .bg-gc {
+  background: #ffd700 !important;
+}
+
+.team-gc .bg-sub-gc {
+  background: #fff !important;
+}
+
+.team-gc .txt-main {
+  color: #ffd700 !important;
+}
+
+.team-gc .bg-main {
+  color: #FFF;
+  background: #ffd700 !important;
+}
+
+.team-gc .border-main {
+  border-color: #ffd700 !important;
+}
+
+.team-gc .bg-border-main {
+  color: #fff;
+  border-color: #ffd700 !important;
+  background: #ffd700 !important;
+}
+
+.team-gc .txt-sub {
+  color: #fff !important;
+}
+
+.team-gc .bg-sub, .team-gc .is-slice.is-bg-sub:after {
+  background: #fff !important;
+}
+
+.team-gc .formError .formErrorContent, .team-gc .formError .formErrorArrow div {
+  background: #ffd700 !important;
+}
+
+.team-gc .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #ffd700;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-gc input[type="text"]:focus, .team-gc input[type="email"]:focus {
+  outline: solid 3px #ffd700 !important;
+}
+
+.team-gc textarea:focus {
+  outline: solid 3px #ffd700 !important;
+}
+
+.team-gc .is-team-slice-color .is-slice.is-bg-main:after, .team-gc .layout-popup-tnav .right {
+  background: #ffd700 !important;
+}
+
+.team-gc .layout-team-header .team-nav li > a:hover span {
+  color: #ffd700 !important;
+}
+
+.team-gc .component-sidenav a {
+  border: 1px solid #ffd700 !important;
+}
+
+.team-gc .component-sidenav a:hover {
+  background: #ffd700 !important;
+}
+
+.team-gc .layout-team-header .team-nav li:hover .is-animate {
+  color: #ffd700 !important;
+}
+
+.team-gc .layout-second .second-body article > p b, .team-gc .layout-second .second-body article .color01 {
+  color: #ffd700;
+}
+
+.team-gc .layout-second .second-body article .color03 {
+  color: #fff;
+}
+
+.team-gc .layout-second .second-body article a {
+  color: #ffd700;
+}
+
+.team-gc .link-wrap .strong {
+  color: #FFF !important;
+  background: #ffd700;
+}
+
+.team-gc .layout-second .second-body article .box-color {
+  border: 5px solid #ffd700;
+}
+
+.team-gc .tbl-tips thead th:before, .team-gc .tbl-tips thead th:after {
+  border-top: 1px solid #ffd700;
+}
+
+.team-gc .stats-tab li {
+  background: #ffd700;
+}
+
+.team-gc .stats-tab li.show-tab {
+  color: #ffd700;
+  background: #FFF;
+}
+
+.team-gc .report-box .personal .name {
+  color: #ffd700;
+}
+
+.team-gc .layout-game-list li .play-detail .center .txt-main {
+  color: #fff !important;
+}
+
+.team-gc .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-gc .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ib .bg-ib {
+  background: #E60012 !important;
+}
+
+.team-ib .bg-sub-ib {
+  background: #0A1231 !important;
+}
+
+.team-ib .txt-main {
+  color: #E60012 !important;
+}
+
+.team-ib .bg-main {
+  color: #FFF;
+  background: #E60012 !important;
+}
+
+.team-ib .border-main {
+  border-color: #E60012 !important;
+}
+
+.team-ib .bg-border-main {
+  color: #fff;
+  border-color: #E60012 !important;
+  background: #E60012 !important;
+}
+
+.team-ib .txt-sub {
+  color: #0A1231 !important;
+}
+
+.team-ib .bg-sub, .team-ib .is-slice.is-bg-sub:after {
+  background: #0A1231 !important;
+}
+
+.team-ib .formError .formErrorContent, .team-ib .formError .formErrorArrow div {
+  background: #E60012 !important;
+}
+
+.team-ib .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #E60012;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ib input[type="text"]:focus, .team-ib input[type="email"]:focus {
+  outline: solid 3px #E60012 !important;
+}
+
+.team-ib textarea:focus {
+  outline: solid 3px #E60012 !important;
+}
+
+.team-ib .is-team-slice-color .is-slice.is-bg-main:after, .team-ib .layout-popup-tnav .right {
+  background: #E60012 !important;
+}
+
+.team-ib .layout-team-header .team-nav li > a:hover span {
+  color: #E60012 !important;
+}
+
+.team-ib .component-sidenav a {
+  border: 1px solid #E60012 !important;
+}
+
+.team-ib .component-sidenav a:hover {
+  background: #E60012 !important;
+}
+
+.team-ib .layout-team-header .team-nav li:hover .is-animate {
+  color: #E60012 !important;
+}
+
+.team-ib .layout-second .second-body article > p b, .team-ib .layout-second .second-body article .color01 {
+  color: #E60012;
+}
+
+.team-ib .layout-second .second-body article .color03 {
+  color: #0A1231;
+}
+
+.team-ib .layout-second .second-body article a {
+  color: #E60012;
+}
+
+.team-ib .link-wrap .strong {
+  color: #FFF !important;
+  background: #E60012;
+}
+
+.team-ib .layout-second .second-body article .box-color {
+  border: 5px solid #E60012;
+}
+
+.team-ib .tbl-tips thead th:before, .team-ib .tbl-tips thead th:after {
+  border-top: 1px solid #E60012;
+}
+
+.team-ib .stats-tab li {
+  background: #E60012;
+}
+
+.team-ib .stats-tab li.show-tab {
+  color: #E60012;
+  background: #FFF;
+}
+
+.team-ib .report-box .personal .name {
+  color: #E60012;
+}
+
+.team-ib .layout-game-list li .play-detail .center .txt-main {
+  color: #0A1231 !important;
+}
+
+.team-ib .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ib .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-rg .bg-rg {
+  background: #081c4f !important;
+}
+
+.team-rg .bg-sub-rg {
+  background: #dbc073 !important;
+}
+
+.team-rg .txt-main {
+  color: #081c4f !important;
+}
+
+.team-rg .bg-main {
+  color: #FFF;
+  background: #081c4f !important;
+}
+
+.team-rg .border-main {
+  border-color: #081c4f !important;
+}
+
+.team-rg .bg-border-main {
+  color: #fff;
+  border-color: #081c4f !important;
+  background: #081c4f !important;
+}
+
+.team-rg .txt-sub {
+  color: #dbc073 !important;
+}
+
+.team-rg .bg-sub, .team-rg .is-slice.is-bg-sub:after {
+  background: #dbc073 !important;
+}
+
+.team-rg .formError .formErrorContent, .team-rg .formError .formErrorArrow div {
+  background: #081c4f !important;
+}
+
+.team-rg .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #081c4f;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-rg input[type="text"]:focus, .team-rg input[type="email"]:focus {
+  outline: solid 3px #081c4f !important;
+}
+
+.team-rg textarea:focus {
+  outline: solid 3px #081c4f !important;
+}
+
+.team-rg .is-team-slice-color .is-slice.is-bg-main:after, .team-rg .layout-popup-tnav .right {
+  background: #081c4f !important;
+}
+
+.team-rg .layout-team-header .team-nav li > a:hover span {
+  color: #081c4f !important;
+}
+
+.team-rg .component-sidenav a {
+  border: 1px solid #081c4f !important;
+}
+
+.team-rg .component-sidenav a:hover {
+  background: #081c4f !important;
+}
+
+.team-rg .layout-team-header .team-nav li:hover .is-animate {
+  color: #081c4f !important;
+}
+
+.team-rg .layout-second .second-body article > p b, .team-rg .layout-second .second-body article .color01 {
+  color: #081c4f;
+}
+
+.team-rg .layout-second .second-body article .color03 {
+  color: #dbc073;
+}
+
+.team-rg .layout-second .second-body article a {
+  color: #081c4f;
+}
+
+.team-rg .link-wrap .strong {
+  color: #FFF !important;
+  background: #081c4f;
+}
+
+.team-rg .layout-second .second-body article .box-color {
+  border: 5px solid #081c4f;
+}
+
+.team-rg .tbl-tips thead th:before, .team-rg .tbl-tips thead th:after {
+  border-top: 1px solid #081c4f;
+}
+
+.team-rg .stats-tab li {
+  background: #081c4f;
+}
+
+.team-rg .stats-tab li.show-tab {
+  color: #081c4f;
+  background: #FFF;
+}
+
+.team-rg .report-box .personal .name {
+  color: #081c4f;
+}
+
+.team-rg .layout-game-list li .play-detail .center .txt-main {
+  color: #dbc073 !important;
+}
+
+.team-rg .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-rg .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-oe .bg-oe {
+  background: #1f0603 !important;
+}
+
+.team-oe .bg-sub-oe {
+  background: #e6001b !important;
+}
+
+.team-oe .txt-main {
+  color: #1f0603 !important;
+}
+
+.team-oe .bg-main {
+  color: #FFF;
+  background: #1f0603 !important;
+}
+
+.team-oe .border-main {
+  border-color: #1f0603 !important;
+}
+
+.team-oe .bg-border-main {
+  color: #fff;
+  border-color: #1f0603 !important;
+  background: #1f0603 !important;
+}
+
+.team-oe .txt-sub {
+  color: #e6001b !important;
+}
+
+.team-oe .bg-sub, .team-oe .is-slice.is-bg-sub:after {
+  background: #e6001b !important;
+}
+
+.team-oe .formError .formErrorContent, .team-oe .formError .formErrorArrow div {
+  background: #1f0603 !important;
+}
+
+.team-oe .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #1f0603;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-oe input[type="text"]:focus, .team-oe input[type="email"]:focus {
+  outline: solid 3px #1f0603 !important;
+}
+
+.team-oe textarea:focus {
+  outline: solid 3px #1f0603 !important;
+}
+
+.team-oe .is-team-slice-color .is-slice.is-bg-main:after, .team-oe .layout-popup-tnav .right {
+  background: #1f0603 !important;
+}
+
+.team-oe .layout-team-header .team-nav li > a:hover span {
+  color: #1f0603 !important;
+}
+
+.team-oe .component-sidenav a {
+  border: 1px solid #1f0603 !important;
+}
+
+.team-oe .component-sidenav a:hover {
+  background: #1f0603 !important;
+}
+
+.team-oe .layout-team-header .team-nav li:hover .is-animate {
+  color: #1f0603 !important;
+}
+
+.team-oe .layout-second .second-body article > p b, .team-oe .layout-second .second-body article .color01 {
+  color: #1f0603;
+}
+
+.team-oe .layout-second .second-body article .color03 {
+  color: #e6001b;
+}
+
+.team-oe .layout-second .second-body article a {
+  color: #1f0603;
+}
+
+.team-oe .link-wrap .strong {
+  color: #FFF !important;
+  background: #1f0603;
+}
+
+.team-oe .layout-second .second-body article .box-color {
+  border: 5px solid #1f0603;
+}
+
+.team-oe .tbl-tips thead th:before, .team-oe .tbl-tips thead th:after {
+  border-top: 1px solid #1f0603;
+}
+
+.team-oe .stats-tab li {
+  background: #1f0603;
+}
+
+.team-oe .stats-tab li.show-tab {
+  color: #1f0603;
+  background: #FFF;
+}
+
+.team-oe .report-box .personal .name {
+  color: #1f0603;
+}
+
+.team-oe .layout-game-list li .play-detail .center .txt-main {
+  color: #e6001b !important;
+}
+
+.team-oe .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-oe .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-kh .bg-kh {
+  background: #73CAF2 !important;
+}
+
+.team-kh .bg-sub-kh {
+  background: #F39800 !important;
+}
+
+.team-kh .txt-main {
+  color: #73CAF2 !important;
+}
+
+.team-kh .bg-main {
+  color: #FFF;
+  background: #73CAF2 !important;
+}
+
+.team-kh .border-main {
+  border-color: #73CAF2 !important;
+}
+
+.team-kh .bg-border-main {
+  color: #fff;
+  border-color: #73CAF2 !important;
+  background: #73CAF2 !important;
+}
+
+.team-kh .txt-sub {
+  color: #F39800 !important;
+}
+
+.team-kh .bg-sub, .team-kh .is-slice.is-bg-sub:after {
+  background: #F39800 !important;
+}
+
+.team-kh .formError .formErrorContent, .team-kh .formError .formErrorArrow div {
+  background: #73CAF2 !important;
+}
+
+.team-kh .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #73CAF2;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-kh input[type="text"]:focus, .team-kh input[type="email"]:focus {
+  outline: solid 3px #73CAF2 !important;
+}
+
+.team-kh textarea:focus {
+  outline: solid 3px #73CAF2 !important;
+}
+
+.team-kh .is-team-slice-color .is-slice.is-bg-main:after, .team-kh .layout-popup-tnav .right {
+  background: #73CAF2 !important;
+}
+
+.team-kh .layout-team-header .team-nav li > a:hover span {
+  color: #73CAF2 !important;
+}
+
+.team-kh .component-sidenav a {
+  border: 1px solid #73CAF2 !important;
+}
+
+.team-kh .component-sidenav a:hover {
+  background: #73CAF2 !important;
+}
+
+.team-kh .layout-team-header .team-nav li:hover .is-animate {
+  color: #73CAF2 !important;
+}
+
+.team-kh .layout-second .second-body article > p b, .team-kh .layout-second .second-body article .color01 {
+  color: #73CAF2;
+}
+
+.team-kh .layout-second .second-body article .color03 {
+  color: #F39800;
+}
+
+.team-kh .layout-second .second-body article a {
+  color: #73CAF2;
+}
+
+.team-kh .link-wrap .strong {
+  color: #FFF !important;
+  background: #73CAF2;
+}
+
+.team-kh .layout-second .second-body article .box-color {
+  border: 5px solid #73CAF2;
+}
+
+.team-kh .tbl-tips thead th:before, .team-kh .tbl-tips thead th:after {
+  border-top: 1px solid #73CAF2;
+}
+
+.team-kh .stats-tab li {
+  background: #73CAF2;
+}
+
+.team-kh .stats-tab li.show-tab {
+  color: #73CAF2;
+  background: #FFF;
+}
+
+.team-kh .report-box .personal .name {
+  color: #73CAF2;
+}
+
+.team-kh .layout-game-list li .play-detail .center .txt-main {
+  color: #F39800 !important;
+}
+
+.team-kh .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-kh .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-sl .bg-sl {
+  background: #18519d !important;
+}
+
+.team-sl .bg-sub-sl {
+  background: #ffe600 !important;
+}
+
+.team-sl .txt-main {
+  color: #18519d !important;
+}
+
+.team-sl .bg-main {
+  color: #FFF;
+  background: #18519d !important;
+}
+
+.team-sl .border-main {
+  border-color: #18519d !important;
+}
+
+.team-sl .bg-border-main {
+  color: #fff;
+  border-color: #18519d !important;
+  background: #18519d !important;
+}
+
+.team-sl .txt-sub {
+  color: #ffe600 !important;
+}
+
+.team-sl .bg-sub, .team-sl .is-slice.is-bg-sub:after {
+  background: #ffe600 !important;
+}
+
+.team-sl .formError .formErrorContent, .team-sl .formError .formErrorArrow div {
+  background: #18519d !important;
+}
+
+.team-sl .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #18519d;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-sl input[type="text"]:focus, .team-sl input[type="email"]:focus {
+  outline: solid 3px #18519d !important;
+}
+
+.team-sl textarea:focus {
+  outline: solid 3px #18519d !important;
+}
+
+.team-sl .is-team-slice-color .is-slice.is-bg-main:after, .team-sl .layout-popup-tnav .right {
+  background: #18519d !important;
+}
+
+.team-sl .layout-team-header .team-nav li > a:hover span {
+  color: #18519d !important;
+}
+
+.team-sl .component-sidenav a {
+  border: 1px solid #18519d !important;
+}
+
+.team-sl .component-sidenav a:hover {
+  background: #18519d !important;
+}
+
+.team-sl .layout-team-header .team-nav li:hover .is-animate {
+  color: #18519d !important;
+}
+
+.team-sl .layout-second .second-body article > p b, .team-sl .layout-second .second-body article .color01 {
+  color: #18519d;
+}
+
+.team-sl .layout-second .second-body article .color03 {
+  color: #ffe600;
+}
+
+.team-sl .layout-second .second-body article a {
+  color: #18519d;
+}
+
+.team-sl .link-wrap .strong {
+  color: #FFF !important;
+  background: #18519d;
+}
+
+.team-sl .layout-second .second-body article .box-color {
+  border: 5px solid #18519d;
+}
+
+.team-sl .tbl-tips thead th:before, .team-sl .tbl-tips thead th:after {
+  border-top: 1px solid #18519d;
+}
+
+.team-sl .stats-tab li {
+  background: #18519d;
+}
+
+.team-sl .stats-tab li.show-tab {
+  color: #18519d;
+  background: #FFF;
+}
+
+.team-sl .report-box .personal .name {
+  color: #18519d;
+}
+
+.team-sl .layout-game-list li .play-detail .center .txt-main {
+  color: #ffe600 !important;
+}
+
+.team-sl .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-sl .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-am .bg-am {
+  background: #1a4899 !important;
+}
+
+.team-am .bg-sub-am {
+  background: #000 !important;
+}
+
+.team-am .txt-main {
+  color: #1a4899 !important;
+}
+
+.team-am .bg-main {
+  color: #FFF;
+  background: #1a4899 !important;
+}
+
+.team-am .border-main {
+  border-color: #1a4899 !important;
+}
+
+.team-am .bg-border-main {
+  color: #fff;
+  border-color: #1a4899 !important;
+  background: #1a4899 !important;
+}
+
+.team-am .txt-sub {
+  color: #000 !important;
+}
+
+.team-am .bg-sub, .team-am .is-slice.is-bg-sub:after {
+  background: #000 !important;
+}
+
+.team-am .formError .formErrorContent, .team-am .formError .formErrorArrow div {
+  background: #1a4899 !important;
+}
+
+.team-am .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #1a4899;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-am input[type="text"]:focus, .team-am input[type="email"]:focus {
+  outline: solid 3px #1a4899 !important;
+}
+
+.team-am textarea:focus {
+  outline: solid 3px #1a4899 !important;
+}
+
+.team-am .is-team-slice-color .is-slice.is-bg-main:after, .team-am .layout-popup-tnav .right {
+  background: #1a4899 !important;
+}
+
+.team-am .layout-team-header .team-nav li > a:hover span {
+  color: #1a4899 !important;
+}
+
+.team-am .component-sidenav a {
+  border: 1px solid #1a4899 !important;
+}
+
+.team-am .component-sidenav a:hover {
+  background: #1a4899 !important;
+}
+
+.team-am .layout-team-header .team-nav li:hover .is-animate {
+  color: #1a4899 !important;
+}
+
+.team-am .layout-second .second-body article > p b, .team-am .layout-second .second-body article .color01 {
+  color: #1a4899;
+}
+
+.team-am .layout-second .second-body article .color03 {
+  color: #000;
+}
+
+.team-am .layout-second .second-body article a {
+  color: #1a4899;
+}
+
+.team-am .link-wrap .strong {
+  color: #FFF !important;
+  background: #1a4899;
+}
+
+.team-am .layout-second .second-body article .box-color {
+  border: 5px solid #1a4899;
+}
+
+.team-am .tbl-tips thead th:before, .team-am .tbl-tips thead th:after {
+  border-top: 1px solid #1a4899;
+}
+
+.team-am .stats-tab li {
+  background: #1a4899;
+}
+
+.team-am .stats-tab li.show-tab {
+  color: #1a4899;
+  background: #FFF;
+}
+
+.team-am .report-box .personal .name {
+  color: #1a4899;
+}
+
+.team-am .layout-game-list li .play-detail .center .txt-main {
+  color: #000 !important;
+}
+
+.team-am .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-am .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-hh .bg-hh {
+  background: #d2001e !important;
+}
+
+.team-hh .bg-sub-hh {
+  background: #bf9c46 !important;
+}
+
+.team-hh .txt-main {
+  color: #d2001e !important;
+}
+
+.team-hh .bg-main {
+  color: #FFF;
+  background: #d2001e !important;
+}
+
+.team-hh .border-main {
+  border-color: #d2001e !important;
+}
+
+.team-hh .bg-border-main {
+  color: #fff;
+  border-color: #d2001e !important;
+  background: #d2001e !important;
+}
+
+.team-hh .txt-sub {
+  color: #bf9c46 !important;
+}
+
+.team-hh .bg-sub, .team-hh .is-slice.is-bg-sub:after {
+  background: #bf9c46 !important;
+}
+
+.team-hh .formError .formErrorContent, .team-hh .formError .formErrorArrow div {
+  background: #d2001e !important;
+}
+
+.team-hh .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #d2001e;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-hh input[type="text"]:focus, .team-hh input[type="email"]:focus {
+  outline: solid 3px #d2001e !important;
+}
+
+.team-hh textarea:focus {
+  outline: solid 3px #d2001e !important;
+}
+
+.team-hh .is-team-slice-color .is-slice.is-bg-main:after, .team-hh .layout-popup-tnav .right {
+  background: #d2001e !important;
+}
+
+.team-hh .layout-team-header .team-nav li > a:hover span {
+  color: #d2001e !important;
+}
+
+.team-hh .component-sidenav a {
+  border: 1px solid #d2001e !important;
+}
+
+.team-hh .component-sidenav a:hover {
+  background: #d2001e !important;
+}
+
+.team-hh .layout-team-header .team-nav li:hover .is-animate {
+  color: #d2001e !important;
+}
+
+.team-hh .layout-second .second-body article > p b, .team-hh .layout-second .second-body article .color01 {
+  color: #d2001e;
+}
+
+.team-hh .layout-second .second-body article .color03 {
+  color: #bf9c46;
+}
+
+.team-hh .layout-second .second-body article a {
+  color: #d2001e;
+}
+
+.team-hh .link-wrap .strong {
+  color: #FFF !important;
+  background: #d2001e;
+}
+
+.team-hh .layout-second .second-body article .box-color {
+  border: 5px solid #d2001e;
+}
+
+.team-hh .tbl-tips thead th:before, .team-hh .tbl-tips thead th:after {
+  border-top: 1px solid #d2001e;
+}
+
+.team-hh .stats-tab li {
+  background: #d2001e;
+}
+
+.team-hh .stats-tab li.show-tab {
+  color: #d2001e;
+  background: #FFF;
+}
+
+.team-hh .report-box .personal .name {
+  color: #d2001e;
+}
+
+.team-hh .layout-game-list li .play-detail .center .txt-main {
+  color: #bf9c46 !important;
+}
+
+.team-hh .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-hh .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-cj .bg-cj {
+  background: #ff0000 !important;
+}
+
+.team-cj .bg-sub-cj {
+  background: #666 !important;
+}
+
+.team-cj .txt-main {
+  color: #ff0000 !important;
+}
+
+.team-cj .bg-main {
+  color: #FFF;
+  background: #ff0000 !important;
+}
+
+.team-cj .border-main {
+  border-color: #ff0000 !important;
+}
+
+.team-cj .bg-border-main {
+  color: #fff;
+  border-color: #ff0000 !important;
+  background: #ff0000 !important;
+}
+
+.team-cj .txt-sub {
+  color: #666 !important;
+}
+
+.team-cj .bg-sub, .team-cj .is-slice.is-bg-sub:after {
+  background: #666 !important;
+}
+
+.team-cj .formError .formErrorContent, .team-cj .formError .formErrorArrow div {
+  background: #ff0000 !important;
+}
+
+.team-cj .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #ff0000;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-cj input[type="text"]:focus, .team-cj input[type="email"]:focus {
+  outline: solid 3px #ff0000 !important;
+}
+
+.team-cj textarea:focus {
+  outline: solid 3px #ff0000 !important;
+}
+
+.team-cj .is-team-slice-color .is-slice.is-bg-main:after, .team-cj .layout-popup-tnav .right {
+  background: #ff0000 !important;
+}
+
+.team-cj .layout-team-header .team-nav li > a:hover span {
+  color: #ff0000 !important;
+}
+
+.team-cj .component-sidenav a {
+  border: 1px solid #ff0000 !important;
+}
+
+.team-cj .component-sidenav a:hover {
+  background: #ff0000 !important;
+}
+
+.team-cj .layout-team-header .team-nav li:hover .is-animate {
+  color: #ff0000 !important;
+}
+
+.team-cj .layout-second .second-body article > p b, .team-cj .layout-second .second-body article .color01 {
+  color: #ff0000;
+}
+
+.team-cj .layout-second .second-body article .color03 {
+  color: #666;
+}
+
+.team-cj .layout-second .second-body article a {
+  color: #ff0000;
+}
+
+.team-cj .link-wrap .strong {
+  color: #FFF !important;
+  background: #ff0000;
+}
+
+.team-cj .layout-second .second-body article .box-color {
+  border: 5px solid #ff0000;
+}
+
+.team-cj .tbl-tips thead th:before, .team-cj .tbl-tips thead th:after {
+  border-top: 1px solid #ff0000;
+}
+
+.team-cj .stats-tab li {
+  background: #ff0000;
+}
+
+.team-cj .stats-tab li.show-tab {
+  color: #ff0000;
+  background: #FFF;
+}
+
+.team-cj .report-box .personal .name {
+  color: #ff0000;
+}
+
+.team-cj .layout-game-list li .play-detail .center .txt-main {
+  color: #666 !important;
+}
+
+.team-cj .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-cj .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-se .bg-se {
+  background: #ffe618 !important;
+}
+
+.team-se .bg-sub-se {
+  background: #e60000 !important;
+}
+
+.team-se .txt-main {
+  color: #ffe618 !important;
+}
+
+.team-se .bg-main {
+  color: #FFF;
+  background: #ffe618 !important;
+}
+
+.team-se .border-main {
+  border-color: #ffe618 !important;
+}
+
+.team-se .bg-border-main {
+  color: #fff;
+  border-color: #ffe618 !important;
+  background: #ffe618 !important;
+}
+
+.team-se .txt-sub {
+  color: #e60000 !important;
+}
+
+.team-se .bg-sub, .team-se .is-slice.is-bg-sub:after {
+  background: #e60000 !important;
+}
+
+.team-se .formError .formErrorContent, .team-se .formError .formErrorArrow div {
+  background: #ffe618 !important;
+}
+
+.team-se .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #ffe618;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-se input[type="text"]:focus, .team-se input[type="email"]:focus {
+  outline: solid 3px #ffe618 !important;
+}
+
+.team-se textarea:focus {
+  outline: solid 3px #ffe618 !important;
+}
+
+.team-se .is-team-slice-color .is-slice.is-bg-main:after, .team-se .layout-popup-tnav .right {
+  background: #ffe618 !important;
+}
+
+.team-se .layout-team-header .team-nav li > a:hover span {
+  color: #ffe618 !important;
+}
+
+.team-se .component-sidenav a {
+  border: 1px solid #ffe618 !important;
+}
+
+.team-se .component-sidenav a:hover {
+  background: #ffe618 !important;
+}
+
+.team-se .layout-team-header .team-nav li:hover .is-animate {
+  color: #ffe618 !important;
+}
+
+.team-se .layout-second .second-body article > p b, .team-se .layout-second .second-body article .color01 {
+  color: #ffe618;
+}
+
+.team-se .layout-second .second-body article .color03 {
+  color: #e60000;
+}
+
+.team-se .layout-second .second-body article a {
+  color: #ffe618;
+}
+
+.team-se .link-wrap .strong {
+  color: #FFF !important;
+  background: #ffe618;
+}
+
+.team-se .layout-second .second-body article .box-color {
+  border: 5px solid #ffe618;
+}
+
+.team-se .tbl-tips thead th:before, .team-se .tbl-tips thead th:after {
+  border-top: 1px solid #ffe618;
+}
+
+.team-se .stats-tab li {
+  background: #ffe618;
+}
+
+.team-se .stats-tab li.show-tab {
+  color: #ffe618;
+  background: #FFF;
+}
+
+.team-se .report-box .personal .name {
+  color: #ffe618;
+}
+
+.team-se .layout-game-list li .play-detail .center .txt-main {
+  color: #e60000 !important;
+}
+
+.team-se .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-se .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-hd .bg-hd {
+  background: #E9470B !important;
+}
+
+.team-hd .bg-sub-hd {
+  background: #003399 !important;
+}
+
+.team-hd .txt-main {
+  color: #E9470B !important;
+}
+
+.team-hd .bg-main {
+  color: #FFF;
+  background: #E9470B !important;
+}
+
+.team-hd .border-main {
+  border-color: #E9470B !important;
+}
+
+.team-hd .bg-border-main {
+  color: #fff;
+  border-color: #E9470B !important;
+  background: #E9470B !important;
+}
+
+.team-hd .txt-sub {
+  color: #003399 !important;
+}
+
+.team-hd .bg-sub, .team-hd .is-slice.is-bg-sub:after {
+  background: #003399 !important;
+}
+
+.team-hd .formError .formErrorContent, .team-hd .formError .formErrorArrow div {
+  background: #E9470B !important;
+}
+
+.team-hd .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #E9470B;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-hd input[type="text"]:focus, .team-hd input[type="email"]:focus {
+  outline: solid 3px #E9470B !important;
+}
+
+.team-hd textarea:focus {
+  outline: solid 3px #E9470B !important;
+}
+
+.team-hd .is-team-slice-color .is-slice.is-bg-main:after, .team-hd .layout-popup-tnav .right {
+  background: #E9470B !important;
+}
+
+.team-hd .layout-team-header .team-nav li > a:hover span {
+  color: #E9470B !important;
+}
+
+.team-hd .component-sidenav a {
+  border: 1px solid #E9470B !important;
+}
+
+.team-hd .component-sidenav a:hover {
+  background: #E9470B !important;
+}
+
+.team-hd .layout-team-header .team-nav li:hover .is-animate {
+  color: #E9470B !important;
+}
+
+.team-hd .layout-second .second-body article > p b, .team-hd .layout-second .second-body article .color01 {
+  color: #E9470B;
+}
+
+.team-hd .layout-second .second-body article .color03 {
+  color: #003399;
+}
+
+.team-hd .layout-second .second-body article a {
+  color: #E9470B;
+}
+
+.team-hd .link-wrap .strong {
+  color: #FFF !important;
+  background: #E9470B;
+}
+
+.team-hd .layout-second .second-body article .box-color {
+  border: 5px solid #E9470B;
+}
+
+.team-hd .tbl-tips thead th:before, .team-hd .tbl-tips thead th:after {
+  border-top: 1px solid #E9470B;
+}
+
+.team-hd .stats-tab li {
+  background: #E9470B;
+}
+
+.team-hd .stats-tab li.show-tab {
+  color: #E9470B;
+  background: #FFF;
+}
+
+.team-hd .report-box .personal .name {
+  color: #E9470B;
+}
+
+.team-hd .layout-game-list li .play-detail .center .txt-main {
+  color: #003399 !important;
+}
+
+.team-hd .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-hd .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-aw .bg-aw {
+  background: #004098 !important;
+}
+
+.team-aw .bg-sub-aw {
+  background: #E60044 !important;
+}
+
+.team-aw .txt-main {
+  color: #004098 !important;
+}
+
+.team-aw .bg-main {
+  color: #FFF;
+  background: #004098 !important;
+}
+
+.team-aw .border-main {
+  border-color: #004098 !important;
+}
+
+.team-aw .bg-border-main {
+  color: #fff;
+  border-color: #004098 !important;
+  background: #004098 !important;
+}
+
+.team-aw .txt-sub {
+  color: #E60044 !important;
+}
+
+.team-aw .bg-sub, .team-aw .is-slice.is-bg-sub:after {
+  background: #E60044 !important;
+}
+
+.team-aw .formError .formErrorContent, .team-aw .formError .formErrorArrow div {
+  background: #004098 !important;
+}
+
+.team-aw .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #004098;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-aw input[type="text"]:focus, .team-aw input[type="email"]:focus {
+  outline: solid 3px #004098 !important;
+}
+
+.team-aw textarea:focus {
+  outline: solid 3px #004098 !important;
+}
+
+.team-aw .is-team-slice-color .is-slice.is-bg-main:after, .team-aw .layout-popup-tnav .right {
+  background: #004098 !important;
+}
+
+.team-aw .layout-team-header .team-nav li > a:hover span {
+  color: #004098 !important;
+}
+
+.team-aw .component-sidenav a {
+  border: 1px solid #004098 !important;
+}
+
+.team-aw .component-sidenav a:hover {
+  background: #004098 !important;
+}
+
+.team-aw .layout-team-header .team-nav li:hover .is-animate {
+  color: #004098 !important;
+}
+
+.team-aw .layout-second .second-body article > p b, .team-aw .layout-second .second-body article .color01 {
+  color: #004098;
+}
+
+.team-aw .layout-second .second-body article .color03 {
+  color: #E60044;
+}
+
+.team-aw .layout-second .second-body article a {
+  color: #004098;
+}
+
+.team-aw .link-wrap .strong {
+  color: #FFF !important;
+  background: #004098;
+}
+
+.team-aw .layout-second .second-body article .box-color {
+  border: 5px solid #004098;
+}
+
+.team-aw .tbl-tips thead th:before, .team-aw .tbl-tips thead th:after {
+  border-top: 1px solid #004098;
+}
+
+.team-aw .stats-tab li {
+  background: #004098;
+}
+
+.team-aw .stats-tab li.show-tab {
+  color: #004098;
+  background: #FFF;
+}
+
+.team-aw .report-box .personal .name {
+  color: #004098;
+}
+
+.team-aw .layout-game-list li .play-detail .center .txt-main {
+  color: #E60044 !important;
+}
+
+.team-aw .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-aw .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-kv .bg-kv {
+  background: #666 !important;
+}
+
+.team-kv .bg-sub-kv {
+  background: #e60012 !important;
+}
+
+.team-kv .txt-main {
+  color: #666 !important;
+}
+
+.team-kv .bg-main {
+  color: #FFF;
+  background: #666 !important;
+}
+
+.team-kv .border-main {
+  border-color: #666 !important;
+}
+
+.team-kv .bg-border-main {
+  color: #fff;
+  border-color: #666 !important;
+  background: #666 !important;
+}
+
+.team-kv .txt-sub {
+  color: #e60012 !important;
+}
+
+.team-kv .bg-sub, .team-kv .is-slice.is-bg-sub:after {
+  background: #e60012 !important;
+}
+
+.team-kv .formError .formErrorContent, .team-kv .formError .formErrorArrow div {
+  background: #666 !important;
+}
+
+.team-kv .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #666;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-kv input[type="text"]:focus, .team-kv input[type="email"]:focus {
+  outline: solid 3px #666 !important;
+}
+
+.team-kv textarea:focus {
+  outline: solid 3px #666 !important;
+}
+
+.team-kv .is-team-slice-color .is-slice.is-bg-main:after, .team-kv .layout-popup-tnav .right {
+  background: #666 !important;
+}
+
+.team-kv .layout-team-header .team-nav li > a:hover span {
+  color: #666 !important;
+}
+
+.team-kv .component-sidenav a {
+  border: 1px solid #666 !important;
+}
+
+.team-kv .component-sidenav a:hover {
+  background: #666 !important;
+}
+
+.team-kv .layout-team-header .team-nav li:hover .is-animate {
+  color: #666 !important;
+}
+
+.team-kv .layout-second .second-body article > p b, .team-kv .layout-second .second-body article .color01 {
+  color: #666;
+}
+
+.team-kv .layout-second .second-body article .color03 {
+  color: #e60012;
+}
+
+.team-kv .layout-second .second-body article a {
+  color: #666;
+}
+
+.team-kv .link-wrap .strong {
+  color: #FFF !important;
+  background: #666;
+}
+
+.team-kv .layout-second .second-body article .box-color {
+  border: 5px solid #666;
+}
+
+.team-kv .tbl-tips thead th:before, .team-kv .tbl-tips thead th:after {
+  border-top: 1px solid #666;
+}
+
+.team-kv .stats-tab li {
+  background: #666;
+}
+
+.team-kv .stats-tab li.show-tab {
+  color: #666;
+  background: #FFF;
+}
+
+.team-kv .report-box .personal .name {
+  color: #666;
+}
+
+.team-kv .layout-game-list li .play-detail .center .txt-main {
+  color: #e60012 !important;
+}
+
+.team-kv .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-kv .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-sw .bg-sw {
+  background: #FFF33F !important;
+}
+
+.team-sw .bg-sub-sw {
+  background: #182F60 !important;
+}
+
+.team-sw .txt-main {
+  color: #FFF33F !important;
+}
+
+.team-sw .bg-main {
+  color: #FFF;
+  background: #FFF33F !important;
+}
+
+.team-sw .border-main {
+  border-color: #FFF33F !important;
+}
+
+.team-sw .bg-border-main {
+  color: #fff;
+  border-color: #FFF33F !important;
+  background: #FFF33F !important;
+}
+
+.team-sw .txt-sub {
+  color: #182F60 !important;
+}
+
+.team-sw .bg-sub, .team-sw .is-slice.is-bg-sub:after {
+  background: #182F60 !important;
+}
+
+.team-sw .formError .formErrorContent, .team-sw .formError .formErrorArrow div {
+  background: #FFF33F !important;
+}
+
+.team-sw .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #FFF33F;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-sw input[type="text"]:focus, .team-sw input[type="email"]:focus {
+  outline: solid 3px #FFF33F !important;
+}
+
+.team-sw textarea:focus {
+  outline: solid 3px #FFF33F !important;
+}
+
+.team-sw .is-team-slice-color .is-slice.is-bg-main:after, .team-sw .layout-popup-tnav .right {
+  background: #FFF33F !important;
+}
+
+.team-sw .layout-team-header .team-nav li > a:hover span {
+  color: #FFF33F !important;
+}
+
+.team-sw .component-sidenav a {
+  border: 1px solid #FFF33F !important;
+}
+
+.team-sw .component-sidenav a:hover {
+  background: #FFF33F !important;
+}
+
+.team-sw .layout-team-header .team-nav li:hover .is-animate {
+  color: #FFF33F !important;
+}
+
+.team-sw .layout-second .second-body article > p b, .team-sw .layout-second .second-body article .color01 {
+  color: #FFF33F;
+}
+
+.team-sw .layout-second .second-body article .color03 {
+  color: #182F60;
+}
+
+.team-sw .layout-second .second-body article a {
+  color: #FFF33F;
+}
+
+.team-sw .link-wrap .strong {
+  color: #FFF !important;
+  background: #FFF33F;
+}
+
+.team-sw .layout-second .second-body article .box-color {
+  border: 5px solid #FFF33F;
+}
+
+.team-sw .tbl-tips thead th:before, .team-sw .tbl-tips thead th:after {
+  border-top: 1px solid #FFF33F;
+}
+
+.team-sw .stats-tab li {
+  background: #FFF33F;
+}
+
+.team-sw .stats-tab li.show-tab {
+  color: #FFF33F;
+  background: #FFF;
+}
+
+.team-sw .report-box .personal .name {
+  color: #FFF33F;
+}
+
+.team-sw .layout-game-list li .play-detail .center .txt-main {
+  color: #FFF33F !important;
+}
+
+.team-sw .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-sw .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-bn .bg-bn {
+  background: #a01e23 !important;
+}
+
+.team-bn .bg-sub-bn {
+  background: #003c3c !important;
+}
+
+.team-bn .txt-main {
+  color: #a01e23 !important;
+}
+
+.team-bn .bg-main {
+  color: #FFF;
+  background: #a01e23 !important;
+}
+
+.team-bn .border-main {
+  border-color: #a01e23 !important;
+}
+
+.team-bn .bg-border-main {
+  color: #fff;
+  border-color: #a01e23 !important;
+  background: #a01e23 !important;
+}
+
+.team-bn .txt-sub {
+  color: #003c3c !important;
+}
+
+.team-bn .bg-sub, .team-bn .is-slice.is-bg-sub:after {
+  background: #003c3c !important;
+}
+
+.team-bn .formError .formErrorContent, .team-bn .formError .formErrorArrow div {
+  background: #a01e23 !important;
+}
+
+.team-bn .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #a01e23;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-bn input[type="text"]:focus, .team-bn input[type="email"]:focus {
+  outline: solid 3px #a01e23 !important;
+}
+
+.team-bn textarea:focus {
+  outline: solid 3px #a01e23 !important;
+}
+
+.team-bn .is-team-slice-color .is-slice.is-bg-main:after, .team-bn .layout-popup-tnav .right {
+  background: #a01e23 !important;
+}
+
+.team-bn .layout-team-header .team-nav li > a:hover span {
+  color: #a01e23 !important;
+}
+
+.team-bn .component-sidenav a {
+  border: 1px solid #a01e23 !important;
+}
+
+.team-bn .component-sidenav a:hover {
+  background: #a01e23 !important;
+}
+
+.team-bn .layout-team-header .team-nav li:hover .is-animate {
+  color: #a01e23 !important;
+}
+
+.team-bn .layout-second .second-body article > p b, .team-bn .layout-second .second-body article .color01 {
+  color: #a01e23;
+}
+
+.team-bn .layout-second .second-body article .color03 {
+  color: #003c3c;
+}
+
+.team-bn .layout-second .second-body article a {
+  color: #a01e23;
+}
+
+.team-bn .link-wrap .strong {
+  color: #FFF !important;
+  background: #a01e23;
+}
+
+.team-bn .layout-second .second-body article .box-color {
+  border: 5px solid #a01e23;
+}
+
+.team-bn .tbl-tips thead th:before, .team-bn .tbl-tips thead th:after {
+  border-top: 1px solid #a01e23;
+}
+
+.team-bn .stats-tab li {
+  background: #a01e23;
+}
+
+.team-bn .stats-tab li.show-tab {
+  color: #a01e23;
+  background: #FFF;
+}
+
+.team-bn .report-box .personal .name {
+  color: #a01e23;
+}
+
+.team-bn .layout-game-list li .play-detail .center .txt-main {
+  color: #003c3c !important;
+}
+
+.team-bn .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-bn .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ht .bg-ht {
+  background: #fff100 !important;
+}
+
+.team-ht .bg-sub-ht {
+  background: #f0f0f0 !important;
+}
+
+.team-ht .txt-main {
+  color: #fff100 !important;
+}
+
+.team-ht .bg-main {
+  color: #FFF;
+  background: #fff100 !important;
+}
+
+.team-ht .border-main {
+  border-color: #fff100 !important;
+}
+
+.team-ht .bg-border-main {
+  color: #fff;
+  border-color: #fff100 !important;
+  background: #fff100 !important;
+}
+
+.team-ht .txt-sub {
+  color: #f0f0f0 !important;
+}
+
+.team-ht .bg-sub, .team-ht .is-slice.is-bg-sub:after {
+  background: #f0f0f0 !important;
+}
+
+.team-ht .formError .formErrorContent, .team-ht .formError .formErrorArrow div {
+  background: #fff100 !important;
+}
+
+.team-ht .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff100;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ht input[type="text"]:focus, .team-ht input[type="email"]:focus {
+  outline: solid 3px #fff100 !important;
+}
+
+.team-ht textarea:focus {
+  outline: solid 3px #fff100 !important;
+}
+
+.team-ht .is-team-slice-color .is-slice.is-bg-main:after, .team-ht .layout-popup-tnav .right {
+  background: #fff100 !important;
+}
+
+.team-ht .layout-team-header .team-nav li > a:hover span {
+  color: #fff100 !important;
+}
+
+.team-ht .component-sidenav a {
+  border: 1px solid #fff100 !important;
+}
+
+.team-ht .component-sidenav a:hover {
+  background: #fff100 !important;
+}
+
+.team-ht .layout-team-header .team-nav li:hover .is-animate {
+  color: #fff100 !important;
+}
+
+.team-ht .layout-second .second-body article > p b, .team-ht .layout-second .second-body article .color01 {
+  color: #fff100;
+}
+
+.team-ht .layout-second .second-body article .color03 {
+  color: #f0f0f0;
+}
+
+.team-ht .layout-second .second-body article a {
+  color: #fff100;
+}
+
+.team-ht .link-wrap .strong {
+  color: #FFF !important;
+  background: #fff100;
+}
+
+.team-ht .layout-second .second-body article .box-color {
+  border: 5px solid #fff100;
+}
+
+.team-ht .tbl-tips thead th:before, .team-ht .tbl-tips thead th:after {
+  border-top: 1px solid #fff100;
+}
+
+.team-ht .stats-tab li {
+  background: #fff100;
+}
+
+.team-ht .stats-tab li.show-tab {
+  color: #fff100;
+  background: #FFF;
+}
+
+.team-ht .report-box .personal .name {
+  color: #fff100;
+}
+
+.team-ht .layout-game-list li .play-detail .center .txt-main {
+  color: #f0f0f0 !important;
+}
+
+.team-ht .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ht .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-tk .bg-tk {
+  background: #d0121c !important;
+}
+
+.team-tk .bg-sub-tk {
+  background: #c48f1f !important;
+}
+
+.team-tk .txt-main {
+  color: #d0121c !important;
+}
+
+.team-tk .bg-main {
+  color: #FFF;
+  background: #d0121c !important;
+}
+
+.team-tk .border-main {
+  border-color: #d0121c !important;
+}
+
+.team-tk .bg-border-main {
+  color: #fff;
+  border-color: #d0121c !important;
+  background: #d0121c !important;
+}
+
+.team-tk .txt-sub {
+  color: #c48f1f !important;
+}
+
+.team-tk .bg-sub, .team-tk .is-slice.is-bg-sub:after {
+  background: #c48f1f !important;
+}
+
+.team-tk .formError .formErrorContent, .team-tk .formError .formErrorArrow div {
+  background: #d0121c !important;
+}
+
+.team-tk .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #d0121c;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-tk input[type="text"]:focus, .team-tk input[type="email"]:focus {
+  outline: solid 3px #d0121c !important;
+}
+
+.team-tk textarea:focus {
+  outline: solid 3px #d0121c !important;
+}
+
+.team-tk .is-team-slice-color .is-slice.is-bg-main:after, .team-tk .layout-popup-tnav .right {
+  background: #d0121c !important;
+}
+
+.team-tk .layout-team-header .team-nav li > a:hover span {
+  color: #d0121c !important;
+}
+
+.team-tk .component-sidenav a {
+  border: 1px solid #d0121c !important;
+}
+
+.team-tk .component-sidenav a:hover {
+  background: #d0121c !important;
+}
+
+.team-tk .layout-team-header .team-nav li:hover .is-animate {
+  color: #d0121c !important;
+}
+
+.team-tk .layout-second .second-body article > p b, .team-tk .layout-second .second-body article .color01 {
+  color: #d0121c;
+}
+
+.team-tk .layout-second .second-body article .color03 {
+  color: #c48f1f;
+}
+
+.team-tk .layout-second .second-body article a {
+  color: #d0121c;
+}
+
+.team-tk .link-wrap .strong {
+  color: #FFF !important;
+  background: #d0121c;
+}
+
+.team-tk .layout-second .second-body article .box-color {
+  border: 5px solid #d0121c;
+}
+
+.team-tk .tbl-tips thead th:before, .team-tk .tbl-tips thead th:after {
+  border-top: 1px solid #d0121c;
+}
+
+.team-tk .stats-tab li {
+  background: #d0121c;
+}
+
+.team-tk .stats-tab li.show-tab {
+  color: #d0121c;
+  background: #FFF;
+}
+
+.team-tk .report-box .personal .name {
+  color: #d0121c;
+}
+
+.team-tk .layout-game-list li .play-detail .center .txt-main {
+  color: #c48f1f !important;
+}
+
+.team-tk .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-tk .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ff .bg-ff {
+  background: #B43D9D !important;
+}
+
+.team-ff .bg-sub-ff {
+  background: #443088 !important;
+}
+
+.team-ff .txt-main {
+  color: #B43D9D !important;
+}
+
+.team-ff .bg-main {
+  color: #FFF;
+  background: #B43D9D !important;
+}
+
+.team-ff .border-main {
+  border-color: #B43D9D !important;
+}
+
+.team-ff .bg-border-main {
+  color: #fff;
+  border-color: #B43D9D !important;
+  background: #B43D9D !important;
+}
+
+.team-ff .txt-sub {
+  color: #443088 !important;
+}
+
+.team-ff .bg-sub, .team-ff .is-slice.is-bg-sub:after {
+  background: #443088 !important;
+}
+
+.team-ff .formError .formErrorContent, .team-ff .formError .formErrorArrow div {
+  background: #B43D9D !important;
+}
+
+.team-ff .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #B43D9D;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ff input[type="text"]:focus, .team-ff input[type="email"]:focus {
+  outline: solid 3px #B43D9D !important;
+}
+
+.team-ff textarea:focus {
+  outline: solid 3px #B43D9D !important;
+}
+
+.team-ff .is-team-slice-color .is-slice.is-bg-main:after, .team-ff .layout-popup-tnav .right {
+  background: #B43D9D !important;
+}
+
+.team-ff .layout-team-header .team-nav li > a:hover span {
+  color: #B43D9D !important;
+}
+
+.team-ff .component-sidenav a {
+  border: 1px solid #B43D9D !important;
+}
+
+.team-ff .component-sidenav a:hover {
+  background: #B43D9D !important;
+}
+
+.team-ff .layout-team-header .team-nav li:hover .is-animate {
+  color: #B43D9D !important;
+}
+
+.team-ff .layout-second .second-body article > p b, .team-ff .layout-second .second-body article .color01 {
+  color: #B43D9D;
+}
+
+.team-ff .layout-second .second-body article .color03 {
+  color: #443088;
+}
+
+.team-ff .layout-second .second-body article a {
+  color: #B43D9D;
+}
+
+.team-ff .link-wrap .strong {
+  color: #FFF !important;
+  background: #B43D9D;
+}
+
+.team-ff .layout-second .second-body article .box-color {
+  border: 5px solid #B43D9D;
+}
+
+.team-ff .tbl-tips thead th:before, .team-ff .tbl-tips thead th:after {
+  border-top: 1px solid #B43D9D;
+}
+
+.team-ff .stats-tab li {
+  background: #B43D9D;
+}
+
+.team-ff .stats-tab li.show-tab {
+  color: #B43D9D;
+  background: #FFF;
+}
+
+.team-ff .report-box .personal .name {
+  color: #B43D9D;
+}
+
+.team-ff .layout-game-list li .play-detail .center .txt-main {
+  color: #443088 !important;
+}
+
+.team-ff .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ff .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-ct .bg-ct {
+  background: #023893 !important;
+}
+
+.team-ct .bg-sub-ct {
+  background: #EE8A01 !important;
+}
+
+.team-ct .txt-main {
+  color: #023893 !important;
+}
+
+.team-ct .bg-main {
+  color: #FFF;
+  background: #023893 !important;
+}
+
+.team-ct .border-main {
+  border-color: #023893 !important;
+}
+
+.team-ct .bg-border-main {
+  color: #fff;
+  border-color: #023893 !important;
+  background: #023893 !important;
+}
+
+.team-ct .txt-sub {
+  color: #EE8A01 !important;
+}
+
+.team-ct .bg-sub, .team-ct .is-slice.is-bg-sub:after {
+  background: #EE8A01 !important;
+}
+
+.team-ct .formError .formErrorContent, .team-ct .formError .formErrorArrow div {
+  background: #023893 !important;
+}
+
+.team-ct .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #023893;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ct input[type="text"]:focus, .team-ct input[type="email"]:focus {
+  outline: solid 3px #023893 !important;
+}
+
+.team-ct textarea:focus {
+  outline: solid 3px #023893 !important;
+}
+
+.team-ct .is-team-slice-color .is-slice.is-bg-main:after, .team-ct .layout-popup-tnav .right {
+  background: #023893 !important;
+}
+
+.team-ct .layout-team-header .team-nav li > a:hover span {
+  color: #023893 !important;
+}
+
+.team-ct .component-sidenav a {
+  border: 1px solid #023893 !important;
+}
+
+.team-ct .component-sidenav a:hover {
+  background: #023893 !important;
+}
+
+.team-ct .layout-team-header .team-nav li:hover .is-animate {
+  color: #023893 !important;
+}
+
+.team-ct .layout-second .second-body article > p b, .team-ct .layout-second .second-body article .color01 {
+  color: #023893;
+}
+
+.team-ct .layout-second .second-body article .color03 {
+  color: #EE8A01;
+}
+
+.team-ct .layout-second .second-body article a {
+  color: #023893;
+}
+
+.team-ct .link-wrap .strong {
+  color: #FFF !important;
+  background: #023893;
+}
+
+.team-ct .layout-second .second-body article .box-color {
+  border: 5px solid #023893;
+}
+
+.team-ct .tbl-tips thead th:before, .team-ct .tbl-tips thead th:after {
+  border-top: 1px solid #023893;
+}
+
+.team-ct .stats-tab li {
+  background: #023893;
+}
+
+.team-ct .stats-tab li.show-tab {
+  color: #023893;
+  background: #FFF;
+}
+
+.team-ct .report-box .personal .name {
+  color: #023893;
+}
+
+.team-ct .layout-game-list li .play-detail .center .txt-main {
+  color: #EE8A01 !important;
+}
+
+.team-ct .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ct .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-te .bg-te {
+  background: #006d3b !important;
+}
+
+.team-te .bg-sub-te {
+  background: #ccc !important;
+}
+
+.team-te .txt-main {
+  color: #006d3b !important;
+}
+
+.team-te .bg-main {
+  color: #FFF;
+  background: #006d3b !important;
+}
+
+.team-te .border-main {
+  border-color: #006d3b !important;
+}
+
+.team-te .bg-border-main {
+  color: #fff;
+  border-color: #006d3b !important;
+  background: #006d3b !important;
+}
+
+.team-te .txt-sub {
+  color: #ccc !important;
+}
+
+.team-te .bg-sub, .team-te .is-slice.is-bg-sub:after {
+  background: #ccc !important;
+}
+
+.team-te .formError .formErrorContent, .team-te .formError .formErrorArrow div {
+  background: #006d3b !important;
+}
+
+.team-te .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #006d3b;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-te input[type="text"]:focus, .team-te input[type="email"]:focus {
+  outline: solid 3px #006d3b !important;
+}
+
+.team-te textarea:focus {
+  outline: solid 3px #006d3b !important;
+}
+
+.team-te .is-team-slice-color .is-slice.is-bg-main:after, .team-te .layout-popup-tnav .right {
+  background: #006d3b !important;
+}
+
+.team-te .layout-team-header .team-nav li > a:hover span {
+  color: #006d3b !important;
+}
+
+.team-te .component-sidenav a {
+  border: 1px solid #006d3b !important;
+}
+
+.team-te .component-sidenav a:hover {
+  background: #006d3b !important;
+}
+
+.team-te .layout-team-header .team-nav li:hover .is-animate {
+  color: #006d3b !important;
+}
+
+.team-te .layout-second .second-body article > p b, .team-te .layout-second .second-body article .color01 {
+  color: #006d3b;
+}
+
+.team-te .layout-second .second-body article .color03 {
+  color: #ccc;
+}
+
+.team-te .layout-second .second-body article a {
+  color: #006d3b;
+}
+
+.team-te .link-wrap .strong {
+  color: #FFF !important;
+  background: #006d3b;
+}
+
+.team-te .layout-second .second-body article .box-color {
+  border: 5px solid #006d3b;
+}
+
+.team-te .tbl-tips thead th:before, .team-te .tbl-tips thead th:after {
+  border-top: 1px solid #006d3b;
+}
+
+.team-te .stats-tab li {
+  background: #006d3b;
+}
+
+.team-te .stats-tab li.show-tab {
+  color: #006d3b;
+  background: #FFF;
+}
+
+.team-te .report-box .personal .name {
+  color: #006d3b;
+}
+
+.team-te .layout-game-list li .play-detail .center .txt-main {
+  color: #ccc !important;
+}
+
+.team-te .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-te .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-se .bg-main {
+  color: #333 !important;
+}
+
+.team-se .layout-second .second-body article > p b, .team-se .layout-second .second-body article .color01 {
+  color: #333 !important;
+}
+
+.team-se .layout-second .second-body article a {
+  color: #333 !important;
+}
+
+.team-se .layout-team-header .team-nav li > a {
+  color: #333 !important;
+}
+
+.team-se .layout-team-header .team-nav li > a:hover span {
+  color: #333 !important;
+}
+
+.team-se .component-sidenav a:hover {
+  color: #333 !important;
+}
+
+.team-se .layout-team-header .team-nav li > a, .team-se .layout-global-footer .foot-nav a {
+  color: #333 !important;
+}
+
+.team-se .layout-team-header .team-nav .team-nav-trigger .icn span, .team-se .layout-team-header .team-nav .team-nav-trigger .icn:before, .team-se .layout-team-header .team-nav .team-nav-trigger .icn:after {
+  background: #333 !important;
+}
+
+.team-se .layout-popup-tnav .content .tnav-wrap li .second-nav a {
+  color: #333 !important;
+}
+
+.team-se .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+  color: #fff !important;
+}
+
+.team-se .layout-team-header .team-sns a {
+  color: #333 !important;
+}
+
+.team-se .layout-popup-tnav .close-trigger:before, .team-se .layout-popup-tnav .close-trigger:after {
+  border-top: 2px solid #333 !important;
+}
+
+.team-se .component-block .block-header .sub-nav a {
+  color: #333 !important;
+}
+
+.team-se .component-block .block-header .sub-nav a:hover {
+  color: #333 !important;
+}
+
+.team-se .component-block .block-header .more {
+  color: #333 !important;
+}
+
+.team-se .component-block .block-header .more:before, .team-se .component-block .block-header .more:after {
+  border-top: 1px solid #333 !important;
+}
+
+.team-se .layout-team-header .team-nav li:hover .is-animate {
+  color: #333 !important;
+}
+
+.team-se .link-wrap .strong {
+  color: #333 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-se .team-nav-trigger.sp .icn span, .team-se .team-nav-trigger.sp .icn:before, .team-se .team-nav-trigger.sp .icn:after {
+    background: #333 !important;
+  }
+  .team-se .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:before, .team-se .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:after {
+    background: #333 !important;
+  }
+  .team-se .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+    color: #333 !important;
+  }
+  .team-se .layout-popup-tnav .content .tsns-wrap a, .team-se .layout-popup-tnav .content .tnav-wrap li > a, .team-se .layout-popup-tnav .content .tsns-wrap a:hover {
+    color: #333 !important;
+  }
+  .team-se .layout-popup-tnav .content .tnav-wrap li > a:hover, .team-se .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover a {
+    color: #333 !important;
+  }
+}
+
+.team-ht .bg-main {
+  color: #333 !important;
+}
+
+.team-ht .layout-second .second-body article > p b, .team-ht .layout-second .second-body article .color01 {
+  color: #333 !important;
+}
+
+.team-ht .layout-second .second-body article a {
+  color: #333 !important;
+}
+
+.team-ht .layout-team-header .team-nav li > a {
+  color: #333 !important;
+}
+
+.team-ht .layout-team-header .team-nav li > a:hover span {
+  color: #333 !important;
+}
+
+.team-ht .component-sidenav a:hover {
+  color: #333 !important;
+}
+
+.team-ht .layout-team-header .team-nav li > a, .team-ht .layout-global-footer .foot-nav a {
+  color: #333 !important;
+}
+
+.team-ht .layout-team-header .team-nav .team-nav-trigger .icn span, .team-ht .layout-team-header .team-nav .team-nav-trigger .icn:before, .team-ht .layout-team-header .team-nav .team-nav-trigger .icn:after {
+  background: #333 !important;
+}
+
+.team-ht .layout-popup-tnav .content .tnav-wrap li .second-nav a {
+  color: #333 !important;
+}
+
+.team-ht .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+  color: #fff !important;
+}
+
+.team-ht .layout-team-header .team-sns a {
+  color: #333 !important;
+}
+
+.team-ht .layout-popup-tnav .close-trigger:before, .team-ht .layout-popup-tnav .close-trigger:after {
+  border-top: 2px solid #333 !important;
+}
+
+.team-ht .component-block .block-header .sub-nav a {
+  color: #333 !important;
+}
+
+.team-ht .component-block .block-header .sub-nav a:hover {
+  color: #333 !important;
+}
+
+.team-ht .component-block .block-header .more {
+  color: #333 !important;
+}
+
+.team-ht .component-block .block-header .more:before, .team-ht .component-block .block-header .more:after {
+  border-top: 1px solid #333 !important;
+}
+
+.team-ht .layout-team-header .team-nav li:hover .is-animate {
+  color: #333 !important;
+}
+
+.team-ht .link-wrap .strong {
+  color: #333 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ht .team-nav-trigger.sp .icn span, .team-ht .team-nav-trigger.sp .icn:before, .team-ht .team-nav-trigger.sp .icn:after {
+    background: #333 !important;
+  }
+  .team-ht .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:before, .team-ht .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:after {
+    background: #333 !important;
+  }
+  .team-ht .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+    color: #333 !important;
+  }
+  .team-ht .layout-popup-tnav .content .tsns-wrap a, .team-ht .layout-popup-tnav .content .tnav-wrap li > a, .team-ht .layout-popup-tnav .content .tsns-wrap a:hover {
+    color: #333 !important;
+  }
+  .team-ht .layout-popup-tnav .content .tnav-wrap li > a:hover, .team-ht .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover a {
+    color: #333 !important;
+  }
+}
+
+.team-gc .bg-main {
+  color: #333 !important;
+}
+
+.team-gc .layout-second .second-body article > p b, .team-gc .layout-second .second-body article .color01 {
+  color: #333 !important;
+}
+
+.team-gc .layout-second .second-body article a {
+  color: #333 !important;
+}
+
+.team-gc .layout-team-header .team-nav li > a {
+  color: #333 !important;
+}
+
+.team-gc .layout-team-header .team-nav li > a:hover span {
+  color: #333 !important;
+}
+
+.team-gc .component-sidenav a:hover {
+  color: #333 !important;
+}
+
+.team-gc .layout-team-header .team-nav li > a, .team-gc .layout-global-footer .foot-nav a {
+  color: #333 !important;
+}
+
+.team-gc .layout-team-header .team-nav .team-nav-trigger .icn span, .team-gc .layout-team-header .team-nav .team-nav-trigger .icn:before, .team-gc .layout-team-header .team-nav .team-nav-trigger .icn:after {
+  background: #333 !important;
+}
+
+.team-gc .layout-popup-tnav .content .tnav-wrap li .second-nav a {
+  color: #333 !important;
+}
+
+.team-gc .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+  color: #fff !important;
+}
+
+.team-gc .layout-team-header .team-sns a {
+  color: #333 !important;
+}
+
+.team-gc .layout-popup-tnav .close-trigger:before, .team-gc .layout-popup-tnav .close-trigger:after {
+  border-top: 2px solid #333 !important;
+}
+
+.team-gc .component-block .block-header .sub-nav a {
+  color: #333 !important;
+}
+
+.team-gc .component-block .block-header .sub-nav a:hover {
+  color: #333 !important;
+}
+
+.team-gc .component-block .block-header .more {
+  color: #333 !important;
+}
+
+.team-gc .component-block .block-header .more:before, .team-gc .component-block .block-header .more:after {
+  border-top: 1px solid #333 !important;
+}
+
+.team-gc .layout-team-header .team-nav li:hover .is-animate {
+  color: #333 !important;
+}
+
+.team-gc .link-wrap .strong {
+  color: #333 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-gc .team-nav-trigger.sp .icn span, .team-gc .team-nav-trigger.sp .icn:before, .team-gc .team-nav-trigger.sp .icn:after {
+    background: #333 !important;
+  }
+  .team-gc .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:before, .team-gc .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:after {
+    background: #333 !important;
+  }
+  .team-gc .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+    color: #333 !important;
+  }
+  .team-gc .layout-popup-tnav .content .tsns-wrap a, .team-gc .layout-popup-tnav .content .tnav-wrap li > a, .team-gc .layout-popup-tnav .content .tsns-wrap a:hover {
+    color: #333 !important;
+  }
+  .team-gc .layout-popup-tnav .content .tnav-wrap li > a:hover, .team-gc .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover a {
+    color: #333 !important;
+  }
+}
+
+.team-sw .bg-main {
+  color: #333 !important;
+}
+
+.team-sw .layout-second .second-body article > p b, .team-sw .layout-second .second-body article .color01 {
+  color: #333 !important;
+}
+
+.team-sw .layout-second .second-body article a {
+  color: #333 !important;
+}
+
+.team-sw .layout-team-header .team-nav li > a {
+  color: #333 !important;
+}
+
+.team-sw .layout-team-header .team-nav li > a:hover span {
+  color: #333 !important;
+}
+
+.team-sw .component-sidenav a:hover {
+  color: #333 !important;
+}
+
+.team-sw .layout-team-header .team-nav li > a, .team-sw .layout-global-footer .foot-nav a {
+  color: #333 !important;
+}
+
+.team-sw .layout-team-header .team-nav .team-nav-trigger .icn span, .team-sw .layout-team-header .team-nav .team-nav-trigger .icn:before, .team-sw .layout-team-header .team-nav .team-nav-trigger .icn:after {
+  background: #333 !important;
+}
+
+.team-sw .layout-popup-tnav .content .tnav-wrap li .second-nav a {
+  color: #333 !important;
+}
+
+.team-sw .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+  color: #fff !important;
+}
+
+.team-sw .layout-team-header .team-sns a {
+  color: #333 !important;
+}
+
+.team-sw .layout-popup-tnav .close-trigger:before, .team-sw .layout-popup-tnav .close-trigger:after {
+  border-top: 2px solid #333 !important;
+}
+
+.team-sw .component-block .block-header .sub-nav a {
+  color: #333 !important;
+}
+
+.team-sw .component-block .block-header .sub-nav a:hover {
+  color: #333 !important;
+}
+
+.team-sw .component-block .block-header .more {
+  color: #333 !important;
+}
+
+.team-sw .component-block .block-header .more:before, .team-sw .component-block .block-header .more:after {
+  border-top: 1px solid #333 !important;
+}
+
+.team-sw .layout-team-header .team-nav li:hover .is-animate {
+  color: #333 !important;
+}
+
+.team-sw .link-wrap .strong {
+  color: #333 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-sw .team-nav-trigger.sp .icn span, .team-sw .team-nav-trigger.sp .icn:before, .team-sw .team-nav-trigger.sp .icn:after {
+    background: #333 !important;
+  }
+  .team-sw .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:before, .team-sw .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:after {
+    background: #333 !important;
+  }
+  .team-sw .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+    color: #333 !important;
+  }
+  .team-sw .layout-popup-tnav .content .tsns-wrap a, .team-sw .layout-popup-tnav .content .tnav-wrap li > a, .team-sw .layout-popup-tnav .content .tsns-wrap a:hover {
+    color: #333 !important;
+  }
+  .team-sw .layout-popup-tnav .content .tnav-wrap li > a:hover, .team-sw .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover a {
+    color: #333 !important;
+  }
+}
+
+.team-tf .bg-main {
+  color: #333 !important;
+}
+
+.team-tf .layout-second .second-body article > p b, .team-tf .layout-second .second-body article .color01 {
+  color: #333 !important;
+}
+
+.team-tf .layout-second .second-body article a {
+  color: #333 !important;
+}
+
+.team-tf .layout-team-header .team-nav li > a {
+  color: #333 !important;
+}
+
+.team-tf .layout-team-header .team-nav li > a:hover span {
+  color: #333 !important;
+}
+
+.team-tf .component-sidenav a:hover {
+  color: #333 !important;
+}
+
+.team-tf .layout-team-header .team-nav li > a, .team-tf .layout-global-footer .foot-nav a {
+  color: #333 !important;
+}
+
+.team-tf .layout-team-header .team-nav .team-nav-trigger .icn span, .team-tf .layout-team-header .team-nav .team-nav-trigger .icn:before, .team-tf .layout-team-header .team-nav .team-nav-trigger .icn:after {
+  background: #333 !important;
+}
+
+.team-tf .layout-popup-tnav .content .tnav-wrap li .second-nav a {
+  color: #333 !important;
+}
+
+.team-tf .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+  color: #fff !important;
+}
+
+.team-tf .layout-team-header .team-sns a {
+  color: #333 !important;
+}
+
+.team-tf .layout-popup-tnav .close-trigger:before, .team-tf .layout-popup-tnav .close-trigger:after {
+  border-top: 2px solid #333 !important;
+}
+
+.team-tf .component-block .block-header .sub-nav a {
+  color: #333 !important;
+}
+
+.team-tf .component-block .block-header .sub-nav a:hover {
+  color: #333 !important;
+}
+
+.team-tf .component-block .block-header .more {
+  color: #333 !important;
+}
+
+.team-tf .component-block .block-header .more:before, .team-tf .component-block .block-header .more:after {
+  border-top: 1px solid #333 !important;
+}
+
+.team-tf .layout-team-header .team-nav li:hover .is-animate {
+  color: #333 !important;
+}
+
+.team-tf .link-wrap .strong {
+  color: #333 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-tf .team-nav-trigger.sp .icn span, .team-tf .team-nav-trigger.sp .icn:before, .team-tf .team-nav-trigger.sp .icn:after {
+    background: #333 !important;
+  }
+  .team-tf .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:before, .team-tf .layout-popup-tnav .content .tnav-wrap li.has-2ndnav > a:after {
+    background: #333 !important;
+  }
+  .team-tf .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover .second-nav a {
+    color: #333 !important;
+  }
+  .team-tf .layout-popup-tnav .content .tsns-wrap a, .team-tf .layout-popup-tnav .content .tnav-wrap li > a, .team-tf .layout-popup-tnav .content .tsns-wrap a:hover {
+    color: #333 !important;
+  }
+  .team-tf .layout-popup-tnav .content .tnav-wrap li > a:hover, .team-tf .layout-popup-tnav .content .tnav-wrap li.has-2ndnav:hover a {
+    color: #333 !important;
+  }
+}
+
+.team-ak .bg-ak {
+  background: #525252 !important;
+}
+
+.team-ak .bg-sub-ak {
+  background: #000 !important;
+}
+
+.team-ak .txt-main {
+  color: #525252 !important;
+}
+
+.team-ak .bg-main {
+  color: #FFF;
+  background: #525252 !important;
+}
+
+.team-ak .border-main {
+  border-color: #525252 !important;
+}
+
+.team-ak .bg-border-main {
+  color: #fff;
+  border-color: #525252 !important;
+  background: #525252 !important;
+}
+
+.team-ak .txt-sub {
+  color: #000 !important;
+}
+
+.team-ak .bg-sub, .team-ak .is-slice.is-bg-sub:after {
+  background: #000 !important;
+}
+
+.team-ak .formError .formErrorContent, .team-ak .formError .formErrorArrow div {
+  background: #525252 !important;
+}
+
+.team-ak .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #525252;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-ak input[type="text"]:focus, .team-ak input[type="email"]:focus {
+  outline: solid 3px #525252 !important;
+}
+
+.team-ak textarea:focus {
+  outline: solid 3px #525252 !important;
+}
+
+.team-ak .is-team-slice-color .is-slice.is-bg-main:after, .team-ak .layout-popup-tnav .right {
+  background: #525252 !important;
+}
+
+.team-ak .layout-team-header .team-nav li > a:hover span {
+  color: #525252 !important;
+}
+
+.team-ak .component-sidenav a {
+  border: 1px solid #525252 !important;
+}
+
+.team-ak .component-sidenav a:hover {
+  background: #525252 !important;
+}
+
+.team-ak .layout-team-header .team-nav li:hover .is-animate {
+  color: #525252 !important;
+}
+
+.team-ak .layout-second .second-body article > p b, .team-ak .layout-second .second-body article .color01 {
+  color: #525252;
+}
+
+.team-ak .layout-second .second-body article .color03 {
+  color: #000;
+}
+
+.team-ak .layout-second .second-body article a {
+  color: #525252;
+}
+
+.team-ak .link-wrap .strong {
+  color: #FFF !important;
+  background: #525252;
+}
+
+.team-ak .layout-second .second-body article .box-color {
+  border: 5px solid #525252;
+}
+
+.team-ak .tbl-tips thead th:before, .team-ak .tbl-tips thead th:after {
+  border-top: 1px solid #525252;
+}
+
+.team-ak .stats-tab li {
+  background: #525252;
+}
+
+.team-ak .stats-tab li.show-tab {
+  color: #525252;
+  background: #FFF;
+}
+
+.team-ak .report-box .personal .name {
+  color: #525252;
+}
+
+.team-ak .layout-game-list li .play-detail .center .txt-main {
+  color: #000 !important;
+}
+
+.team-ak .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-ak .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-a1 .bg-a1 {
+  background: #000 !important;
+}
+
+.team-a1 .bg-sub-a1 {
+  background: #525252 !important;
+}
+
+.team-a1 .txt-main {
+  color: #000 !important;
+}
+
+.team-a1 .bg-main {
+  color: #FFF;
+  background: #000 !important;
+}
+
+.team-a1 .border-main {
+  border-color: #000 !important;
+}
+
+.team-a1 .bg-border-main {
+  color: #fff;
+  border-color: #000 !important;
+  background: #000 !important;
+}
+
+.team-a1 .txt-sub {
+  color: #525252 !important;
+}
+
+.team-a1 .bg-sub, .team-a1 .is-slice.is-bg-sub:after {
+  background: #525252 !important;
+}
+
+.team-a1 .formError .formErrorContent, .team-a1 .formError .formErrorArrow div {
+  background: #000 !important;
+}
+
+.team-a1 .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #000;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-a1 input[type="text"]:focus, .team-a1 input[type="email"]:focus {
+  outline: solid 3px #000 !important;
+}
+
+.team-a1 textarea:focus {
+  outline: solid 3px #000 !important;
+}
+
+.team-a1 .is-team-slice-color .is-slice.is-bg-main:after, .team-a1 .layout-popup-tnav .right {
+  background: #000 !important;
+}
+
+.team-a1 .layout-team-header .team-nav li > a:hover span {
+  color: #000 !important;
+}
+
+.team-a1 .component-sidenav a {
+  border: 1px solid #000 !important;
+}
+
+.team-a1 .component-sidenav a:hover {
+  background: #000 !important;
+}
+
+.team-a1 .layout-team-header .team-nav li:hover .is-animate {
+  color: #000 !important;
+}
+
+.team-a1 .layout-second .second-body article > p b, .team-a1 .layout-second .second-body article .color01 {
+  color: #000;
+}
+
+.team-a1 .layout-second .second-body article .color03 {
+  color: #525252;
+}
+
+.team-a1 .layout-second .second-body article a {
+  color: #000;
+}
+
+.team-a1 .link-wrap .strong {
+  color: #FFF !important;
+  background: #000;
+}
+
+.team-a1 .layout-second .second-body article .box-color {
+  border: 5px solid #000;
+}
+
+.team-a1 .tbl-tips thead th:before, .team-a1 .tbl-tips thead th:after {
+  border-top: 1px solid #000;
+}
+
+.team-a1 .stats-tab li {
+  background: #000;
+}
+
+.team-a1 .stats-tab li.show-tab {
+  color: #000;
+  background: #FFF;
+}
+
+.team-a1 .report-box .personal .name {
+  color: #000;
+}
+
+.team-a1 .layout-game-list li .play-detail .center .txt-main {
+  color: #525252 !important;
+}
+
+.team-a1 .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-a1 .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.team-a2 .bg-a2 {
+  background: #d9d9d9 !important;
+}
+
+.team-a2 .bg-sub-a2 {
+  background: #000 !important;
+}
+
+.team-a2 .txt-main {
+  color: #d9d9d9 !important;
+}
+
+.team-a2 .bg-main {
+  color: #FFF;
+  background: #d9d9d9 !important;
+}
+
+.team-a2 .border-main {
+  border-color: #d9d9d9 !important;
+}
+
+.team-a2 .bg-border-main {
+  color: #fff;
+  border-color: #d9d9d9 !important;
+  background: #d9d9d9 !important;
+}
+
+.team-a2 .txt-sub {
+  color: #000 !important;
+}
+
+.team-a2 .bg-sub, .team-a2 .is-slice.is-bg-sub:after {
+  background: #000 !important;
+}
+
+.team-a2 .formError .formErrorContent, .team-a2 .formError .formErrorArrow div {
+  background: #d9d9d9 !important;
+}
+
+.team-a2 .arw-main {
+  width: 0;
+  height: 0;
+  border-top: 5px solid #d9d9d9;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.team-a2 input[type="text"]:focus, .team-a2 input[type="email"]:focus {
+  outline: solid 3px #d9d9d9 !important;
+}
+
+.team-a2 textarea:focus {
+  outline: solid 3px #d9d9d9 !important;
+}
+
+.team-a2 .is-team-slice-color .is-slice.is-bg-main:after, .team-a2 .layout-popup-tnav .right {
+  background: #d9d9d9 !important;
+}
+
+.team-a2 .layout-team-header .team-nav li > a:hover span {
+  color: #d9d9d9 !important;
+}
+
+.team-a2 .component-sidenav a {
+  border: 1px solid #d9d9d9 !important;
+}
+
+.team-a2 .component-sidenav a:hover {
+  background: #d9d9d9 !important;
+}
+
+.team-a2 .layout-team-header .team-nav li:hover .is-animate {
+  color: #d9d9d9 !important;
+}
+
+.team-a2 .layout-second .second-body article > p b, .team-a2 .layout-second .second-body article .color01 {
+  color: #d9d9d9;
+}
+
+.team-a2 .layout-second .second-body article .color03 {
+  color: #000;
+}
+
+.team-a2 .layout-second .second-body article a {
+  color: #d9d9d9;
+}
+
+.team-a2 .link-wrap .strong {
+  color: #FFF !important;
+  background: #d9d9d9;
+}
+
+.team-a2 .layout-second .second-body article .box-color {
+  border: 5px solid #d9d9d9;
+}
+
+.team-a2 .tbl-tips thead th:before, .team-a2 .tbl-tips thead th:after {
+  border-top: 1px solid #d9d9d9;
+}
+
+.team-a2 .stats-tab li {
+  background: #d9d9d9;
+}
+
+.team-a2 .stats-tab li.show-tab {
+  color: #d9d9d9;
+  background: #FFF;
+}
+
+.team-a2 .report-box .personal .name {
+  color: #d9d9d9;
+}
+
+.team-a2 .layout-game-list li .play-detail .center .txt-main {
+  color: #000 !important;
+}
+
+.team-a2 .layout-game-list .live .live-txt.txt-main {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .team-a2 .is-slice.is-bg-sub:after {
+    background: #e6e7e7 !important;
+  }
+}
+
+.game-team-logo-area .logo-name.team-oh .graf-line {
+  background: #ff8A05;
+}
+
+.game-team-logo-area .logo-name.team-ez .graf-line {
+  background: #004182;
+}
+
+.game-team-logo-area .logo-name.team-na .graf-line {
+  background: #EA5404;
+}
+
+.game-team-logo-area .logo-name.team-tt .graf-line {
+  background: #000;
+}
+
+.game-team-logo-area .logo-name.team-tn .graf-line {
+  background: #0b408d;
+}
+
+.game-team-logo-area .logo-name.team-py .graf-line {
+  background: #5f1985;
+}
+
+.game-team-logo-area .logo-name.team-tg .graf-line {
+  background: #d90000;
+}
+
+.game-team-logo-area .logo-name.team-an .graf-line {
+  background: #E40073;
+}
+
+.game-team-logo-area .logo-name.team-ss .graf-line {
+  background: #036eb8;
+}
+
+.game-team-logo-area .logo-name.team-rk .graf-line {
+  background: #db0e0e;
+}
+
+.game-team-logo-area .logo-name.team-rh .graf-line {
+  background: #8FC31F;
+}
+
+.game-team-logo-area .logo-name.team-mn .graf-line {
+  background: #e60012;
+}
+
+.game-team-logo-area .logo-name.team-yb .graf-line {
+  background: #000d36;
+}
+
+.game-team-logo-area .logo-name.team-rt .graf-line {
+  background: #12315a;
+}
+
+.game-team-logo-area .logo-name.team-ns .graf-line {
+  background: #004731;
+}
+
+.game-team-logo-area .logo-name.team-tf .graf-line {
+  background: #ffff00;
+}
+
+.game-team-logo-area .logo-name.team-gc .graf-line {
+  background: #ffd700;
+}
+
+.game-team-logo-area .logo-name.team-ib .graf-line {
+  background: #E60012;
+}
+
+.game-team-logo-area .logo-name.team-rg .graf-line {
+  background: #081c4f;
+}
+
+.game-team-logo-area .logo-name.team-oe .graf-line {
+  background: #1f0603;
+}
+
+.game-team-logo-area .logo-name.team-kh .graf-line {
+  background: #73CAF2;
+}
+
+.game-team-logo-area .logo-name.team-sl .graf-line {
+  background: #18519d;
+}
+
+.game-team-logo-area .logo-name.team-am .graf-line {
+  background: #1a4899;
+}
+
+.game-team-logo-area .logo-name.team-hh .graf-line {
+  background: #d2001e;
+}
+
+.game-team-logo-area .logo-name.team-cj .graf-line {
+  background: #ff0000;
+}
+
+.game-team-logo-area .logo-name.team-se .graf-line {
+  background: #ffe618;
+}
+
+.game-team-logo-area .logo-name.team-hd .graf-line {
+  background: #E9470B;
+}
+
+.game-team-logo-area .logo-name.team-aw .graf-line {
+  background: #004098;
+}
+
+.game-team-logo-area .logo-name.team-kv .graf-line {
+  background: #666;
+}
+
+.game-team-logo-area .logo-name.team-sw .graf-line {
+  background: #FFF33F;
+}
+
+.game-team-logo-area .logo-name.team-bn .graf-line {
+  background: #a01e23;
+}
+
+.game-team-logo-area .logo-name.team-ht .graf-line {
+  background: #fff100;
+}
+
+.game-team-logo-area .logo-name.team-tk .graf-line {
+  background: #d0121c;
+}
+
+.game-team-logo-area .logo-name.team-ff .graf-line {
+  background: #B43D9D;
+}
+
+.game-team-logo-area .logo-name.team-ct .graf-line {
+  background: #023893;
+}
+
+.game-team-logo-area .logo-name.team-te .graf-line {
+  background: #006d3b;
+}
+
+.game-team-logo-area .logo-name.team-ak .graf-line {
+  background: #525252;
+}
+
+.game-team-logo-area .logo-name.team-a1 .graf-line {
+  background: #000;
+}
+
+.game-team-logo-area .logo-name.team-a2 .graf-line {
+  background: #d9d9d9;
+}
+
+/* ClubIDã§ã¯ãªãã‚°ãƒ©ãƒ•ã®è‰²ã‚’HOMEã¨Awayã«åˆ†ã‘ã‚‹ */
+.game-team-logo-area .logo-name.team-home .graf-line {
+  background: red;
+}
+.game-team-logo-area .logo-name.team-away .graf-line {
+  background: gray;
+}
+.game-detail-area .svgAtArea circle.home {
+  fill: red;
+}
+.game-detail-area .svgAtArea path.home {
+  stroke: red;
+}
+.game-detail-area .svgAtArea circle.away {
+  fill: gray;
+}
+.game-detail-area .svgAtArea path.away {
+  stroke: gray;
+}
+
+.game-detail-area .svgAtArea circle.oh {
+  fill: #ff8A05;
+}
+
+.game-detail-area .svgAtArea path.oh {
+  stroke: #ff8A05;
+}
+
+.game-detail-area .svgAtArea circle.ez {
+  fill: #004182;
+}
+
+.game-detail-area .svgAtArea path.ez {
+  stroke: #004182;
+}
+
+.game-detail-area .svgAtArea circle.na {
+  fill: #EA5404;
+}
+
+.game-detail-area .svgAtArea path.na {
+  stroke: #EA5404;
+}
+
+.game-detail-area .svgAtArea circle.tt {
+  fill: #000;
+}
+
+.game-detail-area .svgAtArea path.tt {
+  stroke: #000;
+}
+
+.game-detail-area .svgAtArea circle.tn {
+  fill: #0b408d;
+}
+
+.game-detail-area .svgAtArea path.tn {
+  stroke: #0b408d;
+}
+
+.game-detail-area .svgAtArea circle.py {
+  fill: #5f1985;
+}
+
+.game-detail-area .svgAtArea path.py {
+  stroke: #5f1985;
+}
+
+.game-detail-area .svgAtArea circle.tg {
+  fill: #d90000;
+}
+
+.game-detail-area .svgAtArea path.tg {
+  stroke: #d90000;
+}
+
+.game-detail-area .svgAtArea circle.an {
+  fill: #E40073;
+}
+
+.game-detail-area .svgAtArea path.an {
+  stroke: #E40073;
+}
+
+.game-detail-area .svgAtArea circle.ss {
+  fill: #036eb8;
+}
+
+.game-detail-area .svgAtArea path.ss {
+  stroke: #036eb8;
+}
+
+.game-detail-area .svgAtArea circle.rk {
+  fill: #db0e0e;
+}
+
+.game-detail-area .svgAtArea path.rk {
+  stroke: #db0e0e;
+}
+
+.game-detail-area .svgAtArea circle.rh {
+  fill: #8FC31F;
+}
+
+.game-detail-area .svgAtArea path.rh {
+  stroke: #8FC31F;
+}
+
+.game-detail-area .svgAtArea circle.mn {
+  fill: #e60012;
+}
+
+.game-detail-area .svgAtArea path.mn {
+  stroke: #e60012;
+}
+
+.game-detail-area .svgAtArea circle.yb {
+  fill: #000d36;
+}
+
+.game-detail-area .svgAtArea path.yb {
+  stroke: #000d36;
+}
+
+.game-detail-area .svgAtArea circle.rt {
+  fill: #12315a;
+}
+
+.game-detail-area .svgAtArea path.rt {
+  stroke: #12315a;
+}
+
+.game-detail-area .svgAtArea circle.ns {
+  fill: #004731;
+}
+
+.game-detail-area .svgAtArea path.ns {
+  stroke: #004731;
+}
+
+.game-detail-area .svgAtArea circle.tf {
+  fill: #ffff00;
+}
+
+.game-detail-area .svgAtArea path.tf {
+  stroke: #ffff00;
+}
+
+.game-detail-area .svgAtArea circle.gc {
+  fill: #ffd700;
+}
+
+.game-detail-area .svgAtArea path.gc {
+  stroke: #ffd700;
+}
+
+.game-detail-area .svgAtArea circle.ib {
+  fill: #E60012;
+}
+
+.game-detail-area .svgAtArea path.ib {
+  stroke: #E60012;
+}
+
+.game-detail-area .svgAtArea circle.rg {
+  fill: #081c4f;
+}
+
+.game-detail-area .svgAtArea path.rg {
+  stroke: #081c4f;
+}
+
+.game-detail-area .svgAtArea circle.oe {
+  fill: #1f0603;
+}
+
+.game-detail-area .svgAtArea path.oe {
+  stroke: #1f0603;
+}
+
+.game-detail-area .svgAtArea circle.kh {
+  fill: #73CAF2;
+}
+
+.game-detail-area .svgAtArea path.kh {
+  stroke: #73CAF2;
+}
+
+.game-detail-area .svgAtArea circle.sl {
+  fill: #18519d;
+}
+
+.game-detail-area .svgAtArea path.sl {
+  stroke: #18519d;
+}
+
+.game-detail-area .svgAtArea circle.am {
+  fill: #1a4899;
+}
+
+.game-detail-area .svgAtArea path.am {
+  stroke: #1a4899;
+}
+
+.game-detail-area .svgAtArea circle.hh {
+  fill: #d2001e;
+}
+
+.game-detail-area .svgAtArea path.hh {
+  stroke: #d2001e;
+}
+
+.game-detail-area .svgAtArea circle.cj {
+  fill: #ff0000;
+}
+
+.game-detail-area .svgAtArea path.cj {
+  stroke: #ff0000;
+}
+
+.game-detail-area .svgAtArea circle.se {
+  fill: #ffe618;
+}
+
+.game-detail-area .svgAtArea path.se {
+  stroke: #ffe618;
+}
+
+.game-detail-area .svgAtArea circle.hd {
+  fill: #E9470B;
+}
+
+.game-detail-area .svgAtArea path.hd {
+  stroke: #E9470B;
+}
+
+.game-detail-area .svgAtArea circle.aw {
+  fill: #004098;
+}
+
+.game-detail-area .svgAtArea path.aw {
+  stroke: #004098;
+}
+
+.game-detail-area .svgAtArea circle.kv {
+  fill: #666;
+}
+
+.game-detail-area .svgAtArea path.kv {
+  stroke: #666;
+}
+
+.game-detail-area .svgAtArea circle.sw {
+  fill: #FFF33F;
+}
+
+.game-detail-area .svgAtArea path.sw {
+  stroke: #FFF33F;
+}
+
+.game-detail-area .svgAtArea circle.bn {
+  fill: #a01e23;
+}
+
+.game-detail-area .svgAtArea path.bn {
+  stroke: #a01e23;
+}
+
+.game-detail-area .svgAtArea circle.ht {
+  fill: #fff100;
+}
+
+.game-detail-area .svgAtArea path.ht {
+  stroke: #fff100;
+}
+
+.game-detail-area .svgAtArea circle.tk {
+  fill: #d0121c;
+}
+
+.game-detail-area .svgAtArea path.tk {
+  stroke: #d0121c;
+}
+
+.game-detail-area .svgAtArea circle.ff {
+  fill: #B43D9D;
+}
+
+.game-detail-area .svgAtArea path.ff {
+  stroke: #B43D9D;
+}
+
+.game-detail-area .svgAtArea circle.ct {
+  fill: #023893;
+}
+
+.game-detail-area .svgAtArea path.ct {
+  stroke: #023893;
+}
+
+.game-detail-area .svgAtArea circle.te {
+  fill: #006d3b;
+}
+
+.game-detail-area .svgAtArea path.te {
+  stroke: #006d3b;
+}
+
+.game-detail-area .svgAtArea circle.ak {
+  fill: #525252;
+}
+
+.game-detail-area .svgAtArea path.ak {
+  stroke: #525252;
+}
+
+.game-detail-area .svgAtArea circle.a1 {
+  fill: #000;
+}
+
+.game-detail-area .svgAtArea path.a1 {
+  stroke: #000;
+}
+
+.game-detail-area .svgAtArea circle.a2 {
+  fill: #d9d9d9;
+}
+
+.game-detail-area .svgAtArea path.a2 {
+  stroke: #d9d9d9;
+}
+
+body.team-ct .layout-game-list li .play-detail .center .txt-main {
+  color: #fff !important;
+}
+
+body.team-bn .layout-game-list li .play-detail .center .txt-main {
+  color: #E40073 !important;
+}
+
+body.team-rh .layout-game-list li .play-detail .center .txt-main {
+  color: #8FC31F !important;
+}
+
+body.team-na .layout-game-list li .play-detail .center .txt-main {
+  color: #EA5404 !important;
+}
+
+@media screen and (min-width: 768px) {
+  body.team-sw .layout-side .component-block .block-header .more {
+    color: #fff !important;
+  }
+  body.team-tf .layout-side .component-block .block-header .more {
+    color: #fff !important;
+  }
+  body.team-rh .layout-game-list li .play-detail .center .txt-main {
+    color: #8FC31F !important;
+  }
+
+  .team-se .layout-team-header .team-nav li.has-2ndnav > a:after {
+    background: url(/common/img/icn-arw-bottom-c333.png?v=) no-repeat center top !important;
+    width: 12px;
+    height: 9px;
+  }
+
+  .team-ht .layout-team-header .team-nav li.has-2ndnav > a:after {
+    background: url(/common/img/icn-arw-bottom-c333.png?v=) no-repeat center top !important;
+    width: 12px;
+    height: 9px;
+  }
+
+  .team-gc .layout-team-header .team-nav li.has-2ndnav > a:after {
+    background: url(/common/img/icn-arw-bottom-c333.png?v=) no-repeat center top !important;
+    width: 12px;
+    height: 9px;
+  }
+
+  .team-sw .layout-team-header .team-nav li.has-2ndnav > a:after {
+    background: url(/common/img/icn-arw-bottom-c333.png?v=) no-repeat center top !important;
+    width: 12px;
+    height: 9px;
+  }
+
+  .team-tf .layout-team-header .team-nav li.has-2ndnav > a:after {
+    background: url(/common/img/icn-arw-bottom-c333.png?v=) no-repeat center top !important;
+    width: 12px;
+    height: 9px;
+  }
+}
+/*# sourceMappingURL=../css/team-color.css.map */

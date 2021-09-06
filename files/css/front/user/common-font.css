@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../../user/fonts/noto/noto-thin.eot");
+  /* IE9 Compat Modes */
+  src: url("../../../user/fonts/noto/noto-thin.eot?#iefix") format("embedded-opentype"), url("../../../user/fonts/noto/noto-thin.woff") format("woff"), url("../../../user/fonts/noto/noto-thin.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url("../../../user/fonts/noto/noto-light.eot");
+  src: url("../../../user/fonts/noto/noto-light.eot?#iefix") format("embedded-opentype"), url("../../../user/fonts/noto/noto-light.woff") format("woff"), url("../../../user/fonts/noto/noto-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../../user/fonts/noto/noto-demilight.eot");
+  src: url("../../../user/fonts/noto/noto-demilight.eot?#iefix") format("embedded-opentype"), url("../../../user/fonts/noto/noto-demilight.woff") format("woff"), url("../../../user/fonts/noto/noto-demilight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../user/fonts/noto/noto-regular.eot");
+  src: url("../../../user/fonts/noto/noto-regular.eot?#iefix") format("embedded-opentype"), url("../../../user/fonts/noto/noto-regular.woff") format("woff"), url("../../../user/fonts/noto/noto-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../../user/fonts/noto/noto-medium.eot");
+  src: url("../../../user/fonts/noto/noto-medium.eot?#iefix") format("embedded-opentype"), url("../../../user/fonts/noto/noto-medium.woff") format("woff"), url("../../../user/fonts/noto/noto-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../../user/fonts/noto/noto-blod.eot");
+  src: url("../../../user/fonts/noto/noto-blod.eot?#iefix") format("embedded-opentype"), url("../../../user/fonts/noto/noto-blod.woff") format("woff"), url("../../../user/fonts/noto/noto-blod.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../../user/fonts/noto/noto-black.eot");
+  src: url("../../../user/fonts/noto/noto-black.eot?#iefix") format("embedded-opentype"), url("../../../user/fonts/noto/noto-black.woff") format("woff"), url("../../../user/fonts/noto/noto-black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../../../user/fonts/fontello.eot?75086332");
+  src: url("../../../user/fonts/fontello.eot?75086332#iefix") format("embedded-opentype"), url("../../../user/fonts/fontello.woff?75086332") format("woff"), url("../../../user/fonts/fontello.ttf?75086332") format("truetype"), url("../../../user/fonts/fontello.svg?75086332#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../../../user/fonts/fontello.svg?75086332#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+/*.icon-twt:before {
+  content: '\e800';
+}*/
+
+/* 'î €' */
+/*.icon-insta:before {
+  content: '\e801';
+}*/
+
+/* 'î ' */
+/*.icon-fb:before {
+  content: '\e802';
+}*/
+
+/* 'î ‚' */
+/*.icon-search:before {
+  content: '\e803';
+}*/
+
+/* æ¤œç´¢ */
+.icon-search:before {
+  content: '\e800';
+}
+/* å•ã„åˆã‚ã› */
+.icon-mail:before {
+  content: '\e801';
+}
+/* TWITTER */
+.icon-twt:before {
+  content: '\f099';
+}
+/* INSTAGRAM */
+.icon-insta:before {
+  content: '\f16d';
+}
+/* FACEBOOK */
+.icon-fb:before {
+  content: '\f30c';
+}
+/* YOUTUBE */
+.icon-youtube-play:before {
+  content: '\f315';
+}
+
+body {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  animation: loadingA 0.5s 1 forwards linear;
+  -ms-animation: loadingA 0.5s 1 forwards linear;
+  -webkit-animation: loadingA 0.5s 1 forwards linear;
+  -moz-animation: loadingA 0.5s 1 forwards linear;
+}
+@-ms-keyframes loadingA {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes loadingA {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes loadingA {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
