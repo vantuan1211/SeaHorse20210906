@@ -2308,6 +2308,132 @@
 	}
 }
 
+/*box-charactor*/
+.detail-box-charactor__inner{
+	max-width: 690px;
+	margin: 0 auto
+}
+.detail-box-charactor__item{
+	background-color: #fff;
+	color: #000!important;
+	margin-bottom: 15px;
+	display: block;
+}
+.detail-box-charactor__content{
+	padding: 7px 10px 12px;
+	box-sizing: border-box;
+}
+.detail-box-charactor .grid-6{
+	padding: 0 4px;
+	box-sizing: border-box;
+}
+.detail-box-charactor__title{
+	font-size: 15px;
+	line-height: 1;
+	text-align: center;
+}
+.detail-box-charactor__text{
+	font-size: 15px;
+	line-height: 1.73;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	color: #fff;
+}
+@media (min-width: 768px){
+	.detail-box-charactor__inner{
+		padding: 0;
+	}
+	.detail-box-charactor .grid-6{
+		padding: 0 12px;
+	}
+	.detail-box-charactor__item{
+		margin-bottom: 30px;
+	}
+	.detail-box-charactor__content{
+		padding: 9px 10px 12px;
+	}
+	.detail-box-charactor__title{
+		font-size: 18px;
+		line-height: 1.1;
+	}
+	.detail-box-charactor__text{
+		font-size: 15px;
+		font-weight: bold;
+	}
+}
+
+/*box-entertain*/
+.detail-box-entertain__inner{
+	max-width: 690px;
+	margin: 0 auto
+}
+.detail-box-entertain__text{
+	font-size: 15px;
+	line-height: 1.73;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	color: #fff;
+}
+.detail-box-entertain__content{
+	padding: 7px 10px 12px;
+	box-sizing: border-box;
+}
+.detail-box-entertain .grid-6{
+	padding: 0 4px;
+	box-sizing: border-box;
+}
+.detail-box-entertain__title{
+	font-size: 17px;
+	line-height: 1;
+}
+.detail-box-entertain__title span{
+	font-size: 12px;
+	line-height: 1.3;
+	display: block;
+}
+.detail-box-entertain__item{
+	background-color: #EEEBF1;
+	color: #000!important;
+	margin-bottom: 15px;
+	display: block;
+}
+.detail-box-entertain__item{
+	display: flex;
+}
+.detail-box-entertain__images{
+	width: 50%;
+}
+.detail-box-entertain__images img{
+	height: 100%;
+}
+.detail-box-entertain__content{
+	width: 50%;
+	padding-top: 24px;
+	padding-left: 24px;
+}
+@media (min-width: 768px){
+	.detail-box-entertain__content{
+		padding: 20px 10px 20px;
+	}
+	.detail-box-entertain__title{
+		font-size: 18px;
+		text-align: center;
+	}
+	.detail-box-entertain__title span{
+		font-size: 13px;
+		line-height: 1.2;
+	}
+	.detail-box-entertain__text{
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.detail-box-entertain__item{
+		display: block;
+	}
+	.detail-box-entertain__images img{
+		height: auto;
+	}
+}
 /* box excite */
 .detail-box-excite{
 	background-color: #222;
