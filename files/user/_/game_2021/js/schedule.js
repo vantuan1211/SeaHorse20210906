@@ -395,6 +395,11 @@ $j341(document).ready(function($) {
 					$('.js-matchheight01').matchHeight();
 					$('.js-matchheight02').matchHeight();
 				}, 50);
+				var index = 0;
+				$('.detail-box-player__list .detail-box-player__list__item').each(function(){
+					$(this).attr('data-slick-item', index);
+					index++;
+				});
 			});
 			$('.detail-box-player__slide').slick({
 				infinite: true,
@@ -403,18 +408,22 @@ $j341(document).ready(function($) {
 				fade: true,
 				useCSS: false,
 				useTransform: false,
+				adaptiveHeight: true,
 				prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-caret-left"></i></button>',
 				nextArrow: '<button type="button" class="slick-next"><i class="fas fa-caret-right"></i></button>'
 			});
+			$('.detail-box-player__slide').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+				$(".detail-box-player__slide .slick-active").removeClass('is-after-unload');
+				$(".detail-box-player__slide .slick-active").addClass('is-before-unload');
+			});
+			$('.detail-box-player__slide').on('afterChange', function(event, slick, currentSlide){
+				$(".detail-box-player__slide .slick-active").addClass('is-after-unload');
+				$(".detail-box-player__slide .slick-slide.is-before-unload").removeClass('is-before-unload');
+			});
+			$('.detail-box-player__list .detail-box-player__list__item').click(function(){
+				$('.detail-box-player__slide').slick('slickGoTo', $(this).attr('data-slick-item'));
+			});
 		}
-		$('.detail-box-player__slide').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-			$(".detail-box-player__slide .slick-active").removeClass('is-after-unload');
-			$(".detail-box-player__slide .slick-active").addClass('is-before-unload');
-		});
-		$('.detail-box-player__slide').on('afterChange', function(event, slick, currentSlide){
-			$(".detail-box-player__slide .slick-active").addClass('is-after-unload');
-			$(".detail-box-player__slide .slick-slide.is-before-unload").removeClass('is-before-unload');
-		});
 		var timerResize = false;
 		$(window).resize(function() {
 			if (timerResize !== false) {
