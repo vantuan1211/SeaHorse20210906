@@ -1741,6 +1741,10 @@
 	letter-spacing: 0.02em;
 }
 @media(min-width: 768px){
+	.detail-box-preview{
+		padding-top: 35px;
+		padding-bottom: 55px;
+	}
 	.detail-box-preview .detail-hdg-lv2{
 		margin-bottom: 54px;
 	}
@@ -2371,6 +2375,9 @@
 	line-height: 0;
 }
 @media(min-width: 768px){
+	.detail-box-cheer{
+		padding-bottom: 23px;
+	}
 	.detail-box-cheer .detail-hdg-lv2{
 		margin-bottom: 75px;
 	}
@@ -2442,6 +2449,9 @@
 	margin-bottom: 20px;
 }
 @media (min-width: 768px){
+	.detail-box-charactor{
+		padding-bottom: 45px;
+	}
 	.detail-box-charactor .detail-hdg-lv2{
 		margin-bottom: 25px;
 	}
