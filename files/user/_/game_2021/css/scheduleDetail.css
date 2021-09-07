@@ -1740,6 +1740,9 @@
 	letter-spacing: 0.02em;
 }
 @media(min-width: 768px){
+	.detail-box-preview .detail-hdg-lv2{
+		margin-bottom: 54px;
+	}
 	.detail-box-preview__inner{
 		display: table;
 		table-layout: fixed;
@@ -2339,6 +2342,9 @@
 	line-height: 0;
 }
 @media(min-width: 768px){
+	.detail-box-cheer .detail-hdg-lv2{
+		margin-bottom: 75px;
+	}
 	.detail-box-cheer__content{
 		max-width: 690px;
 		margin: 0 auto;
