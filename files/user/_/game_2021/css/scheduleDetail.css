@@ -2151,13 +2151,18 @@
 }
 .detail-box-pricelist__imgaes {
 	line-height: 0;
-	margin-bottom: 20px;
+	margin-bottom: 0;
 }
 .detail-box-pricelist.open .fa-chevron-down:before {
 	content: "\f077";
 }
 .detail-box-pricelist__button {
 	text-align: center;
+}
+@media screen and (max-width: 767px){
+	.detail-box-pricelist__imgaes{
+		margin-bottom: 0;
+	}
 }
 
 /* box arena */
@@ -2188,8 +2193,18 @@
 	padding-right: 10px;
 }
 .detail-box-arena__list > li.open .detail-box-arena__list__title .fa-chevron-down:before,
-.js-accordion-detail.open .detail-box-arena__list__title .fa-chevron-down:before {
+.detail-box-pricelist.open .detail-box-arena__list__title .fa-chevron-down:before {
 	content: "\f077";
+}
+.detail-box-pricelist.open{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 15px;
+}
+.detail-box-pricelist.open .detail-box-arena__list .detail-box-arena__list__title{
+	border-bottom: dotted 1px #fff;
+}
+.detail-box-pricelist.open .detail-box-pricelist__content{
+	margin-top: 7px;
 }
 .detail-box-arena__list__title .fa {
 	position: absolute;
@@ -2252,6 +2267,12 @@
 @media(max-width: 767px){
 	.detail-box-arena .detail-hdg-lv2{
 		font-size: 34px;
+	}
+	.detail-box-arena__inner{
+		padding-top: 56px;
+	}
+	.detail-box-arena__list--01 .detail-box-arena__list__title{
+		font-size: 18px;
 	}
 }
 /* box cheer */
