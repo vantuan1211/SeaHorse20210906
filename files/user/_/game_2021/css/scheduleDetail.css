@@ -2433,6 +2433,12 @@
 	.detail-box-entertain__images img{
 		height: auto;
 	}
+	.detail-box-entertain__images{
+		width: 100%;
+	}
+	.detail-box-entertain__content{
+		width: 100%;
+	}
 }
 /* box excite */
 .detail-box-excite{
