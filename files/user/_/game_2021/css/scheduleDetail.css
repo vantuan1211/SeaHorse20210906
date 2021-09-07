@@ -2188,7 +2188,7 @@
 	padding-right: 10px;
 }
 .detail-box-arena__list > li.open .detail-box-arena__list__title .fa-chevron-down:before,
-.js-accordion.open .detail-box-arena__list__title .fa-chevron-down:before {
+.js-accordion-detail.open .detail-box-arena__list__title .fa-chevron-down:before {
 	content: "\f077";
 }
 .detail-box-arena__list__title .fa {
