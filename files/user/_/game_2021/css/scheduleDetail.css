@@ -970,7 +970,7 @@
 	width: 345px;
 	height: 94px;
 	position: absolute;
-	top: 22px;
+	top: 24px;
 	z-index: 0;
 	left: 50%;
 	transform: translateX(-50%);
@@ -986,7 +986,7 @@
 	height: 5px;
 	background: #333D98;
 	position: absolute;
-	bottom: 35px;
+	bottom: 38px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -1042,7 +1042,7 @@
 .detail-hdg-lv2 small{
 	font-size: 18px;
 	letter-spacing: 0.01em;
-	margin-top: 17px;
+	margin-top: 22px;
 	line-height: 1.5;
 }
 .detail-hdg-lv2--01{
@@ -2127,6 +2127,8 @@
 	margin-top: 16px;
 	font-size: 12px;
 	line-height: 1.5;
+	color: #333D98;
+	font-weight: bold;
 }
 @media screen and (max-width: 767px) {
 	.detail-box-schedule {
@@ -2398,6 +2400,12 @@
 	font-size: 0;
 	line-height: 0;
 }
+.detail-box-cheer .detail-hdg-lv2{
+	margin-bottom: 51px;
+}
+.detail-box-cheer{
+	padding-bottom: 2;
+}
 @media(min-width: 768px){
 	.detail-box-cheer{
 		padding-bottom: 23px;
@@ -2472,6 +2480,10 @@
 }
 .detail-box-charactor .detail-hdg-lv2{
 	margin-bottom: 20px;
+}
+.detail-box-charactor{
+	padding-top: 0;
+	padding-bottom: 20px;
 }
 @media (min-width: 768px){
 	.detail-box-charactor{
@@ -2560,7 +2572,7 @@
 	padding-left: 24px;
 }
 .detail-box-entertain__text{
-	margin-top: 5px;
+	margin-top: 10px;
 }
 @media (min-width: 768px){
 	.detail-box-entertain .detail-hdg-lv2{
@@ -2750,7 +2762,7 @@
 }
 @media(max-width: 767px){
 	.detail-box-event{
-		padding-bottom: 15px;
+		padding-bottom: 29px;
 	}
 	.detail-box-event__lead{
 		text-align: left;
