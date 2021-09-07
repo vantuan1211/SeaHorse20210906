@@ -2390,6 +2390,9 @@
 	box-sizing: border-box;
 	margin-bottom: 22px;
 }
+.detail-box-cheer__list li a{
+	display: block;
+}
 .detail-box-cheer__list__name{
 	color: #fff;
 	font-size: 12px;
@@ -2532,6 +2535,9 @@
 	letter-spacing: 0.02em;
 	font-weight: normal;
 	color: #fff;
+}
+.detail-box-entertain .grid-row a{
+	display: block;
 }
 .detail-box-entertain__content{
 	padding: 7px 10px 12px;
