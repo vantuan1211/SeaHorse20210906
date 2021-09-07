@@ -2398,6 +2398,12 @@
 	font-size: 0;
 	line-height: 0;
 }
+.detail-box-cheer .detail-hdg-lv2{
+	margin-bottom: 51px;
+}
+.detail-box-cheer{
+	padding-bottom: 2;
+}
 @media(min-width: 768px){
 	.detail-box-cheer{
 		padding-bottom: 23px;
@@ -2472,6 +2478,10 @@
 }
 .detail-box-charactor .detail-hdg-lv2{
 	margin-bottom: 20px;
+}
+.detail-box-charactor{
+	padding-top: 0;
+	padding-bottom: 20px;
 }
 @media (min-width: 768px){
 	.detail-box-charactor{
@@ -2560,7 +2570,7 @@
 	padding-left: 24px;
 }
 .detail-box-entertain__text{
-	margin-top: 5px;
+	margin-top: 10px;
 }
 @media (min-width: 768px){
 	.detail-box-entertain .detail-hdg-lv2{
