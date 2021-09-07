@@ -959,16 +959,25 @@
 	font-size: 30px;
 	letter-spacing: 0.06em;
 	text-align: center;
-	max-width: 345px;
 	position: relative;
-	background: #fff;
 	margin: 0 auto 40px;
 	font-size: 40px;
+	z-index: 1;
+}
+.detail-hdg-lv2::after{
+	content: '';
+	background: #fff;
+	width: 345px;
 	height: 94px;
+	position: absolute;
+	top: 22px;
+	z-index: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 .detail-hdg-lv2__content{
 	position: relative;
-	top: -34px;
+	z-index: 2;
 }
 .detail-hdg-lv2__content .detail-txt-en:after{
 	content: '';
@@ -977,13 +986,13 @@
 	height: 5px;
 	background: #333D98;
 	position: absolute;
-	bottom: 37px;
+	bottom: 35px;
 	left: 50%;
 	transform: translateX(-50%);
 }
 .detail-hdg-lv2--01{
 	background: none;
-	font-size: 36px;
+	font-size: 25px;
 }
 .detail-hdg-lv2--01 small{
 	font-size: 16px;
@@ -991,18 +1000,29 @@
 }
 .detail-hdg-lv2--02{
 	color: #fff;
-	background: #2b3280;
+}
+.detail-hdg-lv2--02::after{
+	content: '';
+	background: #000;
+	opacity: 0.16;
+}
+.detail-hdg-lv2--02 .detail-hdg-lv2__content .detail-txt-en:after{
+	background: #fff;
 }
 .detail-hdg-lv2--03{
 	color: #333D98;
+}
+.detail-hdg-lv2--03::after{
+	content: '';
 	background: #EEEBF1;
+}
+.detail-hdg-lv2--01::after{
+	content: '';
+	background: none;
 }
 .detail-hdg-lv2--03 .detail-hdg-lv2__content .detail-txt-en:after{
 	background: #333D98;
 }
-/*.detail-hdg-lv2--01{
-	font-size: 50px;
-}*/
 .detail-hdg-lv2 span,
 .detail-hdg-lv2 small{
 	display: block;
@@ -1017,17 +1037,17 @@
 @media(min-width: 768px){
 	.detail-hdg-lv2{
 		font-size: 50px;
-		margin-bottom: 30px;
-		max-width: 400px;
+		margin-bottom: 40px;
 	}
-	.detail-hdg-lv2__content{
-		top: -34px;
+	.detail-hdg-lv2::after{
+		width: 400px;
+		top: 34px;
 	}
 	.detail-hdg-lv2__content .detail-txt-en:after{
 		bottom: 37px;
 	}
 	.detail-hdg-lv2--01{
-		font-size: 32px;
+		font-size: 36px;
 	}
 	/*.detail-hdg-lv2 small{
 		margin-top: 13px;
@@ -1591,9 +1611,12 @@
 	margin: 0 auto;
 }
 .detail-box-live .detail-hdg-lv2{
-	background: none;
 	height: auto;
 	margin-bottom: 30px;
+}
+.detail-box-live .detail-hdg-lv2:after{
+	content: '';
+	background: none;
 }
 .detail-box-live .detail-hdg-lv3{
 	color: #fff;
@@ -2189,7 +2212,11 @@
 	margin: 0 6px;
 	vertical-align: bottom;
 }
-
+@media(max-width: 767px){
+	.detail-box-arena .detail-hdg-lv2{
+		font-size: 34px;
+	}
+}
 /* box cheer */
 .detail-box-cheer{}
 .detail-box-cheer__media{
