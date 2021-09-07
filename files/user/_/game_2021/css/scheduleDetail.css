@@ -2127,6 +2127,8 @@
 	margin-top: 16px;
 	font-size: 12px;
 	line-height: 1.5;
+	color: #333D98;
+	font-weight: bold;
 }
 @media screen and (max-width: 767px) {
 	.detail-box-schedule {
