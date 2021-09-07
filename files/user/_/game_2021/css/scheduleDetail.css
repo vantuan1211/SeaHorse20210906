@@ -1072,7 +1072,7 @@
 }
 .detail-box--primary{
 	background: #333d98;
-	color: #222;
+	color: #fff;
 }
 .detail-box--secondary{
 	background: #eeebf1;
@@ -2180,6 +2180,13 @@
 	border-top: none;
 	margin-top: 0;
 }
+.detail-box-arena__list--01 .detail-box-arena__list__title{
+	border-bottom: 1px solid #fff;
+	font-size: 20px;
+}
+.detail-box-arena__list__yen{
+	padding-right: 10px;
+}
 .detail-box-arena__list > li.open .detail-box-arena__list__title .fa-chevron-down:before {
 	content: "\f077";
 }
@@ -2224,6 +2231,22 @@
 	width: 20px;
 	margin: 0 6px;
 	vertical-align: bottom;
+}
+.detail-box-arena__inner{
+	padding-top: 100px;
+}
+.detail-box-arena__text{
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+	line-height: 1.73;
+	padding-top: 30px;
+}
+.detail-box-arena__slider{
+	padding-top: 60px;
+}
+.detail-box-arena__slider + .detail-box-arena__slider{
+	padding-top: 100px;
 }
 @media(max-width: 767px){
 	.detail-box-arena .detail-hdg-lv2{
