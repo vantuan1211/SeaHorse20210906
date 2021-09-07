@@ -1017,6 +1017,16 @@
 	content: '';
 	background: #EEEBF1;
 }
+.detail-hdg-lv2--04{
+	color: #fff;
+}
+.detail-hdg-lv2--04::after{
+	content: '';
+	background: #000;
+}
+.detail-hdg-lv2--04 .detail-hdg-lv2__content .detail-txt-en:after{
+	background: #fff;
+}
 .detail-hdg-lv2--01::after{
 	content: '';
 	background: none;
@@ -1103,7 +1113,7 @@
 	left: 0;
 	right: 0;
 	background: #222;
-	z-index: 2;
+	z-index: 5;
 }
 .detail-nav__content {
 	display: none;
@@ -2619,6 +2629,31 @@
 	}
 }
 
+/*box-sns*/
+.detail-box-sns{
+	background-color: #222;
+	color: #fff;
+	padding: 35px 0 55px;
+}
+.detail-box-sns__list{
+	display: flex;
+	justify-content: center;
+	padding-top: 6px;
+}
+.detail-box-sns__list li{
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+}
+@media screen and (max-width: 767px){
+	.detail-box-sns__list{
+		padding-top: 8px;
+	}
+	.detail-box-sns__list li{
+		padding: 0 5px;
+	}
+}
+
 /* box map */
 @media(max-width: 480px){
 	.detail-box-map iframe{
@@ -2995,13 +3030,16 @@
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
-.detail-box-player::before{
+.detail-box-player__content{
+	position: relative;
+}
+.detail-box-player__slide::before{
 	content: "";
 	width: 150vw;
 	height: 365px;
 	background: #fff;
 	position: absolute;
-	top: 60.9%;
+	top: 465px;
 	left: 50%;
 	transform: translate(-50%, -50%) rotate(-7.6deg) skew(-7.6deg);
 }
@@ -3018,6 +3056,7 @@
 	margin: 0 auto;
 }
 .detail-box-player__slide{
+	position: relative;
 	max-width: 690px;
 	margin: 40px auto 48px;
 }
@@ -3058,6 +3097,10 @@
 	max-width: 317px;
 	height: auto;
 }
+.detail-box-player__button{
+	display: none;
+}
+.detail-box-player__button,
 .detail-box-player__slide__heading,
 .detail-box-player__info{
 	opacity: 0;
@@ -3070,11 +3113,13 @@
 	transform: translate(8%, -5%);
 	opacity: 0;
 }
+.detail-box-player__slide__item.is-after-unload .detail-box-player__button,
 .detail-box-player__slide__item.is-after-unload .detail-box-player__info,
 .detail-box-player__slide__item.is-after-unload .detail-box-player__slide__heading{
 	transition: all 0.4s linear 0.4s;
 	opacity: 1;
 }
+.detail-box-player__slide__item.is-before-unload .detail-box-player__button,
 .detail-box-player__slide__item.is-before-unload .detail-box-player__info,
 .detail-box-player__slide__item.is-before-unload .detail-box-player__slide__heading{
 	transition: all 0.2s linear;
@@ -3111,7 +3156,7 @@
 }
 .detail-box-player__info__name{
 	font-size: 30px;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.02em;
 	color: #000;
 	line-height: 1.133;
 }
@@ -3198,27 +3243,44 @@
 	color: #fff;
 	margin-top: 12px;
 }
-.detail-box-player__button{
-	display: none;
-}
 @media screen and (max-width: 767px) {
-	.detail-box-player::before{
-		top: 53.2%;
+	.detail-box-player{
+		padding-top: 40px;
+	}
+	.detail-box-player__slide::before{
+		top: 484px;
+		height: 400px;
 	}
 	.detail-box-player__logo{
+		margin: 55px auto 25px;
 		max-width: 247px;
 	}
+	.detail-box-player__lead{
+		line-height: 1.733;
+	}
 	.detail-box-player__slide{
-		margin-bottom: 24px;
+		margin: 0 auto 22px;
+	}
+	.detail-box-player__slide .slick-prev.slick-arrow{
+		left: -20px;
+		top: 210px;
+	}
+	.detail-box-player__slide .slick-next.slick-arrow{
+		right: -20px;
+		top: 210px;
+	}
+	.detail-box-player__slide__item{
+		padding-top: 52px;
 	}
 	.detail-box-player__slide__name{
 		font-size: 56px;
-		top: 0;
+		line-height: 1.05;
+		top: 32px;
 		left: 0;
 	}
 	.detail-box-player__slide__number{
 		font-size: 19px;
-		top: 120px;
+		top: 162px;
 		left: 0;
 	}
 	.detail-box-player__slide__number span{
@@ -3233,13 +3295,14 @@
 	}
 	.detail-box-player__info{
 		flex-wrap: wrap;
+		margin-top: 12px;
 	}
 	.detail-box-player__left{
 		text-align: center;
 		width: 100%;
 		border-right: 0;
 		border-bottom: 1px solid #EEEBF1;
-		padding-bottom: 9px;
+		padding-bottom: 6px;
 		margin-bottom: 16px;
 	}
 	.detail-box-player__right{
@@ -3247,6 +3310,9 @@
 		padding-left: 0;
 		max-width: 236px;
 		margin: 0 auto;
+	}
+	.detail-box-player__right p span{
+		width: 95px;
 	}
 	.detail-box-player__info__name{
 		font-size: 22px;
@@ -3288,6 +3354,18 @@
 		padding: 0 4px;
 		width: 25%;
 		margin-bottom: 22px;
+	}
+	.detail-box-player__list__name{
+		font-size: 12px;
+		line-height: 1.25;
+		margin-top: 3px;
+	}
+	.detail-box-player__list__number{
+		font-size: 12px;
+		bottom: 0;
+	}
+	.detail-box-player__list__image::before{
+		border-width: 33px 0 0 33px;
 	}
 }
 
