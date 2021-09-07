@@ -1504,6 +1504,10 @@
 .detail-box-ticket{
 	background-color: #eeebf1;
 }
+.detail-btn--01, .detail-btn--01:link{
+	background: #333D98;
+	color: #fff!important;
+}
 .detail-box-ticket__inner{
 	display: flex;
 	padding-top: 2px;
