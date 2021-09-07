@@ -3225,6 +3225,13 @@
 	box-sizing: border-box;
 	margin-bottom: 42px;
 }
+.detail-box-player__list__item{
+	transition: all	0.3s ease;
+}
+.detail-box-player__list__item:hover{
+	display: block;
+	opacity: 0.7;
+}
 .detail-box-player__list__image{
 	position: relative;
 }
