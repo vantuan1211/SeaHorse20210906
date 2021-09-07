@@ -970,7 +970,7 @@
 	width: 345px;
 	height: 94px;
 	position: absolute;
-	top: 22px;
+	top: 24px;
 	z-index: 0;
 	left: 50%;
 	transform: translateX(-50%);
@@ -986,7 +986,7 @@
 	height: 5px;
 	background: #333D98;
 	position: absolute;
-	bottom: 35px;
+	bottom: 38px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -1032,7 +1032,7 @@
 .detail-hdg-lv2 small{
 	font-size: 18px;
 	letter-spacing: 0.01em;
-	margin-top: 17px;
+	margin-top: 22px;
 	line-height: 1.5;
 }
 .detail-hdg-lv2--01{
@@ -2715,7 +2715,7 @@
 }
 @media(max-width: 767px){
 	.detail-box-event{
-		padding-bottom: 15px;
+		padding-bottom: 29px;
 	}
 	.detail-box-event__lead{
 		text-align: left;
