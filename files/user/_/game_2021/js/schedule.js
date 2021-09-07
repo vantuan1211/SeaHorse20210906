@@ -295,6 +295,28 @@ $j341(document).ready(function($) {
 				});
 			});
 		}
+		// js accordion detail
+		if ($('.js-accordion-detail').get(0)) {
+			$('.js-accordion-detail').each(function () {
+				var $el = $(this),
+					$elTrigger = $el.find('.js-accordion-detail__trigger'),
+					$elContent = $el.find('.js-accordion-detail__content'),
+					$TxtTrigger = $elTrigger.find('.js-change-txt').text();
+				$elContent.hide();
+				$elTrigger.click(function () {
+					$el.toggleClass('open');
+					if ($el.hasClass('open')) {
+						$elContent.slideDown();
+						$elTrigger.find('.js-change-txt').text('閉じる');
+					} else {
+						$elContent.slideUp();
+						if ($TxtTrigger != '価格表' || $TxtTrigger != '') {
+							$elTrigger.find('.js-change-txt').text('価格表');
+						}
+					}
+				});
+			});
+		}
 
 		// js-tab
 		if($('.js-tab').get(0)){

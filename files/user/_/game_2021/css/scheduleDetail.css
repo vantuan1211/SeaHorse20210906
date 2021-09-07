@@ -2188,7 +2188,7 @@
 	padding-right: 10px;
 }
 .detail-box-arena__list > li.open .detail-box-arena__list__title .fa-chevron-down:before,
-.js-accordion.open .detail-box-arena__list__title .fa-chevron-down:before {
+.js-accordion-detail.open .detail-box-arena__list__title .fa-chevron-down:before {
 	content: "\f077";
 }
 .detail-box-arena__list__title .fa {
@@ -2936,7 +2936,7 @@
 	max-width: 690px;
 	margin: 40px auto 48px;
 }
-.slick-prev.slick-arrow{
+.detail-box-player__slide .slick-prev.slick-arrow{
 	display: block;
 	text-align: center;
 	width: 40px;
@@ -2947,7 +2947,7 @@
 	top: 31.5%;
 	z-index: 1;
 }
-.slick-next.slick-arrow{
+.detail-box-player__slide .slick-next.slick-arrow{
 	display: block;
 	text-align: center;
 	width: 40px;
@@ -3059,6 +3059,7 @@
 .detail-box-player__right p{
 	font-size: 16px;
 	line-height: 1.625;
+	color: #000;
 }
 .detail-box-player__right p + p{
 	margin-top: 2px;
