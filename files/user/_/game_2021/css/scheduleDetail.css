@@ -1688,8 +1688,8 @@
 .detail-ticket{
 	background: #333D98;
 	border: solid 5px #B39241;
-	width: 240px;
-	height: 240px;
+	width: 230px;
+	height: 230px;
 	border-radius: 50%;
 	position: fixed;
 	bottom: 20px;
@@ -1710,6 +1710,18 @@
 	line-height: 1.37;
 	color: #fff;
 }
+.detail-ticket--dark{
+	background: #222;
+}
+.detail-ticket--dark .detail-ticket__title img{
+	height: 61px;
+	width: auto;
+}
+.detail-ticket--dark .detail-ticket__text{
+	color: #B39241;
+	font-size: 16px;
+	padding-top: 10px;
+}
 @media screen and (max-width: 767px){
 	.detail-ticket{
 		border-radius: 0;
@@ -1726,7 +1738,7 @@
 		padding-top: 0;
 		flex-direction: row;
 		justify-content: center;
-		padding: 16px 0;
+		padding: 12px 0;
 	}
 	.detail-ticket__title{
 		line-height: 1;
@@ -1736,6 +1748,15 @@
 		line-height: 1;
 		padding-top: 0;
 		padding-left: 31px;
+	}
+	.detail-ticket--dark .detail-ticket__text{
+		font-size: 13px;
+		padding-top: 0;
+		padding-left: 10px;
+	}
+	.detail-ticket--dark .detail-ticket__title img{
+		height: 27px;
+		width: auto;
 	}
 }
 
