@@ -1623,7 +1623,7 @@
 }
 .detail-box-live .detail-hdg-lv2{
 	height: auto;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .detail-box-live .detail-hdg-lv2:after{
 	content: '';
@@ -1663,6 +1663,7 @@
 	}
 	.detail-box-live__text{
 		padding-top: 9px;
+		line-height: 1.73;
 	}
 }
 
@@ -2147,6 +2148,9 @@
 	}
 }
 /* box pricelist */
+.detail-box-pricelist{
+	padding-top: 8px;
+}
 .detail-box-pricelist .detail-hdg-lv2__content{
 	border-color: #333d98;
 }
@@ -2173,6 +2177,12 @@
 }
 
 /* box arena */
+.detail-box-arena{
+	padding-top: 36px;
+}
+.detail-box-arena .detail-hdg-lv2{
+	margin-bottom: 20px;
+}
 .detail-box-arena__content {
 	border-bottom: 1px solid #fff;
 }
@@ -2272,14 +2282,33 @@
 	padding-top: 100px;
 }
 @media(max-width: 767px){
+	.detail-box-arena{
+		padding-top: 40px;
+	}
 	.detail-box-arena .detail-hdg-lv2{
 		font-size: 34px;
+		margin-bottom: 18px;
+	}
+	.detail-box-arena .detail-hdg-lv2.detail-hdg-lv2--01{
+		font-size: 26px;
 	}
 	.detail-box-arena__inner{
-		padding-top: 56px;
+		padding-top: 60px;
 	}
 	.detail-box-arena__list--01 .detail-box-arena__list__title{
 		font-size: 18px;
+	}
+	.detail-box-arena__list__yen{
+		padding-right: 2px;
+	}
+	.detail-box-arena__text{
+		padding-top: 20px;
+	}
+	.detail-box-arena__slider{
+		padding-top: 19px;
+	}
+	.detail-box-arena__slider + .detail-box-arena__slider{
+		padding-top: 58px;
 	}
 }
 /* box cheer */
