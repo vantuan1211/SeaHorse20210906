@@ -2037,6 +2037,7 @@
 
 /* box schedule */
 .detail-box-schedule {
+	padding-top: 35px;
 	padding-bottom: 55px;
 }
 .detail-box-schedule__tab-content {
@@ -2332,12 +2333,16 @@
 .detail-box-arena__slider{
 	padding-top: 60px;
 }
+.detail-box-arena__slider--office{
+	padding-top: 100px;
+}
 .detail-box-arena__slider + .detail-box-arena__slider{
 	padding-top: 100px;
 }
 @media(max-width: 767px){
 	.detail-box-arena{
 		padding-top: 40px;
+		padding-bottom: 60px;
 	}
 	.detail-box-arena .detail-hdg-lv2{
 		font-size: 34px;
@@ -2359,7 +2364,10 @@
 		padding-top: 20px;
 	}
 	.detail-box-arena__slider{
-		padding-top: 19px;
+		padding-top: 20px;
+	}
+	.detail-box-arena__slider--office{
+		padding-top: 60px;
 	}
 	.detail-box-arena__slider + .detail-box-arena__slider{
 		padding-top: 58px;
@@ -2430,12 +2438,9 @@
 .detail-box-cheer .detail-hdg-lv2{
 	margin-bottom: 51px;
 }
-.detail-box-cheer{
-	padding-bottom: 2;
-}
 @media(min-width: 768px){
 	.detail-box-cheer{
-		padding-bottom: 23px;
+		padding-bottom: 78px;
 		padding-top: 35px;
 	}
 	.detail-box-cheer .detail-hdg-lv2{
@@ -2722,7 +2727,7 @@
 	letter-spacing: 0.05em;
 }
 .detail-box-access .detail-hdg-lv2{
-	margin-bottom: 15px;
+	margin-bottom: 40px;
 }
 .detail-box-access__content .grid-6 + .grid-6{
 	margin-top: 15px;
@@ -2753,7 +2758,7 @@
 }
 @media(min-width: 768px){
 	.detail-box-access{
-		padding: 55px 0 60px;
+		padding: 20px 0 60px;
 	}
 	.detail-box-access .detail-hdg-lv2{
 		margin-bottom: 30px;
@@ -2792,6 +2797,7 @@
 }
 @media(max-width: 767px){
 	.detail-box-event{
+		padding-top: 30px;
 		padding-bottom: 29px;
 	}
 	.detail-box-event__lead{
@@ -3081,13 +3087,13 @@
 	height: 365px;
 	background: #fff;
 	position: absolute;
-	top: 465px;
+	top: 505px;
 	left: 50%;
 	transform: translate(-50%, -50%) rotate(-7.6deg) skew(-7.6deg);
 }
 .detail-box-player__logo{
 	max-width: 433px;
-	margin: 85px auto 35px;
+	margin: 80px auto 35px;
 }
 .detail-box-player__lead{
 	font-size: 15px;
@@ -3111,7 +3117,7 @@
 	color: #fff;
 	position: absolute;
 	left: -14px;
-	top: 31.5%;
+	top: 36.2%;
 	z-index: 1;
 }
 .detail-box-player__slide .slick-next.slick-arrow{
@@ -3122,7 +3128,7 @@
 	color: #fff;
 	position: absolute;
 	right: -14px;
-	top: 31.5%;
+	top: 36.2%;
 	z-index: 1;
 }
 .detail-box-player__slide__item{
@@ -3296,6 +3302,9 @@
 @media screen and (max-width: 767px) {
 	.detail-box-player{
 		padding-top: 40px;
+	}
+	.detail-box-player__slide{
+		padding-top: 0;
 	}
 	.detail-box-player__slide::before{
 		top: 484px;
