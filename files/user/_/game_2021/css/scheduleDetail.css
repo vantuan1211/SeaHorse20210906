@@ -3100,7 +3100,8 @@
 .detail-box-player__slide{
 	position: relative;
 	max-width: 690px;
-	margin: 40px auto 48px;
+	margin: 0 auto 48px;
+	padding-top: 40px;
 }
 .detail-box-player__slide .slick-prev.slick-arrow{
 	display: block;
