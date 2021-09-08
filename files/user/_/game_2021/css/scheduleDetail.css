@@ -2157,7 +2157,7 @@
 }
 @media screen and (max-width: 767px) {
 	.detail-box-schedule {
-		padding-bottom: 40px;
+		padding-bottom: 50px;
 	}
 	.detail-box-schedule__tab__inner {
 		display: none;
@@ -2629,7 +2629,7 @@
 	.detail-box-entertain__text{
 		font-size: 15px;
 		font-weight: bold;
-		margin-top: 0;
+		margin-top: 24px;
 	}
 	.detail-box-entertain__item{
 		display: block;
@@ -3077,7 +3077,7 @@
 	position: relative;
 	overflow: hidden;
 	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-bottom: 75px;
 }
 .detail-box-player__content{
 	position: relative;
@@ -3144,7 +3144,7 @@
 	transition: all 0.4s ease-in-out;
 	transform: translate(-8%, 5%);
 	opacity: 0;
-	max-width: 317px;
+	max-width: 510px;
 	height: auto;
 }
 .detail-box-player__button{
@@ -3303,6 +3303,7 @@
 @media screen and (max-width: 767px) {
 	.detail-box-player{
 		padding-top: 40px;
+		padding-bottom: 38px
 	}
 	.detail-box-player__slide{
 		padding-top: 0;
