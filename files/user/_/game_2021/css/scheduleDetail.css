@@ -2204,7 +2204,7 @@
 }
 /* box pricelist */
 .detail-box-pricelist{
-	padding-top: 8px;
+	padding-top: 0;
 }
 .detail-box-pricelist .detail-hdg-lv2__content{
 	border-color: #333d98;
@@ -2234,6 +2234,12 @@
 /* box arena */
 .detail-box-arena{
 	padding-top: 36px;
+}
+.detail-box-arena .detail-hdg-lv2--01{
+	margin-bottom: 25px;
+}
+.detail-box-arena .detail-hdg-lv2--02{
+	margin-bottom: 10px;
 }
 .detail-box-arena__content {
 	border-bottom: 1px solid #fff;
