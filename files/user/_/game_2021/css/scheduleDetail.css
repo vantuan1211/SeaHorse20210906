@@ -3144,7 +3144,7 @@
 	transition: all 0.4s ease-in-out;
 	transform: translate(-8%, 5%);
 	opacity: 0;
-	max-width: 510px;
+	max-width: 400px;
 	height: auto;
 }
 .detail-box-player__button{
@@ -3352,7 +3352,7 @@
 		margin-left: 12px;
 	}
 	.detail-box-player__slide__images img{
-		max-width: 223px;
+		max-width: 280px;
 	}
 	.detail-box-player__info{
 		flex-wrap: wrap;
