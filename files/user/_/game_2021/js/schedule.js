@@ -420,9 +420,10 @@ $j341(document).ready(function($) {
 				$(".detail-box-player__slide .slick-active").addClass('is-after-unload');
 				$(".detail-box-player__slide .slick-slide.is-before-unload").removeClass('is-before-unload');
 			});
-			var $slideTop = $('.detail-box-player__slide').offset().top;
 			$('.detail-box-player__list .detail-box-player__list__item').click(function(){
-				$('.simplebar-content-wrapper').animate({ scrollTop: $slideTop }, 300);
+				var $slideTop1 = $('.simplebar-content').offset().top;
+				var $slideTop2 = $('.detail-box-player__slide').offset().top;
+				$('.simplebar-content-wrapper').animate({ scrollTop: $slideTop2 - $slideTop1}, 300);
 				$('.detail-box-player__slide').slick('slickGoTo', $(this).attr('data-slick-item'));
 			});
 		}
