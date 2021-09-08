@@ -1868,6 +1868,9 @@
 .detail-result-statistic li:last-child{
 	margin-right: 0;
 }
+.detail-box-border{
+	border-top: 1px solid #707070;
+}
 @media(min-width: 768px){
 	.detail-box-result{
 		overflow: hidden;
