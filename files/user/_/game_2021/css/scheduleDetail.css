@@ -1635,7 +1635,7 @@
 	padding: 55px 0 62px;
 }
 .detail-box-live__inner{
-	max-width: 690px;
+	max-width: 1300px;
 	margin: 0 auto;
 }
 .detail-box-live .detail-hdg-lv2{
@@ -2343,6 +2343,9 @@
 .detail-box-arena__slider + .detail-box-arena__slider{
 	padding-top: 100px;
 }
+.detail-box-arena--away .detail-hdg-lv2--02{
+	margin-bottom: 40px;
+}
 @media(max-width: 767px){
 	.detail-box-arena{
 		padding-top: 40px;
@@ -2505,6 +2508,7 @@
 	font-size: 15px;
 	line-height: 1;
 	text-align: center;
+	font-weight: bold;
 }
 .detail-box-charactor__text{
 	font-size: 15px;
@@ -2583,6 +2587,7 @@
 .detail-box-entertain__title{
 	font-size: 17px;
 	line-height: 1;
+	font-weight: bold;
 }
 .detail-box-entertain__title span{
 	font-size: 12px;
