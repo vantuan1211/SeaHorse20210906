@@ -3147,7 +3147,7 @@ body{
 	color: #fff;
 	position: absolute;
 	left: -14px;
-	top: 36.2%;
+	top: 34.2%;
 	z-index: 1;
 }
 .detail-box-player__slide .slick-next.slick-arrow{
@@ -3158,7 +3158,7 @@ body{
 	color: #fff;
 	position: absolute;
 	right: -14px;
-	top: 36.2%;
+	top: 34.2%;
 	z-index: 1;
 }
 .detail-box-player__slide__item{
@@ -3349,7 +3349,7 @@ body{
 		padding-top: 0;
 	}
 	.detail-box-player__slide::before{
-		top: 484px;
+		top: 500px;
 		height: 400px;
 	}
 	.detail-box-player__logo{
@@ -3413,7 +3413,7 @@ body{
 		max-width: 236px;
 		margin: 0 auto;
 	}
-	.detail-box-player__right p span{
+	.detail-box-player__right p strong{
 		width: 95px;
 	}
 	.detail-box-player__info__name{
