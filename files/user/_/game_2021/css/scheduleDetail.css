@@ -2701,6 +2701,9 @@
 	display: flex;
 	align-items: center;
 }
+.detail-box-sns__list li a{
+	transition: all .3s ease;
+}
 @media screen and (max-width: 767px){
 	.detail-box-sns__list{
 		padding-top: 8px;
