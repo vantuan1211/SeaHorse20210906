@@ -1665,7 +1665,7 @@ body{
 }
 .detail-box-live .detail-box-ticket__button{
 	text-align: center;
-	padding-top: 16px;
+	padding-top: 25px;
 }
 @media screen and (max-width: 767px){
 	.detail-box-live{
@@ -3253,7 +3253,6 @@ body{
 .detail-box-player__info{
 	display: flex;
 	width: 100%;
-	max-width: 570px;
 	margin: 20px auto 0;
 }
 .detail-box-player__left{
@@ -3261,6 +3260,7 @@ body{
 	width: 48%;
 	box-sizing: border-box;
 	border-right: 1px solid #EEEBF1;
+	padding-left: 60px;
 }
 .detail-box-player__right{
 	display: inline-block;
@@ -3269,6 +3269,9 @@ body{
 	padding-left: 40px;
 }
 .detail-box-player__right p{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
 	font-size: 16px;
 	line-height: 1.625;
 	color: #000;
@@ -3276,11 +3279,16 @@ body{
 .detail-box-player__right p + p{
 	margin-top: 2px;
 }
-.detail-box-player__right p span{
-	display: inline-block;
+.detail-box-player__right p strong{
+	display: table-cell;
+	vertical-align: top;
 	width: 110px;
 	font-weight: bold;
 	color: #B39241;
+}
+.detail-box-player__right p span{
+	display: table-cell;
+	vertical-align: top;
 }
 .detail-box-player__list{
 	display: flex;
@@ -3397,6 +3405,7 @@ body{
 		border-bottom: 1px solid #EEEBF1;
 		padding-bottom: 6px;
 		margin-bottom: 16px;
+		padding-left: 0;
 	}
 	.detail-box-player__right{
 		width: 100%;
