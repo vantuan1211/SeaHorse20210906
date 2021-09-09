@@ -3177,7 +3177,9 @@ body{
 	height: auto;
 }
 .detail-box-player__button{
-	display: none;
+	display: block;
+	margin-top: 20px;
+	text-align: center;
 }
 .detail-box-player__button,
 .detail-box-player__slide__heading,
@@ -3235,6 +3237,7 @@ body{
 }
 .detail-box-player__info__name{
 	font-size: 30px;
+	font-weight: bold;
 	letter-spacing: 0.02em;
 	color: #000;
 	line-height: 1.133;
@@ -3415,11 +3418,6 @@ body{
 	}
 	.detail-box-player__right p{
 		font-size: 14px;
-	}
-	.detail-box-player__button{
-		display: block;
-		margin-top: 14px;
-		text-align: center;
 	}
 	.detail-box-player__list{
 		margin: 0 -4px;
