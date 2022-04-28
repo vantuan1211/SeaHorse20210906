@@ -315,7 +315,7 @@
 	.box-inquiries__text{
 		margin-bottom: 2px;
 	}
-	.box-inquiries__text:nth-child(2){
+	.box-inquiries__hours{
 		margin-bottom: 3px;
 	}
 	.box-inquiries__phone a{
