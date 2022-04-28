@@ -7,6 +7,14 @@
 	padding: 0 16px;
 	box-sizing: border-box;
 }
+.fluid-img{
+	max-width: 100%;
+	height: auto;
+}
+.full-img{
+	width: 100%;
+	height: auto;
+}
 
 /* Header */
 .header{
@@ -55,6 +63,66 @@
 	font-family: "abolition", sans-serif;
 	letter-spacing: 3px;
 	font-size: 13px;
+}
+
+/* Mainvisual */
+.box-mv__main{
+	position: relative;
+}
+.box-mv__main__title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.box-mv__main__img{
+	font-size: 0;
+}
+.box-mv__slogan{
+	background: #116CB6;
+	position: relative;
+}
+.box-mv__slogan__inner{
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+}
+.box-mv__slogan__txt{
+	font-size: 48px;
+	line-height: 1.5;
+	font-weight: bold;
+	font-style: italic;
+	color: #116CB6;
+	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+	width: 150%;
+	
+	-moz-transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+
+	-moz-animation: ani-RightToLeft 30s linear infinite;
+	-webkit-animation: ani-RightToLeft 30s linear infinite;
+	animation: ani-RightToLeft 30s linear infinite;
+}
+.box-mv__slogan__fire{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+@keyframes ani-RightToLeft {
+	from {
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+
+	to {
+		-moz-transform: translateX(-100%);
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
 }
 
 /* Tuan */
