@@ -220,6 +220,10 @@
 .box-inquiries__text a:hover{
 	opacity: 0.7;
 }
+.box-inquiries__phone a{
+	pointer-events: none;
+	cursor: default;
+}
 @media screen and (max-width: 767px){
 	.box-inquiries{
 		margin-top: 122px;
@@ -239,6 +243,9 @@
 	}
 	.box-inquiries__text:nth-child(2){
 		margin-bottom: 3px;
+	}
+	.box-inquiries__phone a{
+		pointer-events: all;
 	}
 }
 
