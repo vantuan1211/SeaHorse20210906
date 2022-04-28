@@ -58,7 +58,81 @@
 }
 
 /* Tuan */
-
+.box-introduce{
+	position: relative;
+	background: #00469B;
+}
+.box-introduce::before{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url("/files/user/lp/boosterclub/img/bg-introduce-deco01.png") no-repeat center bottom;
+	background-size: cover;
+	z-index: 1;
+}
+.box-introduce__title{
+	text-align: center;
+}
+.box-introduce__title img{
+	width: 9.883vw;
+	height: auto;
+}
+.box-introduce__content{
+	position: relative;
+	z-index: 2;
+	padding: 11.713vw 0 56.369vw;
+}
+.box-introduce__image--01{
+	position: absolute;
+	top: 2.928vw;
+	right: 0;
+}
+.box-introduce__image--01 img{
+	width: 38.287vw;
+	height: auto;
+}
+.box-introduce__image--02{
+	position: absolute;
+	bottom: 27.452vw;
+	right: 0;
+}
+.box-introduce__image--02 img{
+	width: 32.138vw;
+	height: auto;
+}
+.box-introduce__image--03{
+	position: absolute;
+	top: 5.490vw;
+	left: 0;
+}
+.box-introduce__image--03 img{
+	width: 37.775vw;
+	height: auto;
+}
+.box-introduce__image--04{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.box-introduce__image--04 img{
+	width: 45.315vw;
+	height: auto;
+}
+.box-introduce__text{
+	font-size: 1.318vw;
+	line-height: 2.667;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 16.471vw;
+}
 
 /* Thuy */
 
