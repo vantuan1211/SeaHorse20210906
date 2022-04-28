@@ -1,7 +1,61 @@
 @charset "UTF-8";
 
 /* Thinh */
+.wrp-container{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 16px;
+	box-sizing: border-box;
+}
 
+/* Header */
+.header{
+	background: #1A4899;
+	padding: 10px 0;
+}
+.header a{
+	display: inline-block;
+}
+.header-inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-trigger .icn-wrap{
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: opacity 0.15s;
+	transition: opacity 0.15s;
+}
+.header-trigger .icn-wrap .icn{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 30px;
+	height: 19px;
+}
+.header-trigger .icn-wrap .icn::before,
+.header-trigger .icn-wrap .icn::after,
+.header-trigger .icn-wrap .icn span{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 28px;
+	height: 3px;
+	background: #fff;
+}
+.header-trigger .icn-wrap .icn::before{
+	top: 7px;
+}
+.header-trigger .icn-wrap .icn::after{
+	top: 14px;
+}
+.header-trigger .title{
+	font-family: "abolition", sans-serif;
+	letter-spacing: 3px;
+	font-size: 13px;
+}
 
 /* Tuan */
 
