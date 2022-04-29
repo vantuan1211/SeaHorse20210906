@@ -65,10 +65,102 @@
 	font-size: 13px;
 }
 
-/* Mainvisual */
-.box-mv{
-	/* height: 100vh; */
+/* Navigation */
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+	visibility: hidden;
 }
+.nav__content{
+	position: relative;
+	max-width: 375px;
+	margin: 0 0 0 auto;
+	box-sizing: border-box;
+	background: #00469B;
+	padding-top: 97px;
+	height: 100vh;
+	z-index: 2;
+}
+.lst-nav{
+	padding: 0 24px;
+}
+.lst-nav li a{
+	display: block;
+	position: relative;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.625;
+	letter-spacing: 0.02em;
+	padding: 18px 0;
+	border-bottom: solid 1px #116CB6;
+	transition: all 0.3s;
+}
+.lst-nav li:first-child a{
+	border-top: solid 1px #116CB6;
+}
+.lst-nav li a::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') center center no-repeat;
+	width: 9px;
+	height: 10px;
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	transform: translateY(-50%);
+}
+.lst-nav li a:hover{
+	opacity: 0.7;
+}
+.nav__close{
+	width: 60px;
+	height: 60px;
+	background: #003C8F;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	transition: all 0.3s;
+	z-index: 3;
+}
+.nav__close:hover{
+	opacity: 0.7;
+}
+.nav__close::before{
+	content: '';
+	width: 20px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	transform: rotate(45deg);
+}
+.nav__close::after{
+	content: '';
+	width: 20px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	transform: rotate(-45deg);
+}
+.nav__overlay{
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+/* Mainvisual */
 .box-mv__main{
 	position: relative;
 }
@@ -152,6 +244,20 @@
 	  transform: translateX(-50%);
 	}
   }
+  
+.btn-season{
+	position: fixed;
+	bottom: 120px;
+	right: 32px;
+	z-index: 3;	
+}
+.btn-season a{
+	display: inline-block;
+	transition: all 0.3s;
+}
+.btn-season a:hover{
+	opacity: 0.7;
+}
 
 /* Tuan */
 .box-introduce{
