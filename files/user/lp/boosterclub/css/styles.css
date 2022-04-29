@@ -405,7 +405,7 @@
 	height: 155px;
 	background: #EAEAEA;
 	position: absolute;
-	bottom: 0;
+	bottom: 270px;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -499,7 +499,7 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 40px -10px 200px;
+	margin: 40px -10px 0;
 }
 .lst-course-large li{
 	display: inline-block;
@@ -578,6 +578,54 @@
 }
 .lst-course-large__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
+}
+.box-member__heading{
+	position: relative;
+	z-index: 2;
+	background: #EAEAEA;
+	padding: 80px 0 80px;
+}
+.box-member__heading::before{
+	content: "";
+	display: inline-block;
+	width: 119px;
+	height: 121px;
+	background: url("/files/user/lp/boosterclub/img/pct-member-macot01.png") no-repeat center;
+	position: absolute;
+	left: 50%;
+	bottom: -60px;
+	transform: translateX(-50%);
+}
+.box-member__title{
+	text-align: center;
+}
+.box-member__title__sub{
+	display: block;
+	font-size: 24px;
+	letter-spacing: 0.04em;
+	color: #00469B;
+}
+.box-member__title__main{
+	display: block;
+	font-size: 45px;
+	color: #00469B;
+}
+.box-member__title__highlight{
+	display: inline-block;
+	position: relative;
+}
+.box-member__title__highlight::before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 24px;
+	background: #FDE949;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+.box-member__title__highlight span{
+	position: relative;
 }
 /* Thuy */
 .is-visiblePc{
@@ -738,10 +786,14 @@
 	}
 	.hdg-lv2__sub{
 		font-size: 16px;
+		margin-top: 8px;
 	}
 	.hdg-lv2__main--01{
 		white-space: nowrap;
 		font-size: 30px;
+	}
+	.hdg-lv2__main::after{
+		bottom: -3px;
 	}
 }
 @media screen and (max-width: 374px){
@@ -751,7 +803,7 @@
 }
 /* box-point */
 .box-point{
-	padding: 119px 0 171px;
+	padding: 116px 0 171px;
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
@@ -770,7 +822,7 @@
 }
 @media screen and (max-width: 767px){
 	.box-point{
-		padding: 61px 0 88px;
+		padding: 57px 0 88px;
 	}
 	.box-point::after{
 		width: 177px;
@@ -786,28 +838,30 @@
 }
 .box-media{
 	display: flex;
-	margin-top: 57px;
+	margin-top: 58px;
 	justify-content: center;
 	align-items: center;
 }
 .box-media__image{
-	width: 50%;
+	width: 51%;
 }
 .box-media__content{
-	width: 50%;
-	padding-left: 75px;
+	width: 49%;
+	padding-left: 64px;
+	box-sizing: border-box;
 }
 .box-media__title{
 	font-size: 20px;
 	font-weight: bold;
 	line-height: 1.5;
 	color: #000;
+	margin-top: -6px;
 }
 .box-media__text{
 	font-size: 16px;
 	line-height: 1.5;
 	color: #222;
-	margin-top: 15px;
+	margin-top: 13px;
 }
 .box-media__button{
 	margin-top: 50px;
@@ -859,7 +913,7 @@
 	.box-media__content{
 		width: 100%;
 		padding-left: 0;
-		margin-top: 15px;
+		margin-top: 22px;
 	}
 	.box-media__title{
 		font-size: 18px;
@@ -897,10 +951,10 @@
 	border-bottom: none;
 }
 .box-member__content{
-	width: 43.4%;
+	width: 42.8%;
 }
 .box-member__image{
-	width: 49.6%;
+	width: 57.2%;
 	padding-left: 84px;
 	text-align: right;
 }
@@ -924,6 +978,8 @@
 .box-member__head-label{
 	width: 65%;
 	padding-top: 9px;
+	padding-left: 11px;
+	box-sizing: border-box;
 }
 .box-member__head-point__image{
 	padding-left: 20px;
@@ -988,6 +1044,7 @@
 		bottom: 3px;
 		margin-right: 0;
 		padding-top: 0;
+		padding-left: 0;
 	}
 	.box-member__head-label__item {
 		margin-right: 1px;
@@ -1023,6 +1080,7 @@
 .txt-note{
 	margin-top: 8px;
 	text-align: left;
+	margin-left: 31px;
 }
 .txt-note__item{
 	font-size: 12px;
@@ -1040,10 +1098,51 @@
 @media screen and (max-width: 767px){
 	.txt-note{
 		margin-top: 10px;
+		margin-left: 0;
 	}
 	.txt-note__item{
 		font-size: 10px;
 		line-height: 1.5;
 		padding-left: 18px;
+	}
+}
+
+/* list-banner */
+.list-banner{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 65px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+.list-banner__item{
+	width: 50%;
+	padding: 0 8px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.list-banner__item a{
+	display: block;
+	-webkit-transition: opacity 0.15s;
+	transition: opacity 0.15s;
+}
+.list-banner__item a:hover{
+	opacity: 0.7;
+}
+@media screen and (max-width: 767px){
+	.list-banner{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.list-banner__item{
+		width: 100%;
+		padding: 0;
+	}
+	.list-banner__image{
+		text-align: center;
+	}
+	.list-banner__image img{
+		width: 100%;
 	}
 }
