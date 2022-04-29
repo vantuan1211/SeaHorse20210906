@@ -241,7 +241,7 @@
 	height: 155px;
 	background: #EAEAEA;
 	position: absolute;
-	bottom: 0;
+	bottom: 270px;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -335,7 +335,7 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 40px -10px 200px;
+	margin: 40px -10px 0;
 }
 .lst-course-large li{
 	display: inline-block;
@@ -414,6 +414,54 @@
 }
 .lst-course-large__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
+}
+.box-member__heading{
+	position: relative;
+	z-index: 2;
+	background: #EAEAEA;
+	padding: 80px 0 80px;
+}
+.box-member__heading::before{
+	content: "";
+	display: inline-block;
+	width: 119px;
+	height: 121px;
+	background: url("/files/user/lp/boosterclub/img/pct-member-macot01.png") no-repeat center;
+	position: absolute;
+	left: 50%;
+	bottom: -60px;
+	transform: translateX(-50%);
+}
+.box-member__title{
+	text-align: center;
+}
+.box-member__title__sub{
+	display: block;
+	font-size: 24px;
+	letter-spacing: 0.04em;
+	color: #00469B;
+}
+.box-member__title__main{
+	display: block;
+	font-size: 45px;
+	color: #00469B;
+}
+.box-member__title__highlight{
+	display: inline-block;
+	position: relative;
+}
+.box-member__title__highlight::before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 24px;
+	background: #FDE949;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+.box-member__title__highlight span{
+	position: relative;
 }
 /* Thuy */
 .is-visiblePc{
