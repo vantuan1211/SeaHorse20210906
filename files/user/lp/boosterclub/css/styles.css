@@ -527,4 +527,37 @@
 	}
 }
 
+/* box-member */
+.box-member{
+	padding-top: 140px;
+}
+.box-member__item{
+	display: flex;
+	justify-content: space-between;
+}
+.box-member__content{
+	width: 40%;
+}
+.box-member__image{
+	width: 60%;
+	padding-left: 84px;
+}
+.box-member__head{
+	display: flex;
+}
+.box-member__head-point{
+	width: 40%;
+	position: relative;
+}
+.box-member__head-point__text{
+	font-size: 16px;
+	font-weight: bold;
+	color: #00469B;
+	position: absolute;
+	top: 15px;
+}
+.box-member__head-label{
+	width: 60%;
+	padding-left: 16px;
+}
 
