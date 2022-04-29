@@ -289,7 +289,8 @@
 }
 .box-inquiries__text a{
 	color: #222;
-	transition: all 0.3s ease;
+	transition: opacity .15s;
+	-webkit-transition: opacity .15s;
 }
 .box-inquiries__text a:hover{
 	opacity: 0.7;
@@ -297,6 +298,8 @@
 .box-inquiries__phone a{
 	pointer-events: none;
 	cursor: default;
+	transition: opacity .15s;
+	-webkit-transition: opacity .15s;
 }
 @media screen and (max-width: 767px){
 	.box-inquiries{
