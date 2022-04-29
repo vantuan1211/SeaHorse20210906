@@ -67,7 +67,7 @@
 
 /* Mainvisual */
 .box-mv{
-	height: 100vh;
+	/* height: 100vh; */
 }
 .box-mv__main{
 	position: relative;
@@ -80,6 +80,10 @@
 }
 .box-mv__main__img{
 	font-size: 0;
+}
+.box-mv__main__img img{
+	height: auto;
+	object-fit: cover;
 }
 .box-mv__slogan{
 	background: #116CB6;
@@ -127,8 +131,8 @@
 
 .box-mv__slogan__fire{
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	bottom: -15px;
+	left: -70px;
 	z-index: 1;
 }
 
