@@ -241,6 +241,9 @@
 		display: block !important;
 	}
 }
+.bg-gray{
+	background:#F2F2F2;
+}
 /* box-notes */
 .box-notes{
 	margin-top: 110px;
@@ -395,7 +398,6 @@
 }
 /* box-point */
 .box-point{
-	background: #F2F2F2;
 	padding: 119px 0 171px;
 	box-sizing: border-box;
 	position: relative;
