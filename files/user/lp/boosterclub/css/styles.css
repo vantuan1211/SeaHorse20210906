@@ -680,10 +680,14 @@
 	}
 	.hdg-lv2__sub{
 		font-size: 16px;
+		margin-top: 8px;
 	}
 	.hdg-lv2__main--01{
 		white-space: nowrap;
 		font-size: 30px;
+	}
+	.hdg-lv2__main::after{
+		bottom: -3px;
 	}
 }
 @media screen and (max-width: 374px){
@@ -693,7 +697,7 @@
 }
 /* box-point */
 .box-point{
-	padding: 119px 0 171px;
+	padding: 116px 0 171px;
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
@@ -712,7 +716,7 @@
 }
 @media screen and (max-width: 767px){
 	.box-point{
-		padding: 61px 0 88px;
+		padding: 57px 0 88px;
 	}
 	.box-point::after{
 		width: 177px;
@@ -728,16 +732,16 @@
 }
 .box-media{
 	display: flex;
-	margin-top: 57px;
+	margin-top: 58px;
 	justify-content: center;
 	align-items: center;
 }
 .box-media__image{
-	width: 50%;
+	width: 51%;
 }
 .box-media__content{
-	width: 50%;
-	padding-left: 75px;
+	width: 49%;
+	padding-left: 64px;
 	box-sizing: border-box;
 }
 .box-media__title{
@@ -745,12 +749,13 @@
 	font-weight: bold;
 	line-height: 1.5;
 	color: #000;
+	margin-top: -6px;
 }
 .box-media__text{
 	font-size: 16px;
 	line-height: 1.5;
 	color: #222;
-	margin-top: 15px;
+	margin-top: 13px;
 }
 .box-media__button{
 	margin-top: 50px;
@@ -802,7 +807,7 @@
 	.box-media__content{
 		width: 100%;
 		padding-left: 0;
-		margin-top: 15px;
+		margin-top: 22px;
 	}
 	.box-media__title{
 		font-size: 18px;
@@ -840,10 +845,10 @@
 	border-bottom: none;
 }
 .box-member__content{
-	width: 43.4%;
+	width: 42.8%;
 }
 .box-member__image{
-	width: 49.6%;
+	width: 57.2%;
 	padding-left: 84px;
 	text-align: right;
 }
@@ -867,6 +872,8 @@
 .box-member__head-label{
 	width: 65%;
 	padding-top: 9px;
+	padding-left: 11px;
+	box-sizing: border-box;
 }
 .box-member__head-point__image{
 	padding-left: 20px;
@@ -931,6 +938,7 @@
 		bottom: 3px;
 		margin-right: 0;
 		padding-top: 0;
+		padding-left: 0;
 	}
 	.box-member__head-label__item {
 		margin-right: 1px;
@@ -966,6 +974,7 @@
 .txt-note{
 	margin-top: 8px;
 	text-align: left;
+	margin-left: 31px;
 }
 .txt-note__item{
 	font-size: 12px;
@@ -983,6 +992,7 @@
 @media screen and (max-width: 767px){
 	.txt-note{
 		margin-top: 10px;
+		margin-left: 0;
 	}
 	.txt-note__item{
 		font-size: 10px;
