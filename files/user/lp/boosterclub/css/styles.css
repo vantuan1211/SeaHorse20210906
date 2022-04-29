@@ -225,7 +225,192 @@
 	bottom: 0;
 	right: 16.471vw;
 }
-
+.box-course{
+	position: relative;
+	padding-top: 80px;
+	background: #00469B;
+}
+.box-course::after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 155px;
+	background: #EAEAEA;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.hdg-lv2-02{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+}
+.hdg-lv2-02 small{
+	display: inline-block;
+	font-size: 18px;
+	padding: 0 20px;
+	border-bottom: 2px solid #FDE949;
+}
+.hdg-lv2-02 span{
+	display: block;
+}
+.lst-course{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 80px -10px 200px;
+}
+.lst-course li{
+	display: inline-block;
+	padding: 0 10px;
+	width: 20%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.lst-course__item{
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	padding: 22px 5px;
+}
+.lst-course__item:hover{
+	opacity: 0.7;
+}
+.lst-course__item figure{
+	display: block;
+	text-align: center;
+}
+.lst-course__item img{
+	height: 32px;
+	width: auto;
+}
+.lst-course__item span{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.lst-course__item--01{
+	background-image: linear-gradient(to right, rgba(209,207,207,0.5) , rgba(209,207,207,1));
+}
+.lst-course__item--02{
+	background-image: linear-gradient(to right, rgba(227,227,227,0.5) , rgba(227,227,227,1));
+}
+.lst-course__item--03{
+	background-image: linear-gradient(to right, rgba(238,229,213,0.5) , rgba(238,229,213,1));
+}
+.lst-course__item--04{
+	background-image: linear-gradient(to right, rgba(204,215,232,0.5) , rgba(204,215,232,1));
+}
+.lst-course__item--05{
+	background-image: linear-gradient(to right, rgba(204,239,215,0.5) , rgba(204,239,215,1));
+}
+.lst-course__item--06{
+	background-image: linear-gradient(to right, rgba(250,232,204,0.5) , rgba(250,232,204,1));
+}
+.lst-course__item--07{
+	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
+}
+.hdg-lv3{
+	font-size: 24px;
+	letter-spacing: 0.04em;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+.lst-course-large{
+	position: relative;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 40px -10px 200px;
+}
+.lst-course-large li{
+	display: inline-block;
+	padding: 0 10px;
+	width: 50%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.lst-course-large__item{
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	padding: 44px 15px;
+}
+.lst-course-large__item:hover{
+	opacity: 0.7;
+}
+.lst-course-large__item figure{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.lst-course-large__item img{
+	height: 32px;
+	width: auto;
+}
+.lst-course-large__sub{
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 20px;
+}
+.lst-course-large__title{
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 30px;
+}
+.lst-course-large__label{
+	display: inline-block;
+	text-align: center;
+	width: 160px;
+	font-size: 14px;
+	line-height: 36px;
+	letter-spacing: 0.04em;
+	color: #000;
+	background: #fff;
+}
+.lst-course-large__item--01{
+	background-image: linear-gradient(to right, rgba(209,207,207,0.5) , rgba(209,207,207,1));
+}
+.lst-course-large__item--02{
+	background-image: linear-gradient(to right, rgba(227,227,227,0.5) , rgba(227,227,227,1));
+}
+.lst-course-large__item--03{
+	background-image: linear-gradient(to right, rgba(238,229,213,0.5) , rgba(238,229,213,1));
+}
+.lst-course-large__item--04{
+	background-image: linear-gradient(to right, rgba(204,215,232,0.5) , rgba(204,215,232,1));
+}
+.lst-course-large__item--05{
+	background-image: linear-gradient(to right, rgba(204,239,215,0.5) , rgba(204,239,215,1));
+}
+.lst-course-large__item--06{
+	background-image: linear-gradient(to right, rgba(250,232,204,0.5) , rgba(250,232,204,1));
+}
+.lst-course-large__item--07{
+	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
+}
 /* Thuy */
 .is-visiblePc{
 	display: block !important;
