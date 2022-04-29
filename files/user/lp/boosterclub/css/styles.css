@@ -150,7 +150,81 @@
   }
 
 /* Tuan */
-
+.box-introduce{
+	position: relative;
+	background: #00469B;
+}
+.box-introduce::before{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url("/files/user/lp/boosterclub/img/bg-introduce-deco01.png") no-repeat center bottom;
+	background-size: cover;
+	z-index: 1;
+}
+.box-introduce__title{
+	text-align: center;
+}
+.box-introduce__title img{
+	width: 9.883vw;
+	height: auto;
+}
+.box-introduce__content{
+	position: relative;
+	z-index: 2;
+	padding: 11.713vw 0 56.369vw;
+}
+.box-introduce__image--01{
+	position: absolute;
+	top: 2.928vw;
+	right: 0;
+}
+.box-introduce__image--01 img{
+	width: 38.287vw;
+	height: auto;
+}
+.box-introduce__image--02{
+	position: absolute;
+	bottom: 27.452vw;
+	right: 0;
+}
+.box-introduce__image--02 img{
+	width: 32.138vw;
+	height: auto;
+}
+.box-introduce__image--03{
+	position: absolute;
+	top: 5.490vw;
+	left: 0;
+}
+.box-introduce__image--03 img{
+	width: 37.775vw;
+	height: auto;
+}
+.box-introduce__image--04{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.box-introduce__image--04 img{
+	width: 45.315vw;
+	height: auto;
+}
+.box-introduce__text{
+	font-size: 1.318vw;
+	line-height: 2.667;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 16.471vw;
+}
 
 /* Thuy */
 .is-visiblePc{
@@ -239,10 +313,17 @@
 }
 .box-inquiries__text a{
 	color: #222;
-	transition: all 0.3s ease;
+	transition: opacity .15s;
+	-webkit-transition: opacity .15s;
 }
 .box-inquiries__text a:hover{
 	opacity: 0.7;
+}
+.box-inquiries__phone a{
+	pointer-events: none;
+	cursor: default;
+	transition: opacity .15s;
+	-webkit-transition: opacity .15s;
 }
 @media screen and (max-width: 767px){
 	.box-inquiries{
@@ -261,8 +342,161 @@
 	.box-inquiries__text{
 		margin-bottom: 2px;
 	}
-	.box-inquiries__text:nth-child(2){
+	.box-inquiries__hours{
 		margin-bottom: 3px;
 	}
+	.box-inquiries__phone a{
+		pointer-events: all;
+	}
 }
+.hdg-lv2{
+	font-weight: bold;
+	letter-spacing: 0.04em;
+	text-align: center;
+	font-size: 48px;
+	line-height: 1.5;
+	color: #00469B;
+}
+.hdg-lv2__main{
+	position: relative;
+}
+.hdg-lv2__main::after{
+	content: "";
+	border-bottom: 1px solid #003D90;
+	position: absolute;
+	left: 15px;
+	right: 17px;
+	bottom: 0;
+}
+.hdg-lv2__sub{
+	font-size: 18px;
+	color: #222;
+	display: block;
+}
+@media screen and (max-width: 767px){
+	.hdg-lv2{
+		font-size: 32px;
+	}
+	.hdg-lv2__sub{
+		font-size: 16px;
+	}
+}
+/* box-point */
+.box-point{
+	background: #F2F2F2;
+	padding: 119px 0 175px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+.box-point::after{
+	content: "";
+	background: url('/files/user/lp/boosterclub/img/img-fire-03.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	right: -70px;
+	bottom: -170px;
+	display: block;
+	z-index: 2;
+}
+@media screen and (max-width: 767px){
+	.box-point::after{
+		width: 177px;
+		height: 176px;
+		bottom: -63px;
+		right: -21px;
+	}
+}
+
+/* box-media */
+.box-media + .hdg-lv2{
+	margin-top: 100px;
+}
+.box-media{
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
+	align-items: center;
+}
+.box-media__image{
+	width: 50%;
+}
+.box-media__content{
+	width: 50%;
+	padding-left: 68px;
+}
+.box-media__title{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #000;
+}
+.box-media__text{
+	font-size: 16px;
+	line-height: 1.5;
+	color: #222;
+	margin-top: 10px;
+}
+.box-media__button{
+	margin-top: 50px;
+}
+.btn{
+	border: 2px solid #003D90;
+	border-radius: 45px;
+	padding: 25px 32px 25px 32px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	line-height: 1.625;
+	color: #00469B;
+	width: 260px;
+	display: block;
+	transition: opacity .15s;
+	-webkit-transition: opacity .15s;
+	position: relative;
+}
+.btn::after{
+	content: "";
+	background: url(/files/user/lp/boosterclub/img/icn-arrow.png) no-repeat;
+	position: absolute;
+	right: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 12px;
+}
+.btn:hover{
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 767px){
+	.box-media{
+		flex-wrap: wrap;
+	}
+	.box-media__image{
+		width: 100%;
+		text-align: center;
+	}
+	.box-media__image img{
+		width: 100%;
+	}
+	.box-media__content{
+		width: 100%;
+		padding-left: 0;
+	}
+	.box-media__title{
+		font-size: 18px;
+		line-height: 1.66;
+	}
+	.box-media__button .btn{
+		margin: 0 auto;
+	}
+	.btn{
+		width: 252px;
+	}
+}
+
 
