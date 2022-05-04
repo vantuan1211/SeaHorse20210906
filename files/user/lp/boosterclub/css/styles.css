@@ -16,6 +16,12 @@
 	height: auto;
 }
 
+@media print, screen and (min-width: 768px){
+	body{
+		min-width: auto;
+	}
+}
+
 /* Header */
 .header{
 	background: #1A4899;
@@ -383,6 +389,18 @@
 	}
   }
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.box-mv__main__title{
+		max-width: 85%;
+	}
+	.box-mv__slogan__scroll{
+		height: 110px;
+	}
+	.box-mv__slogan__fire img{
+		width: 320px;
+		height: auto;
+	}
+}
 @media screen and (max-width: 767px){
 	.box-mv__main__title{
 		top: 42%;
@@ -534,6 +552,7 @@
 .box-introduce{
 	position: relative;
 	background: #00469B;
+	/* overflow: hidden; */
 }
 .box-introduce::before{
 	content: "";
@@ -549,6 +568,34 @@
 	background-size: 100% auto;
 	z-index: 1;
 }
+/* .box-introduce::after{
+	content: "";
+	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	right: -35px;
+	bottom: 331px;
+	display: block;
+	z-index: 1;
+} */
+.box-course__inner{
+	position: relative;
+	overflow: hidden;
+}
+/* .box-course__inner::after{
+	content: "";
+	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	right: -35px;
+	bottom: 331px;
+	display: block;
+	z-index: 1;
+} */
 .box-introduce__title{
 	position: relative;
 	z-index: 3;
@@ -667,11 +714,18 @@
 		letter-spacing: 0;
 		padding: 0 16px;
 	}
+	.box-introduce::after{
+		display: none;
+	}
 }
 .box-course{
 	position: relative;
 	z-index: 2;
 	padding-top: 198px;
+}
+.box-course .wrp-container{
+	overflow: hidden;
+	position: relative;
 }
 .box-course::after{
 	content: "";
@@ -685,6 +739,23 @@
 	right: 0;
 	z-index: 1;
 }
+.box-course__inner{
+	position: relative;
+	overflow: hidden;
+}
+.box-course__inner::after{
+	content: "";
+	background: url(/files/user/lp/boosterclub/img/img-fire-04.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	right: -35px;
+	bottom: 76px;
+	display: block;
+	z-index: -1;
+}
+
 .hdg-lv2-02{
 	text-align: center;
 	font-size: 40px;
@@ -799,6 +870,9 @@
 		font-size: 10px;
 		line-height: 1;
 		margin-top: 2px;
+	}
+	.box-course__inner::after{
+		display: none;
 	}
 }
 .hdg-lv3{
