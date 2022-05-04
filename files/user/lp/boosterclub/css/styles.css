@@ -2117,6 +2117,8 @@
 	font-size: 24px;
 	font-weight: bold;
 	color: #000;
+	position: relative;
+	z-index: 1;
 }
 .box-heading-lv1 h1 span{
 	display: block;
@@ -2398,6 +2400,19 @@
 	width: 304px;
 	height: 302px;
 	bottom: -125px;
+}
+@media screen and (max-width: 767px){
+	.section-agreement .box-heading-lv1{
+		padding: 46px 0;
+	}
+	.section-agreement .box-heading-lv1::before{
+		display: block;
+		background: url(/files/user/lp/boosterclub/img/img-fire-05.png) no-repeat;
+		background-size: 100% 100%;
+		width: 156px;
+		height: 155px;
+		bottom: -60px;
+	}
 }
 
 .m-tbl-base{
