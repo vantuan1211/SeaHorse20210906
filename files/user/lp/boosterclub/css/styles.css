@@ -690,6 +690,113 @@
 .lst-course-large__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
 }
+.lst-course-main{
+	position: relative;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 40px -10px 0;
+}
+.lst-course-main li{
+	display: inline-block;
+	padding: 0 10px;
+	width: 50%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.lst-course-main__item{
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	padding: 44px 15px;
+}
+.lst-course-main__item:hover{
+	opacity: 0.7;
+}
+.lst-course-main__item figure{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.lst-course-main__item img{
+	height: 32px;
+	width: auto;
+}
+.lst-course-main__sub{
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: bold;
+	color: #222;
+	margin-bottom: 20px;
+}
+.lst-course-main__title{
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 30px;
+}
+.lst-course-main__label{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.lst-course-main__label__name{
+	display: inline-block;
+	text-align: center;
+	width: 108px;
+	font-size: 14px;
+	line-height: 36px;
+	letter-spacing: 0.04em;
+	color: #fff;
+	background: #403B39;
+	margin-right: 5px;
+}
+.lst-course-main__label__name strong{
+	font-size: 20px;
+	line-height: 30px;
+}
+.lst-course-main__label__info{
+	display: inline-block;
+	text-align: center;
+	width: 160px;
+	font-size: 14px;
+	line-height: 36px;
+	letter-spacing: 0.04em;
+	color: #000;
+	background: #fff;
+}
+.lst-course-main__item--01{
+	background-image: linear-gradient(to right, rgba(209,207,207,0.5) , rgba(209,207,207,1));
+}
+.lst-course-main__item--02{
+	background-image: linear-gradient(to right, rgba(227,227,227,0.5) , rgba(227,227,227,1));
+}
+.lst-course-main__item--03{
+	background-image: linear-gradient(to right, rgba(238,229,213,0.5) , rgba(238,229,213,1));
+}
+.lst-course-main__item--04{
+	background-image: linear-gradient(to right, rgba(204,215,232,0.5) , rgba(204,215,232,1));
+}
+.lst-course-main__item--05{
+	background-image: linear-gradient(to right, rgba(204,239,215,0.5) , rgba(204,239,215,1));
+}
+.lst-course-main__item--06{
+	background-image: linear-gradient(to right, rgba(250,232,204,0.5) , rgba(250,232,204,1));
+}
+.lst-course-main__item--07{
+	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
+}
 .box-member__heading{
 	position: relative;
 	z-index: 2;
