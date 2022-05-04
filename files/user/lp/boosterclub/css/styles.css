@@ -983,6 +983,9 @@
 	background: #403B39;
 	margin-right: 5px;
 }
+.lst-course-main__label__name--01{
+	background: #8D8D8D;
+}
 .lst-course-main__label__name strong{
 	font-size: 20px;
 	line-height: 1;
@@ -997,7 +1000,7 @@
 	line-height: 36px;
 	letter-spacing: 0.04em;
 	color: #000;
-	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
 }
 .lst-course-main__signture{
 	display: inline-block;
@@ -1021,13 +1024,63 @@
 	background-image: linear-gradient(to right, rgba(204,215,232,0.5) , rgba(204,215,232,1));
 }
 .lst-course-main__item--05{
-	background-image: linear-gradient(to right, rgba(204,239,215,0.5) , rgba(204,239,215,1));
+	background-image: linear-gradient(to right, rgba(204,239,251,0.5) , rgba(204,239,251,1));
 }
 .lst-course-main__item--06{
 	background-image: linear-gradient(to right, rgba(250,232,204,0.5) , rgba(250,232,204,1));
 }
 .lst-course-main__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
+}
+@media screen and (max-width: 767px){
+	.lst-course-main{
+		display: block;
+	}
+	.lst-course-main li{
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	.lst-course-main__item figure img{
+		height: 40px;
+	}
+	.lst-course-main__title{
+		font-size: 16px;
+		margin-bottom: 12px;
+	}
+	.lst-course-main__label__name{
+		font-size: 12px;
+		line-height: 34px;
+		margin-right: 0;
+		width: 100px;
+	}
+	.lst-course-main__label__name strong{
+		font-size: 16px;
+		vertical-align: text-top;
+	}
+	.lst-course-main__label__info{
+		font-size: 12px;
+		line-height: 34px;
+		width: 124px;
+	}
+	.lst-course-main__signture{
+		width: 62px;
+		height: 62px;
+		top: 8px;
+		right: 8px;
+	}
+	.lst-course-main__item{
+		padding: 42px 15px 40px;
+	}
+	.lst-course-main__item::before{
+		right: 4px;
+		bottom: 4px;
+	}
+	.lst-course-main__sub{
+		margin-bottom: 24px;
+	}
+	.box-course-main__button{
+		margin-top: 25px;
+	}
 }
 .box-member__heading{
 	position: relative;
