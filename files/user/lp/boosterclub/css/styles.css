@@ -428,6 +428,108 @@
 	}
 }
 
+/* Box join */
+.sec-join{
+	padding: 81px 0 65px;
+	margin-top: 158px;
+	background: rgb(20, 114, 186);
+	background: -moz-linear-gradient(90deg, rgba(20, 114, 186, 1) 0%, rgba(5, 77, 161, 1) 50%, rgba(0, 70, 155, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(20, 114, 186, 1) 0%, rgba(5, 77, 161, 1) 50%, rgba(0, 70, 155, 1) 100%);
+	background: linear-gradient(90deg, rgba(20, 114, 186, 1) 0%, rgba(5, 77, 161, 1) 50%, rgba(0, 70, 155, 1) 100%);
+}
+.box-join__title{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.box-join__club{
+	position: relative;
+	text-align: center;
+	margin-top: 28px;
+}
+.box-join__club__btn{
+	display: inline-block;
+	transition: all 0.3s;
+	z-index: 2;
+	position: relative;
+}
+.box-join__club__btn:hover{
+	opacity: 0.7;
+}
+.box-join__club__slogan{
+	position: absolute;
+	top: 45%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-50%);
+}
+.box-join__club__slogan__scroll{
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background: rgb(20, 114, 186);
+	background: -moz-linear-gradient(90deg, rgba(20, 114, 186, 1) 0%, rgba(5, 77, 161, 1) 50%, rgba(0, 70, 155, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(20, 114, 186, 1) 0%, rgba(5, 77, 161, 1) 50%, rgba(0, 70, 155, 1) 100%);
+	background: linear-gradient(90deg, rgba(20, 114, 186, 1) 0%, rgba(5, 77, 161, 1) 50%, rgba(0, 70, 155, 1) 100%);
+	overflow: hidden;
+	z-index: 2;
+}
+.box-join__club__slogan__scroll__wrp {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	transition: all 1s ease;
+}
+.box-join__club__slogan__scroll__wrp__inner {
+	display: flex;
+	-webkit-animation: scrollText 33s infinite linear;
+	animation: scrollText 33s infinite linear;
+}
+
+.box-join__club__slogan__scroll__txt {
+	margin: 0;
+	font-size: 56px;
+	line-height: 1.5;
+	font-weight: bold;
+	font-style: italic;
+	transition: all 2s ease;
+	color: transparent;
+	-webkit-text-stroke: #fff 1px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	/* IE10+ CSS styles go here */
+	.box-join__club__slogan__scroll__txt{
+		color: #00469B;
+		text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+	}
+}
+@media screen and (max-width: 767px){
+	.sec-join{
+		margin-top: 112px;
+		padding: 60px 0 60px;
+	}
+	.box-join__title{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.box-join__club__btn img{
+		width: 230px;
+		height: auto;
+	}
+	.box-join__club__slogan__scroll__txt{
+		font-size: 32px;
+	}
+}
+
 /* Tuan */
 .box-introduce{
 	position: relative;
@@ -1305,7 +1407,7 @@
 /* box-member */
 .box-member{
 	padding-top: 140px;
-	padding-bottom: 80px;
+	padding-bottom: 128px;
 }
 .box-member__item{
 	display: flex;
@@ -1377,7 +1479,7 @@
 @media screen and (max-width: 767px){
 	.box-member{
 		padding-top: 82px;
-		padding-bottom: 20px;
+		padding-bottom: 31px;
 	}
 	.box-member__item{
 		flex-wrap: wrap;
@@ -1475,16 +1577,112 @@
 	}
 }
 /* box-campaign */
-
+.box-campaign{
+	background: #00469B;
+	position: relative;
+	padding-bottom: 121px;
+}
+.box-campaign::after{
+	content: "";
+	background: url('/files/user/lp/boosterclub/img/bg-campaign.png') no-repeat top center;
+	background-size: cover;
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	z-index: 1;
+}
+.box-campaign__title{
+	position: relative;
+	z-index: 2;
+	top: -78px;
+	text-align: center;
+	margin-bottom: 23px;
+}
+.box-campaign .hdg-lv2-02{
+	position: relative;
+	z-index: 2;
+}
+.box-campaign__inner{
+	position: relative;
+}
+.box-campaign__inner::before{
+	content: "";
+	background: url(/files/user/lp/boosterclub/img/img-fire-01.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	left: -53px;
+	top: -237px;
+	display: block;
+	z-index: 1;
+}
+.box-campaign__inner::after{
+	content: "";
+	background: url(/files/user/lp/boosterclub/img/pct-campaign-macot01.png) no-repeat;
+	width: 322px;
+	height: 640px;
+	display: block;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 49px;
+	top: -110px;
+	z-index: 2;
+}
+@media screen and (max-width: 1300px) and (min-width:768px){
+	.box-campaign__inner::before{
+		width: 31.07vw;
+		height: 31vw;
+		top:-18.23vw;
+		left: -4.07vw;
+	}
+	.box-campaign__title{
+		top:-6vw;
+	}
+	.box-campaign__title img{
+		width: 41.07vw;
+	}
+	.box-campaign__inner::after{
+		width: 24.76vw;
+		height: 49.23vw;
+		right: 3.769vw;
+		top: -8.46vw;
+	}
+}
+@media screen and (max-width: 767px){
+	.box-campaign__title{
+		text-align: right;
+		top: -8vw;
+	}
+	.box-campaign__title img{
+		width: 60%;
+	}
+	.box-campaign__inner::before {
+		width: 159px;
+		height: 158px;
+		top: -94px;
+		left: -22px;
+	}
+	.box-campaign__inner::after{
+		display: none;
+	}
+}
 
 /* list-banner */
 .list-banner{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 65px;
+	margin-top: 57px;
 	margin-left: -8px;
 	margin-right: -8px;
+	position: relative;
+	z-index: 3;
 }
 .list-banner__item{
 	width: 50%;
@@ -1504,6 +1702,7 @@
 	.list-banner{
 		margin-left: 0;
 		margin-right: 0;
+		margin-top: 35px;
 	}
 	.list-banner__item{
 		width: 100%;
@@ -1516,6 +1715,8 @@
 		width: 100%;
 	}
 }
+
+
 
 
 /* phuc */
