@@ -1876,6 +1876,20 @@
 
 .box-heading-lv1{
 	padding: 60px 0;
+	position: relative;
+	overflow: hidden;
+}
+.box-heading-lv1::before{
+	content: "";
+	background: url(/files/user/lp/boosterclub/img/img-fire-03.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	right: -35px;
+	bottom: -166px;
+	display: block;
+	z-index: 1;
 }
 .box-heading-lv1__content{}
 .box-heading-lv1 h1{
@@ -1959,5 +1973,46 @@
 	.m-hdg-lv4{
 		font-size: 16px;
 		line-height: 1.7;
+	}
+}
+
+.m-box-image{
+	margin-top: 35px;
+}
+.m-box-image__img{
+	font-size: 0;
+}
+.m-box-image__text{
+	font-size: 14px;
+	line-height: 1.5;
+	color: #000;
+	margin-top: 5px;
+}
+@media screen and (max-width: 767px){
+	.m-box-image__img img{
+		width: 100%;
+	}
+}
+
+.m-lst-image{
+	display: flex;
+	margin: 0 -8px;
+}
+.m-lst-image li{
+	padding: 0 8px;
+	box-sizing: border-box;
+}
+@media screen and (max-width: 767px){
+	.m-lst-image{
+		flex-direction: column;
+	}
+	.m-lst-image--col6_Sp{
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0 -4px;
+	}
+	.m-lst-image--col6_Sp li{
+		width: 50%;
+		padding: 0 4px;
 	}
 }
