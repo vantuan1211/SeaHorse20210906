@@ -1204,6 +1204,12 @@
 	.box-course-main__button{
 		margin-top: 25px;
 	}
+	.box-course-main::after{
+		width: 177px;
+		height: 169px;
+		left: -23px;
+		bottom: -68px;
+	}
 }
 .box-member__heading{
 	position: relative;
