@@ -4,40 +4,37 @@ $(document).ready(function($) {
 	if($(".js-parafilter").get(0)){
 		var ULS = new URLSearchParams(window.location.search);
 		var parameter = ULS.get('course');
-		var notAllows = ["d","p","g","r","b","gk","k","all"];
-		if (notAllows.indexOf($(this).val()) < 0) {
+		if(parameter == "d"){
+			$('#diamond').show();
+		}
+		else if(parameter == "p"){
+			$('#platinum').show();
+		}
+		else if(parameter == "g"){
+			$('#gold').show();
+		}
+		else if(parameter == "r"){
 			$('#regular').show();
+		}
+		else if(parameter == "b"){
+			$('#beginner').show();
+		}
+		else if(parameter == "gk"){
+			$('#goldkids').show();
+		}
+		else if(parameter == "k"){
+			$('#kids').show();
+		}
+		else if(parameter == "all"){
+			$('#diamond').show();
+			$('#platinum').show();
+			$('#gold').show();
+			$('#regular').show();
+			$('#beginner').show();
+			$('#goldkids').show();
+			$('#kids').show();
 		}else{
-			if(parameter == "d"){
-				$('#diamond').show();
-			}
-			if(parameter == "p"){
-				$('#platinum').show();
-			}
-			if(parameter == "g"){
-				$('#gold').show();
-			}
-			if(parameter == "r"){
-				$('#regular').show();
-			}
-			if(parameter == "b"){
-				$('#beginner').show();
-			}
-			if(parameter == "gk"){
-				$('#goldkids').show();
-			}
-			if(parameter == "k"){
-				$('#kids').show();
-			}
-			if(parameter == "all"){
-				$('#diamond').show();
-				$('#platinum').show();
-				$('#gold').show();
-				$('#regular').show();
-				$('#beginner').show();
-				$('#goldkids').show();
-				$('#kids').show();
-			}
+			$('#regular').show();
 		}
 	}
 });//End -> ready method
