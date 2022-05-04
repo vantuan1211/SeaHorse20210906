@@ -1487,7 +1487,7 @@
 .box-campaign{
 	background: #00469B;
 	position: relative;
-	padding-bottom: 121px;
+	padding-bottom: 124px;
 }
 .box-campaign::after{
 	content: "";
@@ -1496,11 +1496,10 @@
 	display: inline-block;
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 60%;
 	left: 0;
 	right: 0;
 	top:0;
-	bottom: 0;
 	z-index: 1;
 }
 .box-campaign__title{
@@ -1540,6 +1539,18 @@
 	right: 49px;
 	top: -110px;
 	z-index: 2;
+}
+.box-campaign .sec-join{
+	margin-top: 89px;
+	background: none;
+	position: relative;
+	z-index: 2;
+}
+.box-campaign .box-join__club__slogan__scroll{
+	background: none;
+}
+.box-campaign .box-join__club{
+	margin-top: 32px;
 }
 @media screen and (max-width: 1300px) and (min-width:768px){
 	.box-campaign__inner::before{
