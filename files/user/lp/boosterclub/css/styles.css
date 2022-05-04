@@ -473,7 +473,7 @@
 	position: relative;
 }
 .box-join__club__btn:hover{
-	opacity: 0.7;
+	transform: scale(1.1);
 }
 .box-join__club__slogan{
 	position: absolute;
@@ -552,7 +552,6 @@
 .box-introduce{
 	position: relative;
 	background: #00469B;
-	/* overflow: hidden; */
 }
 .box-introduce::before{
 	content: "";
@@ -568,34 +567,10 @@
 	background-size: 100% auto;
 	z-index: 1;
 }
-/* .box-introduce::after{
-	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
-	width: 404px;
-	height: 403px;
-	right: -35px;
-	bottom: 331px;
-	display: block;
-	z-index: 1;
-} */
 .box-course__inner{
 	position: relative;
 	overflow: hidden;
 }
-/* .box-course__inner::after{
-	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
-	width: 404px;
-	height: 403px;
-	right: -35px;
-	bottom: 331px;
-	display: block;
-	z-index: 1;
-} */
 .box-introduce__title{
 	position: relative;
 	z-index: 3;
@@ -745,7 +720,7 @@
 }
 .box-course__inner::after{
 	content: "";
-	background: url(/files/user/lp/boosterclub/img/img-fire-04.png) no-repeat;
+	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
@@ -1209,6 +1184,12 @@
 	.box-course-main__button{
 		margin-top: 24px;
 	}
+	.box-course-main::after{
+		width: 177px;
+		height: 169px;
+		left: -23px;
+		bottom: -68px;
+	}
 }
 .box-member__heading{
 	position: relative;
@@ -1539,11 +1520,16 @@
 	color: #00469B;
 	min-width: 260px;
 	display: inline-block;
-	transition: opacity .15s;
-	-webkit-transition: opacity .15s;
+	transition: ease 0.2s;
 	position: relative;
+	overflow: hidden;
 	z-index: 2;
 	background: #fff;
+}
+.btn span{
+	color: #00469B;
+	z-index: 2;
+	position: relative;
 }
 .btn--large{
 	min-width: 355px;
@@ -1559,6 +1545,19 @@
 	margin-right: 8px;
 	bottom: -2px;
 }
+.btn::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #00469B;
+	width: 100%;
+	height: 100%;
+	border-radius: 45px;
+	transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+	transform: scale(0, 1);
+	transform-origin: top;
+}
 .btn::after{
 	content: "";
 	background: url(/files/user/lp/boosterclub/img/icn-arrow.png) no-repeat;
@@ -1569,8 +1568,15 @@
 	width: 10px;
 	height: 12px;
 }
-.btn:hover{
-	opacity: 0.7;
+.btn:hover span{
+	color: #fff;
+}
+.btn:hover::before{
+	transform: scale(1,1);
+}
+.btn:hover::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') no-repeat;
 }
 
 @media screen and (max-width: 767px){
@@ -2176,6 +2182,144 @@
 	.m-lst-image--col6_Sp li{
 		width: 50%;
 		padding: 0 4px;
+	}
+}
+
+.m-lst-ordered{
+	list-style: decimal;
+	padding-left: 23px;
+	font-size: 12px;
+	line-height: 1.75;
+	color: #4F4F4F;
+	margin-top: 50px;
+}
+.m-lst-ordered li{
+	padding-left: 5px;
+}
+.m-lst-ordered li + li{
+	margin-top: 10px;
+}
+.m-lst-ordered li::marker{
+	content: "※ " counter(list-item) " ";
+}
+@media screen and (max-width: 767px){
+	.m-lst-ordered li + li{
+		margin-top: 30px;
+	}
+}
+
+.m-lst-text-image{
+	margin-top: 30px;
+}
+.m-lst-text-image > li{
+	display: flex;
+	justify-content: space-between;
+}
+.m-lst-text-image > li + li{
+	margin-top: 65px;
+}
+.m-lst-text-image > li:nth-of-type(odd){
+	flex-direction: row;
+}
+.m-lst-text-image > li:nth-of-type(even){
+	flex-direction: row-reverse;
+}
+.m-lst-text-image > li:nth-of-type(odd) .m-lst-text-image__text{
+	padding-left: 24px;
+}
+.m-lst-text-image > li:nth-of-type(even) .m-lst-text-image__text{
+	padding-right: 24px;
+}
+.m-lst-text-image__img{
+	width: 40.7260%
+}
+.m-lst-text-image__text{
+	width: 59.2740%;
+}
+.m-lst-text-image .txt-lead,
+.m-lst-text-image .m-box-image{
+	margin-top: 0;
+}
+@media screen and (max-width: 767px){
+	.m-lst-text-image > li + li{
+		margin-top: 70px;
+	}
+	.m-lst-text-image > li:nth-of-type(odd),
+	.m-lst-text-image > li:nth-of-type(even){
+		flex-direction: column;
+	}
+	.m-lst-text-image > li:nth-of-type(odd) .m-lst-text-image__text{
+		padding-left: 0;
+	}
+	.m-lst-text-image > li:nth-of-type(even) .m-lst-text-image__text{
+		padding-right: 0;
+	}
+	.m-lst-text-image__img,
+	.m-lst-text-image__text{
+		width: 100%
+	}
+	.m-lst-text-image__text{
+		margin-top: 25px;
+	}
+}
+
+.m-lst-anchor-link{
+	margin: 65px -2px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.m-lst-anchor-link li{
+	padding: 0 2px;
+	width: 25%;
+	box-sizing: border-box;
+}
+.m-lst-anchor-link a{
+	display: flex;
+	align-items: center;
+	height: 51px;
+	background: #E5ECF5;
+	color: #00469B;
+	padding: 0 24px;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.m-lst-anchor-link a:hover{
+	opacity: 0.7;
+}
+.m-lst-anchor-link__text{}
+.m-lst-anchor-link__icon{
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	position: absolute;
+	right: 4px;
+	bottom: 3px;
+}
+.m-lst-anchor-link__icon::after{
+	content: "";
+	width: 8px;
+	height: 12px;
+	background: url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
+	background-size: 100%;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+@media screen and (max-width: 767px){
+	.m-lst-anchor-link{
+		margin-top: 50px;
+	}
+	.m-lst-anchor-link li{
+		width: 50%;
+		margin-bottom: 4px;
+	}
+	.m-lst-anchor-link a{
+		height: 52px;
+		padding: 0 24px 0 16px;
 	}
 }
 
