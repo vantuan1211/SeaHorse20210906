@@ -548,6 +548,49 @@
 	}
 }
 
+.m-arc-primary{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00469B;
+	padding-left: 32px;
+}
+.m-arc-primary::before{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') center center no-repeat #00469B;
+	background-size: 7px 8px;
+	background-position-x: 10px;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.m-arc-primary::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 32px;
+	right: 0;
+	height: 1px;
+	background-color: #00469B;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 0.5s ease;
+}
+@media screen and (min-width: 768px) {
+	.m-arc-primary:hover::after{
+		transform-origin: bottom left;
+		transform: scaleX(1);
+	}
+}
+
+
 /* Tuan */
 .box-introduce{
 	position: relative;
