@@ -548,49 +548,6 @@
 	}
 }
 
-.m-arc-primary{
-	position: relative;
-	display: inline-block;
-	font-size: 16px;
-	font-weight: bold;
-	color: #00469B;
-	padding-left: 32px;
-}
-.m-arc-primary::before{
-	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') center center no-repeat #00469B;
-	background-size: 7px 8px;
-	background-position-x: 10px;
-	width: 24px;
-	height: 24px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.m-arc-primary::after{
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 32px;
-	right: 0;
-	height: 1px;
-	background-color: #00469B;
-	transform-origin: bottom right;
-	transform: scaleX(0);
-	transition: transform 0.5s ease;
-}
-@media screen and (min-width: 768px) {
-	.m-arc-primary:hover::after{
-		transform-origin: bottom left;
-		transform: scaleX(1);
-	}
-}
-
-
 /* Tuan */
 .box-introduce{
 	position: relative;
@@ -1585,7 +1542,7 @@
 .btn--large{
 	min-width: 355px;
 }
-.btn--pdf span::before{
+.btn--pdf::before{
 	content: "";
 	display: inline-block;
 	width: 18px;
@@ -1629,15 +1586,14 @@
 	content: '';
 	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') no-repeat;
 }
-a.btn[href$=".pdf"]{
+.btn--pdf[href$=".pdf"]{
 	padding: 20px 50px 22px 35px;
 	margin: 0;
-	min-width: 355px;
 }
-a.btn[href$=".pdf"] span{
+.btn--pdf[href$=".pdf"] span{
 	padding-left: 30px;
 }
-a.btn[href$=".pdf"] span::before{
+.btn--pdf[href$=".pdf"] span::before{
 	content: '';
 	background: url('/files/user/lp/boosterclub/img/icn-pdf.png') no-repeat;
 	width: 18px;
@@ -1647,6 +1603,22 @@ a.btn[href$=".pdf"] span::before{
 	left: 0;
 	transform: translateY(-50%);
 }
+.btn--pdf[href$=".pdf"]:hover span::before{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-pdf-white.png') no-repeat;
+}
+
+.btn--blank[target="_blank"]::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-blank.png') no-repeat;
+	width: 18px;
+	height: 18px;
+}
+.btn--blank[target="_blank"]:hover::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-blank-white.png') no-repeat;
+}
+
 
 @media screen and (max-width: 767px){
 	.box-media{
@@ -2184,7 +2156,7 @@ a.btn[href$=".pdf"] span::before{
 	font-weight: bold;
 	line-height: 1.5;
 	color: #00469B;
-	margin-top: 140px;
+	margin-top: 100px;
 }
 .m-hdg-lv3{
 	font-size: 24px;
@@ -2416,6 +2388,18 @@ a.btn[href$=".pdf"] span::before{
 	}
 }
 
+.section-agreement .box-heading-lv1{
+	padding: 106px 0;
+}
+.section-agreement .box-heading-lv1 h1{
+	color: #fff;
+}
+.section-agreement .box-heading-lv1::before{
+	width: 304px;
+	height: 302px;
+	bottom: -125px;
+}
+
 .m-tbl-base{
 	width: 100%;
 	table-layout: fixed;
@@ -2493,9 +2477,6 @@ a.btn[href$=".pdf"] span::before{
 .m-tbl-base-02 thead th:first-child,
 .m-tbl-base-02 tbody th:first-child{
 	border-left: 0;
-}
-.m-tbl-base-02 tbody tr + tr{
-	border-top: 1px solid #C8C8C8;
 }
 @media screen and (max-width: 767px){
 	.m-tbl-base-02{
