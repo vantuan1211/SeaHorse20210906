@@ -1454,6 +1454,8 @@
 	font-size: 48px;
 	line-height: 1.5;
 	color: #00469B;
+	position:relative;
+	z-index: 2;
 }
 .hdg-lv2__main{
 	position: relative;
@@ -2564,4 +2566,7 @@
 	font-weight: 500;
 	color: #fff;
 	padding: 99px 16px;
+}
+.sec-lineup-content{
+	display: none;
 }
