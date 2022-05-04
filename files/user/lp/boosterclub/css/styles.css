@@ -712,6 +712,7 @@
 	box-sizing: border-box;
 }
 .lst-course-main__item{
+	position: relative;
 	background: #fff;
 	display: flex;
 	justify-content: center;
@@ -721,6 +722,18 @@
 	transition: all 0.3s ease;
 	padding: 44px 15px;
 }
+.lst-course-main__item::before{
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #fff url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
+	background-size: 10px auto;
+	position: absolute;
+	z-index: 1;
+	right: 8px;
+	bottom: 8px;
+}
 .lst-course-main__item:hover{
 	opacity: 0.7;
 }
@@ -729,8 +742,8 @@
 	width: 100%;
 	text-align: center;
 }
-.lst-course-main__item img{
-	height: 32px;
+.lst-course-main__item figure img{
+	height: 48px;
 	width: auto;
 }
 .lst-course-main__sub{
@@ -764,13 +777,16 @@
 	font-size: 14px;
 	line-height: 36px;
 	letter-spacing: 0.04em;
+	font-weight: bold;
 	color: #fff;
 	background: #403B39;
 	margin-right: 5px;
 }
 .lst-course-main__label__name strong{
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 1;
+	display: inline-block;
+	vertical-align: text-bottom;
 }
 .lst-course-main__label__info{
 	display: inline-block;
@@ -781,6 +797,15 @@
 	letter-spacing: 0.04em;
 	color: #000;
 	background: #fff;
+}
+.lst-course-main__signture{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	z-index: 2;
+	top: 16px;
+	right: 16px;
 }
 .lst-course-main__item--01{
 	background-image: linear-gradient(to right, rgba(209,207,207,0.5) , rgba(209,207,207,1));
