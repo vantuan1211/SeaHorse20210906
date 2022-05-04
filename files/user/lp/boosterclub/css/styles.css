@@ -2306,6 +2306,66 @@
 	}
 }
 
+.m-lst-anchor-link{
+	margin: 65px -2px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.m-lst-anchor-link li{
+	padding: 0 2px;
+	width: 25%;
+	box-sizing: border-box;
+}
+.m-lst-anchor-link a{
+	display: flex;
+	align-items: center;
+	height: 51px;
+	background: #E5ECF5;
+	color: #00469B;
+	padding: 0 24px;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.m-lst-anchor-link a:hover{
+	opacity: 0.7;
+}
+.m-lst-anchor-link__text{}
+.m-lst-anchor-link__icon{
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	position: absolute;
+	right: 4px;
+	bottom: 3px;
+}
+.m-lst-anchor-link__icon::after{
+	content: "";
+	width: 8px;
+	height: 12px;
+	background: url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
+	background-size: 100%;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+@media screen and (max-width: 767px){
+	.m-lst-anchor-link{
+		margin-top: 50px;
+	}
+	.m-lst-anchor-link li{
+		width: 50%;
+		margin-bottom: 4px;
+	}
+	.m-lst-anchor-link a{
+		height: 52px;
+		padding: 0 24px 0 16px;
+	}
+}
+
 .m-tbl-base{
 	width: 100%;
 	table-layout: fixed;
@@ -2383,6 +2443,9 @@
 .m-tbl-base-02 thead th:first-child,
 .m-tbl-base-02 tbody th:first-child{
 	border-left: 0;
+}
+.m-tbl-base-02 tbody tr + tr{
+	border-top: 1px solid #C8C8C8;
 }
 @media screen and (max-width: 767px){
 	.m-tbl-base-02{
