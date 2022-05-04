@@ -1585,7 +1585,7 @@
 .btn--large{
 	min-width: 355px;
 }
-.btn--pdf span::before{
+.btn--pdf::before{
 	content: "";
 	display: inline-block;
 	width: 18px;
