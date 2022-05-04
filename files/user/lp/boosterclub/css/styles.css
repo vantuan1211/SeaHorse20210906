@@ -1612,7 +1612,7 @@
 .btn--large{
 	min-width: 355px;
 }
-.btn--pdf span::before{
+.btn--pdf::before{
 	content: "";
 	display: inline-block;
 	width: 18px;
@@ -2226,7 +2226,7 @@
 	font-weight: bold;
 	line-height: 1.5;
 	color: #00469B;
-	margin-top: 140px;
+	margin-top: 100px;
 }
 .m-hdg-lv3{
 	font-size: 24px;
@@ -2458,6 +2458,18 @@
 	}
 }
 
+.section-agreement .box-heading-lv1{
+	padding: 106px 0;
+}
+.section-agreement .box-heading-lv1 h1{
+	color: #fff;
+}
+.section-agreement .box-heading-lv1::before{
+	width: 304px;
+	height: 302px;
+	bottom: -125px;
+}
+
 .m-tbl-base{
 	width: 100%;
 	table-layout: fixed;
@@ -2535,9 +2547,6 @@
 .m-tbl-base-02 thead th:first-child,
 .m-tbl-base-02 tbody th:first-child{
 	border-left: 0;
-}
-.m-tbl-base-02 tbody tr + tr{
-	border-top: 1px solid #C8C8C8;
 }
 @media screen and (max-width: 767px){
 	.m-tbl-base-02{
