@@ -928,7 +928,21 @@
 }
 .box-course-main{
 	padding: 80px 0 80px;
+	position: relative;
 }
+.box-course-main::after{
+	content: "";
+	background: url('/files/user/lp/boosterclub/img/img-fire-02.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	left: -69px;
+	bottom: -164px;
+	display: block;
+	z-index: 1;
+}
+
 .box-course-main__button{
 	text-align: center;
 }
@@ -1639,7 +1653,6 @@
 .box-campaign{
 	background: #00469B;
 	position: relative;
-	padding-bottom: 128px;
 }
 .box-campaign::after{
 	content: "";
@@ -1686,6 +1699,19 @@
 	position: relative;
 	z-index: 2;
 	overflow: hidden;
+	padding-bottom: 190px;
+}
+.box-campaign .sec-join::after{
+	content: "";
+	background: url('/files/user/lp/boosterclub/img/img-fire-03.png') no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	right: -35px;
+	bottom: -168px;
+	display: block;
+	z-index: 1;
 }
 .box-campaign .box-join__club__slogan__scroll{
 	background: none;
@@ -1714,9 +1740,6 @@
 	}
 }
 @media screen and (max-width: 767px){
-	.box-campaign{
-		padding-bottom: 48px;
-	}
 	.box-campaign__title{
 		text-align: right;
 		top: -8vw;
@@ -1736,9 +1759,16 @@
 	}
 	.box-campaign .sec-join{
 		margin-top: 2px;
+		padding-bottom: 108px;
 	}
 	.box-campaign .box-join__club {
 		margin-top: 27px;
+	}
+	.box-campaign .sec-join::after{
+		width: 177px;
+		height: 176px;
+		bottom: -72px;
+		right: -20px;
 	}
 }
 
