@@ -552,7 +552,6 @@
 .box-introduce{
 	position: relative;
 	background: #00469B;
-	/* overflow: hidden; */
 }
 .box-introduce::before{
 	content: "";
@@ -568,34 +567,10 @@
 	background-size: 100% auto;
 	z-index: 1;
 }
-/* .box-introduce::after{
-	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
-	width: 404px;
-	height: 403px;
-	right: -35px;
-	bottom: 331px;
-	display: block;
-	z-index: 1;
-} */
 .box-course__inner{
 	position: relative;
 	overflow: hidden;
 }
-/* .box-course__inner::after{
-	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
-	width: 404px;
-	height: 403px;
-	right: -35px;
-	bottom: 331px;
-	display: block;
-	z-index: 1;
-} */
 .box-introduce__title{
 	position: relative;
 	z-index: 3;
@@ -745,7 +720,7 @@
 }
 .box-course__inner::after{
 	content: "";
-	background: url(/files/user/lp/boosterclub/img/img-fire-04.png) no-repeat;
+	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
