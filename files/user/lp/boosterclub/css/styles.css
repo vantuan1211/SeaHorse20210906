@@ -443,11 +443,13 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url("/files/user/lp/boosterclub/img/bg-introduce-deco01.png") no-repeat center bottom;
-	background-size: cover;
+	background: url("/files/user/lp/boosterclub/img/bg-introduce-deco01.png") no-repeat center top;
+	background-size: 100% auto;
 	z-index: 1;
 }
 .box-introduce__title{
+	position: relative;
+	z-index: 3;
 	text-align: center;
 }
 .box-introduce__title img{
@@ -457,11 +459,11 @@
 .box-introduce__content{
 	position: relative;
 	z-index: 2;
-	padding: 11.713vw 0 56.369vw;
+	padding: 10.249vw 0 41.288vw;
 }
 .box-introduce__image--01{
 	position: absolute;
-	top: 2.928vw;
+	top: 3.075vw;
 	right: 0;
 }
 .box-introduce__image--01 img{
@@ -470,7 +472,7 @@
 }
 .box-introduce__image--02{
 	position: absolute;
-	bottom: 27.452vw;
+	bottom: 24.744vw;
 	right: 0;
 }
 .box-introduce__image--02 img{
@@ -479,8 +481,8 @@
 }
 .box-introduce__image--03{
 	position: absolute;
-	top: 5.490vw;
-	left: 0;
+	top: 5.857vw;
+	left: 2.928vw;
 }
 .box-introduce__image--03 img{
 	width: 37.775vw;
@@ -488,26 +490,27 @@
 }
 .box-introduce__image--04{
 	position: absolute;
-	bottom: 0;
+	bottom: -2.709vw;
 	left: 0;
 }
 .box-introduce__image--04 img{
-	width: 45.315vw;
+	width: 50.586vw;
 	height: auto;
 }
 .box-introduce__text{
 	font-size: 1.318vw;
 	line-height: 2.667;
 	font-weight: bold;
+	letter-spacing: 0.02em;
 	color: #fff;
 	position: absolute;
 	bottom: 0;
-	right: 16.471vw;
+	right: 15.373vw;
 }
 .box-course{
 	position: relative;
-	padding-top: 80px;
-	background: #00469B;
+	z-index: 2;
+	padding-top: 198px;
 }
 .box-course::after{
 	content: "";
@@ -516,7 +519,7 @@
 	height: 155px;
 	background: #EAEAEA;
 	position: absolute;
-	bottom: 270px;
+	bottom: 254px;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -524,29 +527,32 @@
 .hdg-lv2-02{
 	text-align: center;
 	font-size: 40px;
+	letter-spacing: 0.04em;
 	color: #fff;
 	font-weight: bold;
 }
 .hdg-lv2-02 small{
-	display: inline-block;
+	display: block;
 	font-size: 18px;
-	padding: 0 20px;
-	border-bottom: 2px solid #FDE949;
+	letter-spacing: 0.04em;
+	margin-bottom: 5px;
 }
 .hdg-lv2-02 span{
-	display: block;
+	display: inline-block;
+	border-top: 2px solid #FDE949;
+	padding-top: 5px;
 }
 .lst-course{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 80px -10px 200px;
+	margin: 54px -8px 185px;
 }
 .lst-course li{
 	display: inline-block;
-	padding: 0 10px;
+	padding: 0 8px;
 	width: 20%;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 	box-sizing: border-box;
 }
 .lst-course__item{
@@ -610,13 +616,13 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 40px -10px 0;
+	margin: 38px -8px 0;
 }
 .lst-course-large li{
 	display: inline-block;
-	padding: 0 10px;
+	padding: 0 8px;
 	width: 50%;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 	box-sizing: border-box;
 }
 .lst-course-large__item{
@@ -627,7 +633,7 @@
 	flex-wrap: wrap;
 	text-decoration: none;
 	transition: all 0.3s ease;
-	padding: 44px 15px;
+	padding: 38px 15px;
 }
 .lst-course-large__item:hover{
 	opacity: 0.7;
@@ -638,7 +644,7 @@
 	text-align: center;
 }
 .lst-course-large__item img{
-	height: 32px;
+	height: 56px;
 	width: auto;
 }
 .lst-course-large__sub{
@@ -647,8 +653,8 @@
 	width: 100%;
 	font-size: 14px;
 	font-weight: bold;
-	color: #000;
-	margin-bottom: 20px;
+	color: #222;
+	margin-bottom: 14px;
 }
 .lst-course-large__title{
 	display: block;
@@ -657,7 +663,7 @@
 	font-size: 24px;
 	font-weight: bold;
 	color: #000;
-	margin-bottom: 30px;
+	margin-bottom: 24px;
 }
 .lst-course-large__label{
 	display: inline-block;
@@ -690,6 +696,12 @@
 .lst-course-large__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
 }
+.box-course-main{
+	padding: 80px 0 80px;
+}
+.box-course-main__button{
+	text-align: center;
+}
 .lst-course-main{
 	position: relative;
 	z-index: 2;
@@ -706,6 +718,7 @@
 	box-sizing: border-box;
 }
 .lst-course-main__item{
+	position: relative;
 	background: #fff;
 	display: flex;
 	justify-content: center;
@@ -715,6 +728,18 @@
 	transition: all 0.3s ease;
 	padding: 44px 15px;
 }
+.lst-course-main__item::before{
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #fff url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
+	background-size: 10px auto;
+	position: absolute;
+	z-index: 1;
+	right: 8px;
+	bottom: 8px;
+}
 .lst-course-main__item:hover{
 	opacity: 0.7;
 }
@@ -723,8 +748,8 @@
 	width: 100%;
 	text-align: center;
 }
-.lst-course-main__item img{
-	height: 32px;
+.lst-course-main__item figure img{
+	height: 48px;
 	width: auto;
 }
 .lst-course-main__sub{
@@ -758,13 +783,16 @@
 	font-size: 14px;
 	line-height: 36px;
 	letter-spacing: 0.04em;
+	font-weight: bold;
 	color: #fff;
 	background: #403B39;
 	margin-right: 5px;
 }
 .lst-course-main__label__name strong{
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 1;
+	display: inline-block;
+	vertical-align: text-bottom;
 }
 .lst-course-main__label__info{
 	display: inline-block;
@@ -775,6 +803,15 @@
 	letter-spacing: 0.04em;
 	color: #000;
 	background: #fff;
+}
+.lst-course-main__signture{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	z-index: 2;
+	top: 16px;
+	right: 16px;
 }
 .lst-course-main__item--01{
 	background-image: linear-gradient(to right, rgba(209,207,207,0.5) , rgba(209,207,207,1));
@@ -801,7 +838,7 @@
 	position: relative;
 	z-index: 2;
 	background: #EAEAEA;
-	padding: 80px 0 80px;
+	padding: 68px 0 84px;
 }
 .box-member__heading::before{
 	content: "";
@@ -820,13 +857,19 @@
 .box-member__title__sub{
 	display: block;
 	font-size: 24px;
+	line-height: 1.2;
 	letter-spacing: 0.04em;
+	font-weight: 500;
 	color: #00469B;
 }
 .box-member__title__main{
 	display: block;
 	font-size: 45px;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+	font-weight: 500;
 	color: #00469B;
+	margin-top: 20px;
 }
 .box-member__title__highlight{
 	display: inline-block;
@@ -839,7 +882,7 @@
 	height: 24px;
 	background: #FDE949;
 	position: absolute;
-	bottom: 5px;
+	bottom: -5px;
 	left: 0;
 }
 .box-member__title__highlight span{
@@ -1101,6 +1144,20 @@
 	position: relative;
 	z-index: 2;
 	background: #fff;
+}
+.btn--large{
+	min-width: 355px;
+}
+.btn--pdf::before{
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(/files/user/lp/boosterclub/img/icn-pdf.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+	margin-right: 8px;
+	bottom: -2px;
 }
 .btn::after{
 	content: "";
