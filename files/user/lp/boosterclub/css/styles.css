@@ -2036,10 +2036,18 @@
 	height: 36px;
 }
 @media screen and (max-width: 767px){
-	.box-capacity{}
-	.box-capacity__people{}
-	.box-capacity__people span{}
-	.box-capacity__fee{}
+	.box-capacity{
+		font-size: 12px;
+	}
+	.box-capacity__people{
+		height: 34px;
+	}
+	.box-capacity__people span{
+		font-size: 16px;
+	}
+	.box-capacity__fee{
+		height: 34px;
+	}
 }
 
 .box-heading-lv1{
@@ -2073,10 +2081,20 @@
 	margin-top: 40px;
 }
 @media screen and (max-width: 767px){
-	.box-heading-lv1{}
+	.box-heading-lv1{
+		padding: 40px 0;
+	}
+	.box-heading-lv1::before{
+		display: none;
+	}
 	.box-heading-lv1__content{}
-	.box-heading-lv1 h1{}
+	.box-heading-lv1 h1{
+		font-size: 20px;
+	}
 	.box-heading-lv1 h1 span{}
+	.box-heading-lv1 .box-capacity{
+		margin-top: 25px;
+	}
 }
 
 .txt-lead{
@@ -2084,6 +2102,9 @@
 	line-height: 1.5;
 	color: #000;
 	margin-top: 40px;
+}
+.txt-lead--primary{
+	color: #222;
 }
 
 .m-hdg-lv2{
