@@ -696,6 +696,12 @@
 .lst-course-large__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
 }
+.box-course-main{
+	padding: 80px 0 80px;
+}
+.box-course-main__button{
+	text-align: center;
+}
 .lst-course-main{
 	position: relative;
 	z-index: 2;
@@ -1138,6 +1144,20 @@
 	position: relative;
 	z-index: 2;
 	background: #fff;
+}
+.btn--large{
+	min-width: 355px;
+}
+.btn--pdf::before{
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(/files/user/lp/boosterclub/img/icn-pdf.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+	margin-right: 8px;
+	bottom: -2px;
 }
 .btn::after{
 	content: "";
