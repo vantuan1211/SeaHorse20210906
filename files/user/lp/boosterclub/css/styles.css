@@ -2023,6 +2023,22 @@
 .m-tbl-base tbody td:first-child{
 	border-left: 0;
 }
+@media screen and (max-width: 767px){
+	.m-tbl-base{
+		margin-bottom: 32px;
+	}
+	.m-tbl-base thead th,
+	.m-tbl-base tbody th{
+		font-size: 14px;
+		line-height: 1.714;
+		padding: 14px 5px 13px 13px;
+	}
+	.m-tbl-base tbody td{
+		font-size: 14px;
+		line-height: 1.714;
+		padding: 14px 5px 13px 13px;
+	}
+}
 .m-tbl-base-02{
 	width: 100%;
 	table-layout: fixed;
@@ -2039,6 +2055,7 @@
 	padding: 15px 24px 16px;
 	background: #F2F2F2;
 	border-left: 1px solid #C8C8C8;
+	box-sizing: border-box;
 }
 .m-tbl-base-02 tbody td{
 	font-size: 16px;
@@ -2046,13 +2063,30 @@
 	color: #000;
 	padding: 15px 24px 16px;
 	border-left: 1px solid #C8C8C8;
+	box-sizing: border-box;
 }
 .m-tbl-base-02 thead th:first-child,
 .m-tbl-base-02 tbody th:first-child{
 	border-left: 0;
 }
+@media screen and (max-width: 767px){
+	.m-tbl-base-02{
+		margin: 32px 0 24px;
+	}
+	.m-tbl-base-02 tbody th{
+		width: 42%;
+		font-size: 14px;
+		line-height: 1.714;
+		padding: 14px 5px 13px 13px;
+	}
+	.m-tbl-base-02 tbody td{
+		font-size: 14px;
+		line-height: 1.714;
+		padding: 14px 5px 13px 13px;
+	}
+}
 .m-lst-note{
-
+	margin-top: 24px;
 }
 .m-lst-note li{
 	position: relative;
@@ -2065,4 +2099,15 @@
 	content: "※";
 	position: absolute;
 	left: 0;
+}
+.m-lst-note li + li{
+	margin-top: 8px;
+}
+@media screen and (max-width: 767px){
+	.m-lst-note li{
+		padding-left: 16px;
+	}
+	.m-lst-note li + li{
+		margin-top: 10px;
+	}
 }
