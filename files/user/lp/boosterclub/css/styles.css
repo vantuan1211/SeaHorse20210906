@@ -548,6 +548,49 @@
 	}
 }
 
+.m-arc-primary{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00469B;
+	padding-left: 32px;
+}
+.m-arc-primary::before{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') center center no-repeat #00469B;
+	background-size: 7px 8px;
+	background-position-x: 10px;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.m-arc-primary::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 32px;
+	right: 0;
+	height: 1px;
+	background-color: #00469B;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 0.5s ease;
+}
+@media screen and (min-width: 768px) {
+	.m-arc-primary:hover::after{
+		transform-origin: bottom left;
+		transform: scaleX(1);
+	}
+}
+
+
 /* Tuan */
 .box-introduce{
 	position: relative;
@@ -2045,10 +2088,18 @@
 	height: 36px;
 }
 @media screen and (max-width: 767px){
-	.box-capacity{}
-	.box-capacity__people{}
-	.box-capacity__people span{}
-	.box-capacity__fee{}
+	.box-capacity{
+		font-size: 12px;
+	}
+	.box-capacity__people{
+		height: 34px;
+	}
+	.box-capacity__people span{
+		font-size: 16px;
+	}
+	.box-capacity__fee{
+		height: 34px;
+	}
 }
 
 .box-heading-lv1{
@@ -2082,10 +2133,20 @@
 	margin-top: 40px;
 }
 @media screen and (max-width: 767px){
-	.box-heading-lv1{}
+	.box-heading-lv1{
+		padding: 40px 0;
+	}
+	.box-heading-lv1::before{
+		display: none;
+	}
 	.box-heading-lv1__content{}
-	.box-heading-lv1 h1{}
+	.box-heading-lv1 h1{
+		font-size: 20px;
+	}
 	.box-heading-lv1 h1 span{}
+	.box-heading-lv1 .box-capacity{
+		margin-top: 25px;
+	}
 }
 
 .txt-lead{
@@ -2093,6 +2154,9 @@
 	line-height: 1.5;
 	color: #000;
 	margin-top: 40px;
+}
+.txt-lead--primary{
+	color: #222;
 }
 
 .m-hdg-lv2{
@@ -2272,6 +2336,66 @@
 	}
 }
 
+.m-lst-anchor-link{
+	margin: 65px -2px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.m-lst-anchor-link li{
+	padding: 0 2px;
+	width: 25%;
+	box-sizing: border-box;
+}
+.m-lst-anchor-link a{
+	display: flex;
+	align-items: center;
+	height: 51px;
+	background: #E5ECF5;
+	color: #00469B;
+	padding: 0 24px;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.m-lst-anchor-link a:hover{
+	opacity: 0.7;
+}
+.m-lst-anchor-link__text{}
+.m-lst-anchor-link__icon{
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	position: absolute;
+	right: 4px;
+	bottom: 3px;
+}
+.m-lst-anchor-link__icon::after{
+	content: "";
+	width: 8px;
+	height: 12px;
+	background: url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
+	background-size: 100%;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+@media screen and (max-width: 767px){
+	.m-lst-anchor-link{
+		margin-top: 50px;
+	}
+	.m-lst-anchor-link li{
+		width: 50%;
+		margin-bottom: 4px;
+	}
+	.m-lst-anchor-link a{
+		height: 52px;
+		padding: 0 24px 0 16px;
+	}
+}
+
 .m-tbl-base{
 	width: 100%;
 	table-layout: fixed;
@@ -2349,6 +2473,9 @@
 .m-tbl-base-02 thead th:first-child,
 .m-tbl-base-02 tbody th:first-child{
 	border-left: 0;
+}
+.m-tbl-base-02 tbody tr + tr{
+	border-top: 1px solid #C8C8C8;
 }
 @media screen and (max-width: 767px){
 	.m-tbl-base-02{
