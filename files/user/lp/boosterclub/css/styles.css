@@ -16,6 +16,12 @@
 	height: auto;
 }
 
+@media print, screen and (min-width: 768px){
+	body{
+		min-width: auto;
+	}
+}
+
 /* Header */
 .header{
 	background: #1A4899;
@@ -383,6 +389,18 @@
 	}
   }
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.box-mv__main__title{
+		max-width: 85%;
+	}
+	.box-mv__slogan__scroll{
+		height: 110px;
+	}
+	.box-mv__slogan__fire img{
+		width: 320px;
+		height: auto;
+	}
+}
 @media screen and (max-width: 767px){
 	.box-mv__main__title{
 		top: 42%;
