@@ -1155,7 +1155,7 @@
 /* box-member */
 .box-member{
 	padding-top: 140px;
-	padding-bottom: 80px;
+	padding-bottom: 93px;
 }
 .box-member__item{
 	display: flex;
@@ -1227,7 +1227,7 @@
 @media screen and (max-width: 767px){
 	.box-member{
 		padding-top: 82px;
-		padding-bottom: 20px;
+		padding-bottom: 89px;
 	}
 	.box-member__item{
 		flex-wrap: wrap;
@@ -1325,16 +1325,113 @@
 	}
 }
 /* box-campaign */
-
+.box-campaign{
+	background: #00469B;
+	position: relative;
+	padding-bottom: 121px;
+	margin-top: -58px;
+}
+.box-campaign::after{
+	content: "";
+	background: url('/files/user/lp/boosterclub/img/bg-campaign.png') no-repeat top center;
+	background-size: cover;
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	z-index: 1;
+}
+.box-campaign__title{
+	position: relative;
+	z-index: 2;
+	top: -78px;
+	text-align: center;
+	margin-bottom: -2px;
+}
+.box-campaign .hdg-lv2-02{
+	position: relative;
+	z-index: 2;
+}
+.box-campaign__inner{
+	position: relative;
+}
+.box-campaign__inner::before{
+	content: "";
+	background: url(/files/user/lp/boosterclub/img/img-fire-01.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 404px;
+	height: 403px;
+	left: -53px;
+	top: -237px;
+	display: block;
+	z-index: 1;
+}
+.box-campaign__inner::after{
+	content: "";
+	background: url(/files/user/lp/boosterclub/img/pct-campaign-macot01.png) no-repeat;
+	width: 322px;
+	height: 640px;
+	display: block;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 49px;
+	top: -110px;
+	z-index: 2;
+}
+@media screen and (max-width: 1300px) and (min-width:768px){
+	.box-campaign__inner::before{
+		width: 31.07vw;
+		height: 31vw;
+		top:-18.23vw;
+		left: -4.07vw;
+	}
+	.box-campaign__title{
+		top:-6vw;
+	}
+	.box-campaign__title img{
+		width: 41.07vw;
+	}
+	.box-campaign__inner::after{
+		width: 24.76vw;
+		height: 49.23vw;
+		right: 3.769vw;
+		top: -8.46vw;
+	}
+}
+@media screen and (max-width: 767px){
+	.box-campaign__title{
+		text-align: right;
+		top: -8vw;
+	}
+	.box-campaign__title img{
+		width: 60%;
+	}
+	.box-campaign__inner::before {
+		width: 159px;
+		height: 158px;
+		top: -94px;
+		left: -22px;
+	}
+	.box-campaign__inner::after{
+		display: none;
+	}
+}
 
 /* list-banner */
 .list-banner{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 65px;
+	margin-top: 59px;
 	margin-left: -8px;
 	margin-right: -8px;
+	position: relative;
+	z-index: 3;
 }
 .list-banner__item{
 	width: 50%;
@@ -1366,6 +1463,8 @@
 		width: 100%;
 	}
 }
+
+
 
 
 /* phuc */
