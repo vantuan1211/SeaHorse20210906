@@ -583,6 +583,33 @@
 	transform: scaleX(0);
 	transition: transform 0.5s ease;
 }
+.m-arc-primary span{
+	position: relative;
+}
+.m-arc-primary--blank[target="_blank"] span::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-blank.png') no-repeat;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	right: -48px;
+	transform: translateY(-50%);
+}
+.m-arc-primary--pdf[href$=".pdf"]{
+	margin: 0;
+	padding: 0 0 0 32px;
+}
+.m-arc-primary--pdf[href$=".pdf"] span::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-pdf.png') no-repeat;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	right: -48px;
+	transform: translateY(-50%);
+}
 @media screen and (min-width: 768px) {
 	.m-arc-primary:hover::after{
 		transform-origin: bottom left;
