@@ -218,9 +218,10 @@
 .nav__club{
 	position: relative;
 	margin-top: 55px;
+	text-align: center;
 }
 .nav__club__btn{
-	display: block;
+	display: inline-block;
 	text-align: center;
 	transition: all 0.3s;
 	z-index: 2;
@@ -231,7 +232,7 @@
 	height: auto;
 }
 .nav__club__btn:hover{
-	opacity: 0.7;
+	transform: scale(1.1);
 }
 .nav__club__slogan{
 	position: absolute;
