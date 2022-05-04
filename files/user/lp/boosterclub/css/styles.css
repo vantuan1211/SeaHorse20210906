@@ -218,9 +218,10 @@
 .nav__club{
 	position: relative;
 	margin-top: 55px;
+	text-align: center;
 }
 .nav__club__btn{
-	display: block;
+	display: inline-block;
 	text-align: center;
 	transition: all 0.3s;
 	z-index: 2;
@@ -231,7 +232,7 @@
 	height: auto;
 }
 .nav__club__btn:hover{
-	opacity: 0.7;
+	transform: scale(1.1);
 }
 .nav__club__slogan{
 	position: absolute;
@@ -547,6 +548,76 @@
 		font-size: 32px;
 	}
 }
+
+.m-arc-primary{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00469B;
+	padding-left: 32px;
+}
+.m-arc-primary::before{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') center center no-repeat #00469B;
+	background-size: 7px 8px;
+	background-position-x: 10px;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.m-arc-primary::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 32px;
+	right: 0;
+	height: 1px;
+	background-color: #00469B;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 0.5s ease;
+}
+.m-arc-primary span{
+	position: relative;
+}
+.m-arc-primary--blank[target="_blank"] span::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-blank.png') no-repeat;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	right: -48px;
+	transform: translateY(-50%);
+}
+.m-arc-primary--pdf[href$=".pdf"]{
+	margin: 0;
+	padding: 0 0 0 32px;
+}
+.m-arc-primary--pdf[href$=".pdf"] span::after{
+	content: '';
+	background: url('/files/user/lp/boosterclub/img/icn-pdf.png') no-repeat;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	right: -48px;
+	transform: translateY(-50%);
+}
+@media screen and (min-width: 768px) {
+	.m-arc-primary:hover::after{
+		transform-origin: bottom left;
+		transform: scaleX(1);
+	}
+}
+
 
 /* Tuan */
 .box-introduce{
@@ -2117,6 +2188,8 @@
 	font-size: 24px;
 	font-weight: bold;
 	color: #000;
+	position: relative;
+	z-index: 1;
 }
 .box-heading-lv1 h1 span{
 	display: block;
@@ -2398,6 +2471,19 @@
 	width: 304px;
 	height: 302px;
 	bottom: -125px;
+}
+@media screen and (max-width: 767px){
+	.section-agreement .box-heading-lv1{
+		padding: 46px 0;
+	}
+	.section-agreement .box-heading-lv1::before{
+		display: block;
+		background: url(/files/user/lp/boosterclub/img/img-fire-05.png) no-repeat;
+		background-size: 100% 100%;
+		width: 156px;
+		height: 155px;
+		bottom: -60px;
+	}
 }
 
 .m-tbl-base{
