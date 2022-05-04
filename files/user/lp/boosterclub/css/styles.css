@@ -756,7 +756,7 @@
 	background-image: linear-gradient(to right, rgba(204,215,232,0.5) , rgba(204,215,232,1));
 }
 .lst-course__item--05{
-	background-image: linear-gradient(to right, rgba(204,239,215,0.5) , rgba(204,239,215,1));
+	background-image: linear-gradient(to right, rgba(204,239,251,0.5) , rgba(204,239,251,1));
 }
 .lst-course__item--06{
 	background-image: linear-gradient(to right, rgba(250,232,204,0.5) , rgba(250,232,204,1));
@@ -767,6 +767,9 @@
 @media screen and (max-width: 767px){
 	.box-course{
 		padding-top: 0;
+	}
+	.box-course::after{
+		bottom: 162px;
 	}
 	.hdg-lv2-02{
 		font-size: 24px;
@@ -779,7 +782,7 @@
 		padding: 6px 20px 0;
 	}
 	.lst-course{
-		margin: 30px -2px 50px;
+		margin: 30px -2px 92px;
 	}
 	.lst-course li{
 		width: 33.33%;
@@ -883,13 +886,45 @@
 	background-image: linear-gradient(to right, rgba(204,215,232,0.5) , rgba(204,215,232,1));
 }
 .lst-course-large__item--05{
-	background-image: linear-gradient(to right, rgba(204,239,215,0.5) , rgba(204,239,215,1));
+	background-image: linear-gradient(to right, rgba(204,239,251,0.5) , rgba(204,239,251,1));
 }
 .lst-course-large__item--06{
 	background-image: linear-gradient(to right, rgba(250,232,204,0.5) , rgba(250,232,204,1));
 }
 .lst-course-large__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
+}
+@media screen and (max-width: 767px){
+	.hdg-lv3{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.lst-course-large{
+		margin: 25px -2px 0;
+	}
+	.lst-course-large li{
+		padding: 0 2px;
+	}
+	.lst-course-large__sub{
+		font-size: 11px;
+		line-height: 1.4;
+		margin-bottom: 9px;
+	}
+	.lst-course-large__item{
+		padding: 25px 10px 33px;
+	}
+	.lst-course-large__item img{
+		height: 28px;
+	}
+	.lst-course-large__title{
+		font-size: 14px;
+		margin-bottom: 16px;
+	}
+	.lst-course-large__label{
+		width: 98px;
+		font-size: 10px;
+		line-height: 22px;
+	}
 }
 .box-course-main{
 	padding: 80px 0 80px;
@@ -1021,7 +1056,7 @@
 	background-image: linear-gradient(to right, rgba(204,215,232,0.5) , rgba(204,215,232,1));
 }
 .lst-course-main__item--05{
-	background-image: linear-gradient(to right, rgba(204,239,215,0.5) , rgba(204,239,215,1));
+	background-image: linear-gradient(to right, rgba(204,239,251,0.5) , rgba(204,239,251,1));
 }
 .lst-course-main__item--06{
 	background-image: linear-gradient(to right, rgba(250,232,204,0.5) , rgba(250,232,204,1));
@@ -1082,6 +1117,30 @@
 }
 .box-member__title__highlight span{
 	position: relative;
+}
+@media screen and (max-width: 767px){
+	.box-member__heading{
+		padding: 36px 0 76px;
+	}
+	.box-member__title__sub{
+		font-size: 14px;
+	}
+	.box-member__title__main{
+		font-size: 24px;
+		line-height: 1.417;
+		margin-top: 8px;
+	}
+	.box-member__title__highlight::before{
+		height: 16px;
+		bottom: -2px;
+	}
+	.box-member__heading::before{
+		width: 98px;
+		height: 100px;
+		background-size: 100% auto;
+		left: 48.5%;
+		bottom: -40px;
+	}
 }
 /* Thuy */
 .is-visiblePc{
