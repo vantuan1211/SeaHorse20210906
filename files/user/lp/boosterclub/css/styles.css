@@ -1394,6 +1394,9 @@
 .mt0{
 	margin-top: 0 !important;
 }
+.center{
+	text-align: center;
+}
 /* box-notes */
 .box-notes{
 	margin-top: 110px;
@@ -2753,6 +2756,12 @@ h1.box-heading-lv1__jp{
 	font-weight: 500;
 	color: #fff;
 	padding: 99px 16px;
+}
+@media screen and (max-width: 767px){
+	.box-booster-heading__title{
+		font-size: 24px;
+		padding: 58px 16px 66px;
+	}
 }
 .sec-lineup-content{
 	display: none;
