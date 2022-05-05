@@ -1394,6 +1394,9 @@
 .mt0{
 	margin-top: 0 !important;
 }
+.center{
+	text-align: center;
+}
 /* box-notes */
 .box-notes{
 	margin-top: 110px;
