@@ -37,6 +37,8 @@ $(document).ready(function($) {
 			$('#regular').show();
 		}
 	}
+	
+	new WOW().init();
 });//End -> ready method
 
 // mainvisual
