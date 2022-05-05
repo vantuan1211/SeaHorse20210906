@@ -2608,8 +2608,12 @@
 	box-sizing: border-box;
 }
 .m-tbl-base-02 thead th:first-child,
-.m-tbl-base-02 tbody th:first-child{
+.m-tbl-base-02 tbody th:first-child,
+.m-tbl-base-02 tbody td:first-child{
 	border-left: 0;
+}
+.m-tbl-base-02 tbody tr + tr{
+	border-top: 1px solid #C8C8C8;
 }
 @media screen and (max-width: 767px){
 	.m-tbl-base-02{
