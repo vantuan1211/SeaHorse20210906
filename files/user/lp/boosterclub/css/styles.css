@@ -1391,6 +1391,9 @@
 .bg-gray{
 	background:#F2F2F2;
 }
+.mt0{
+	margin-top: 0 !important;
+}
 /* box-notes */
 .box-notes{
 	margin-top: 110px;
