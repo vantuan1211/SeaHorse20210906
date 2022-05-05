@@ -2191,7 +2191,7 @@
 		width: 23.57vw;
 		height:46.85vw ;
 		top:-27.81vw;
-		right: -9.51vw;
+		right: 0;
 	}
 }
 @media screen and (max-width: 1200px) and (min-width:768px){
