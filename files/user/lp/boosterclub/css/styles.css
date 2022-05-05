@@ -1854,6 +1854,7 @@
 	padding: 15px 22px 15px;
 	box-sizing: border-box;
 	border-left: 1px solid #CFCFCF;
+	border-top: 1px solid #CFCFCF;
 }
 .box-member-tbl-base td{
 	font-size: 14px;
