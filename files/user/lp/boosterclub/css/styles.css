@@ -430,11 +430,34 @@
 	z-index: 3;	
 }
 .btn-season a{
+	position: relative;
 	display: inline-block;
+	line-height: 1;
+	border-radius: 50%;
 	transition: all 0.3s;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(16,50,121,0.2);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(16,50,121,0.2);
+	box-shadow: 4px 4px 8px 0px rgba(16,50,121,0.2);
 }
-.btn-season a:hover{
-	opacity: 0.7;
+.btn-season a::before{
+	content: '';
+	width: 178px;
+	height: 178px;
+	background: rgba(255, 255, 255, 0.43);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	transition: all 0.2s ease-in-out;
+}
+.btn-season a img{
+	z-index: 2;
+	position: relative;
+}
+.btn-season a:hover::before{
+	background: #fff;
 }
 @media screen and (max-width: 767px){
 	.btn-season{
@@ -1101,14 +1124,21 @@
 	width: 40px;
 	height: 40px;
 	background: #fff url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
-	background-size: 10px auto;
+	background-size: 8px auto;
 	position: absolute;
 	z-index: 1;
 	right: 8px;
 	bottom: 8px;
+	transition: all 0.3s ease;
 }
-.lst-course-main__item:hover{
-	opacity: 0.7;
+.lst-course-main__item:hover::before{
+	content: '';
+	background: #00469B url("/files/user/lp/boosterclub/img/icn-arrow-white.png") no-repeat center center;
+	background-position-x: 26px;
+	width: 56px;
+	height: 56px;
+	right: 0;
+	bottom: 0;
 }
 .lst-course-main__item figure{
 	display: block;
@@ -1360,6 +1390,9 @@
 }
 .bg-gray{
 	background:#F2F2F2;
+}
+.mt0{
+	margin-top: 0 !important;
 }
 /* box-notes */
 .box-notes{
@@ -2308,6 +2341,16 @@
 	padding: 0 8px;
 	box-sizing: border-box;
 }
+.m-lst-image--col2,
+.m-lst-image--col3{
+	flex-wrap: wrap;
+}
+.m-lst-image--col2 li{
+	width: 50%;
+}
+.m-lst-image--col3 li{
+	width: 33.333333%;
+}
 @media screen and (max-width: 767px){
 	.m-lst-image{
 		flex-direction: column;
@@ -2318,8 +2361,12 @@
 		margin: 0 -4px;
 	}
 	.m-lst-image--col6_Sp li{
-		width: 50%;
+		width: 50%!important;
 		padding: 0 4px;
+	}
+	.m-lst-image--col2 li,
+	.m-lst-image--col3 li{
+		width: 100%;
 	}
 }
 
