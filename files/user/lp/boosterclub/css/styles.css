@@ -2747,6 +2747,12 @@
 	color: #fff;
 	padding: 99px 16px;
 }
+@media screen and (max-width: 767px){
+	.box-booster-heading__title{
+		font-size: 24px;
+		padding: 58px 16px 66px;
+	}
+}
 .sec-lineup-content{
 	display: none;
 	padding-bottom: 80px;
