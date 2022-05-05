@@ -2358,7 +2358,7 @@
 		margin: 0 -4px;
 	}
 	.m-lst-image--col6_Sp li{
-		width: 50%;
+		width: 50%!important;
 		padding: 0 4px;
 	}
 	.m-lst-image--col2 li,
