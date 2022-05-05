@@ -2211,6 +2211,7 @@
 	max-width: 270px;
 	margin: 0 auto;
 	display: flex;
+	justify-content: center;
 }
 .box-capacity > *{
 	display: flex;
