@@ -2306,6 +2306,9 @@ h1.box-heading-lv1__jp{
 	.box-heading-lv1 .box-capacity{
 		margin-top: 25px;
 	}
+	h1.box-heading-lv1__jp{
+		font-size: 24px;
+	}
 }
 
 .txt-lead{
@@ -2570,6 +2573,10 @@ h1.box-heading-lv1__jp{
 	}
 }
 
+.section-agreement,
+.section-membership-ex{
+	padding-bottom: 160px;
+}
 .section-agreement .box-heading-lv1{
 	padding: 106px 0;
 }
@@ -2582,6 +2589,10 @@ h1.box-heading-lv1__jp{
 	bottom: -125px;
 }
 @media screen and (max-width: 767px){
+	.section-agreement,
+	.section-membership-ex{
+		padding-bottom: 80px;
+	}
 	.section-agreement .box-heading-lv1{
 		padding: 46px 0;
 	}
