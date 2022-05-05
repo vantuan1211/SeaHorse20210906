@@ -2346,12 +2346,12 @@ h1.box-heading-lv1__jp{
 	left: 0;
 }
 .m-hdg-lv3::before{
-	height: 36px;
+	height: 100%;
 	background-color: #00469B;
 	bottom: 0;
 }
 .m-hdg-lv3::after{
-	height: 17px;
+	height: 47.5%;
 	background-color: #1472BA;
 	bottom: 1px;
 }
