@@ -643,6 +643,9 @@
 		transform-origin: bottom left;
 		transform: scaleX(1);
 	}
+	.m-arc-primary--blank[target="_blank"] span::after{
+		right: -48px;
+	}
 }
 
 
