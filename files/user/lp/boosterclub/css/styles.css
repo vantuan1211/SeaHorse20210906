@@ -2369,6 +2369,7 @@
 }
 .m-box-image__img{
 	font-size: 0;
+	text-align: center;
 }
 .m-box-image__text{
 	font-size: 14px;
@@ -2573,6 +2574,31 @@
 		padding: 46px 0;
 	}
 	.section-agreement .box-heading-lv1::before{
+		display: block;
+		background: url(/files/user/lp/boosterclub/img/img-fire-05.png) no-repeat;
+		background-size: 100% 100%;
+		width: 156px;
+		height: 155px;
+		bottom: -60px;
+	}
+}
+
+.box-heading-lv1--primary{
+	padding: 106px 0;
+}
+.box-heading-lv1--primary h1{
+	color: #fff;
+}
+.box-heading-lv1--primary::before{
+	width: 304px;
+	height: 302px;
+	bottom: -125px;
+}
+@media screen and (max-width: 767px){
+	.box-heading-lv1--primary{
+		padding: 46px 0;
+	}
+	.box-heading-lv1--primary::before{
 		display: block;
 		background: url(/files/user/lp/boosterclub/img/img-fire-05.png) no-repeat;
 		background-size: 100% 100%;
