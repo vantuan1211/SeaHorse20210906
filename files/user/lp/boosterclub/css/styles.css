@@ -309,13 +309,18 @@
 .box-mv__main{
 	position: relative;
 }
-.box-mv__main__title{
+.box-mv__main__inner{
+	display: block;
+	width: 100%;
 	position: absolute;
 	top: 44.5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+.box-mv__main__title{
 	max-width: 795px;
 	width: 100%;
+	margin: 0 auto;
 }
 .box-mv__main__img{
 	font-size: 0;
