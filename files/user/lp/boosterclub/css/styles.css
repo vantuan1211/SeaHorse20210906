@@ -924,6 +924,9 @@
 	.box-course__inner::after{
 		display: none;
 	}
+	.lst-course li{
+		width: 25%;
+	}
 }
 @media screen and (max-width: 767px){
 	.box-course{
@@ -1114,7 +1117,7 @@
 	padding: 100px 0 135px;
 	position: relative;
 }
-.box-course-main::after{
+.box-course-main.box-course-main--top::after{
 	content: "";
 	background: url('/files/user/lp/boosterclub/img/img-fire-02.png') no-repeat;
 	background-size: 100% 100%;
@@ -1272,7 +1275,7 @@
 .lst-course-main__item--07{
 	background-image: linear-gradient(to right, rgba(255,248,204,0.5) , rgba(255,248,204,1));
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1023px){
 	.box-course-main{
 		padding: 50px 0 83px;
 	}
@@ -1326,7 +1329,7 @@
 	.box-course-main__button{
 		margin-top: 24px;
 	}
-	.box-course-main::after{
+	.box-course-main.box-course-main--top::after{
 		width: 177px;
 		height: 169px;
 		left: -23px;
