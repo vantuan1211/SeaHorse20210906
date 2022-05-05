@@ -2284,6 +2284,10 @@
 .box-heading-lv1 .box-capacity{
 	margin-top: 40px;
 }
+h1.box-heading-lv1__jp{
+	font-size: 40px;
+	line-height: 1.8;
+}
 @media screen and (max-width: 767px){
 	.box-heading-lv1{
 		padding: 40px 0;
