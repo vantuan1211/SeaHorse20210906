@@ -1124,14 +1124,21 @@
 	width: 40px;
 	height: 40px;
 	background: #fff url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
-	background-size: 10px auto;
+	background-size: 8px auto;
 	position: absolute;
 	z-index: 1;
 	right: 8px;
 	bottom: 8px;
+	transition: all 0.3s ease;
 }
-.lst-course-main__item:hover{
-	opacity: 0.7;
+.lst-course-main__item:hover::before{
+	content: '';
+	background: #00469B url("/files/user/lp/boosterclub/img/icn-arrow-white.png") no-repeat center center;
+	background-position-x: 26px;
+	width: 56px;
+	height: 56px;
+	right: 0;
+	bottom: 0;
 }
 .lst-course-main__item figure{
 	display: block;
