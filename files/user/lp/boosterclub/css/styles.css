@@ -820,8 +820,8 @@
 	background: url('/files/user/lp/boosterclub/img/img-fire-06.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
-	width: 85.65vw;
-	height: 85.29vw;
+	width: 1170px;
+	height: 1165px;
 	left: -473px;
 	bottom: -65px;
 	display: block;
@@ -2194,7 +2194,7 @@
 		width: 23.57vw;
 		height:46.85vw ;
 		top:-27.81vw;
-		right: -9.51vw;
+		right: 0;
 	}
 }
 @media screen and (max-width: 1200px) and (min-width:768px){
