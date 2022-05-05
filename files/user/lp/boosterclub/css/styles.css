@@ -621,9 +621,8 @@
 	width: 18px;
 	height: 18px;
 	position: absolute;
-	top: 50%;
-	right: -48px;
-	transform: translateY(-50%);
+	right: -23px;
+	bottom: 4px;
 }
 .m-arc-primary--pdf[href$=".pdf"]{
 	margin: 0;
