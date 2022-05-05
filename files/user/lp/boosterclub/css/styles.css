@@ -614,6 +614,7 @@
 }
 .m-arc-primary span{
 	position: relative;
+	padding-right: 10px;
 }
 .m-arc-primary--blank[target="_blank"] span::after{
 	content: '';
@@ -621,8 +622,8 @@
 	width: 18px;
 	height: 18px;
 	position: absolute;
-	right: -23px;
-	bottom: 4px;
+	right: -22px;
+	bottom: 2px;
 }
 .m-arc-primary--pdf[href$=".pdf"]{
 	margin: 0;
