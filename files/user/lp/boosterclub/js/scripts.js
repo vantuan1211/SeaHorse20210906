@@ -20,8 +20,6 @@ $(document).ready(function($) {
 					dataCourseList = dataCourse.split(",");
 					if(dataCourseList.includes(parameter)){
 						$(this).show();
-					}else{
-						console.log(dataCourseList);
 					}
 				}
 			}
