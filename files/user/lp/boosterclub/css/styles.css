@@ -1857,12 +1857,12 @@
 	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') no-repeat;
 }
 .btn--pdf[href$=".pdf"]{
-	padding: 20px 50px 22px 35px;
+	padding: 20px 50px 22px 65px;
 	margin: 0;
 }
-.btn--pdf[href$=".pdf"] span{
+/* .btn--pdf[href$=".pdf"] span{
 	padding-left: 30px;
-}
+} */
 .btn--pdf[href$=".pdf"] span::before{
 	content: '';
 	background: url('/files/user/lp/boosterclub/img/icn-pdf.png') no-repeat;
@@ -1870,7 +1870,7 @@
 	height: 18px;
 	position: absolute;
 	top: 50%;
-	left: 0;
+	left: -30px;
 	transform: translateY(-50%);
 }
 .btn--pdf[href$=".pdf"]:hover span::before{
