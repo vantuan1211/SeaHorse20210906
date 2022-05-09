@@ -71,6 +71,10 @@ function jsNav(){
 			nav.hide();
 		}, 400);
 	});
+
+	$('.nav__overlay').on('click', function() {
+		btnClose.trigger( "click" );
+	});
 	
 }
 
