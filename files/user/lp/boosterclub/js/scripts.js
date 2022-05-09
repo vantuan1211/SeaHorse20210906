@@ -1,6 +1,7 @@
 $(document).ready(function($) {
 	jsMainVisual();
 	jsNav();
+	scrollFuncs();
 	if($(".js-parafilter").get(0)){
 		var ULS = new URLSearchParams(window.location.search);
 		var parameter = ULS.get('course');
@@ -59,5 +60,25 @@ function jsNav(){
 			nav.hide();
 		}, 400);
 	});
-	
+
+	$('.nav__overlay').on('click', function() {
+		btnClose.trigger( "click" );
+	});
+}
+
+// Animation
+function scrollFuncs(){
+	$(window).bind('scroll', function () {
+		var scrollY = $(window).scrollTop();
+		var windowHeight = screen.availHeight;
+		
+		var slideImage = $('.js-animation');
+		slideImage.each(function () {
+			var slideImageY = $(this).offset().top;
+
+			if (scrollY > slideImageY - windowHeight * 0.6) {
+				$(this).addClass('is-animated');
+			}
+		});
+	});
 }
