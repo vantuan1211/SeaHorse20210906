@@ -466,7 +466,7 @@
 }
 @media screen and (max-width: 767px){
 	.btn-season{
-		bottom: 90px;
+		bottom: 85px;
 		right: 20px;
 	}
 	.btn-season a::before{
