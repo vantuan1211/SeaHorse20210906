@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* Thinh */
 .wrp-container{
 	max-width: 1024px;
 	margin: 0 auto;
@@ -671,8 +670,6 @@
 	transform: scale(1);
 }
 
-
-/* Tuan */
 .box-introduce{
 	position: relative;
 	background: #00469B;
@@ -913,7 +910,6 @@
 .box-course{
 	position: relative;
 	z-index: 2;
-	/* padding-top: 201px; */
 }
 .box-course .wrp-container{
 	overflow: hidden;
@@ -1530,7 +1526,7 @@
 		bottom: -40px;
 	}
 }
-/* Thuy */
+
 .is-visiblePc{
 	display: block !important;
 }
@@ -2346,8 +2342,6 @@
 	font-family: 'Oswald', sans-serif;
 }
 
-
-/* phuc */
 .bg-gradient-diamond{
 	background: linear-gradient(90deg, rgba(209,207,207,0.5) 0%, rgba(209,207,207,1) 100%);
 }
