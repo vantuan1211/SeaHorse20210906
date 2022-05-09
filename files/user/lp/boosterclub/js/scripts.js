@@ -4,38 +4,27 @@ $(document).ready(function($) {
 	if($(".js-parafilter").get(0)){
 		var ULS = new URLSearchParams(window.location.search);
 		var parameter = ULS.get('course');
-		if(parameter == "d"){
-			$('#diamond').show();
-		}
-		else if(parameter == "p"){
-			$('#platinum').show();
-		}
-		else if(parameter == "g"){
-			$('#gold').show();
-		}
-		else if(parameter == "r"){
-			$('#regular').show();
-		}
-		else if(parameter == "b"){
-			$('#beginner').show();
-		}
-		else if(parameter == "gk"){
-			$('#goldkids').show();
-		}
-		else if(parameter == "k"){
-			$('#kids').show();
-		}
-		else if(parameter == "all"){
-			$('#diamond').show();
-			$('#platinum').show();
-			$('#gold').show();
-			$('#regular').show();
-			$('#beginner').show();
-			$('#goldkids').show();
-			$('#kids').show();
-		}else{
-			$('#regular').show();
-		}
+		$('.lineup-detail-group').each(function(){
+			var parameterList = ["d","p","g","r","b","gk","k","all"];
+			if(!parameterList.includes(parameter)){
+				parameter = "r";
+			}
+			if(parameter === "all"){
+				$(this).show();
+			}else{
+				var dataCourse = $(this).attr("data-course");
+				if(dataCourse == "all"){
+					$(this).show();
+				}else{
+					dataCourseList = dataCourse.split(",");
+					if(dataCourseList.includes(parameter)){
+						$(this).show();
+					}else{
+						console.log(dataCourseList);
+					}
+				}
+			}
+		});
 	}
 	
 });//End -> ready method

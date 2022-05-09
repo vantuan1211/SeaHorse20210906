@@ -2384,7 +2384,7 @@
 }
 .box-capacity__fee{
 	color: #000;
-	background: #edecec;
+	background: rgba(255, 255, 255, 0.5);
 	width: calc(100% - 110px);
 	height: 36px;
 }
@@ -2926,6 +2926,9 @@ h1.box-heading-lv1__jp{
 	}
 }
 .sec-lineup-content{
-	display: none;
+	display: block;
 	padding-bottom: 80px;
+}
+.lineup-detail-group{
+	display: none;
 }
