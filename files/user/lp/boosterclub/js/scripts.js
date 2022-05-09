@@ -1,6 +1,7 @@
 $(document).ready(function($) {
 	jsMainVisual();
 	jsNav();
+	scrollFuncs();
 	if($(".js-parafilter").get(0)){
 		var ULS = new URLSearchParams(window.location.search);
 		var parameter = ULS.get('course');
@@ -37,7 +38,6 @@ $(document).ready(function($) {
 			$('#regular').show();
 		}
 	}
-	scrollFuncs();
 	
 });//End -> ready method
 
@@ -75,9 +75,9 @@ function jsNav(){
 	$('.nav__overlay').on('click', function() {
 		btnClose.trigger( "click" );
 	});
-	
 }
 
+// Animation
 function scrollFuncs(){
 	$(window).bind('scroll', function () {
 		var scrollY = $(window).scrollTop();
@@ -92,6 +92,4 @@ function scrollFuncs(){
 			}
 		});
 	});
-	
-	
 }
