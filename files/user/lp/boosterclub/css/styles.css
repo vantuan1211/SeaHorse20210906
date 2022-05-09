@@ -627,6 +627,8 @@
 	position: absolute;
 	right: 0;
 	bottom: 2px;
+
+	
 }
 .m-arc-primary--pdf[href$=".pdf"]{
 	margin: 0;
@@ -638,9 +640,8 @@
 	width: 18px;
 	height: 18px;
 	position: absolute;
-	top: 50%;
-	right: -48px;
-	transform: translateY(-50%);
+	right: 0;
+	bottom: 2px;
 }
 @media screen and (min-width: 768px) {
 	.m-arc-primary:hover::after{
@@ -648,7 +649,13 @@
 		transform: scaleX(1);
 	}
 	.m-arc-primary--blank[target="_blank"] span::after{
-		right: 0;
+		right: -30px;
+	}
+	.m-arc-primary span{
+		padding-right: 0;
+	}
+	.m-arc-primary--pdf[href$=".pdf"] span::after{
+		right: -30px;
 	}
 }
 
