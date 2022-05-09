@@ -37,6 +37,7 @@ $(document).ready(function($) {
 			$('#regular').show();
 		}
 	}
+	scrollFuncs();
 	
 });//End -> ready method
 
@@ -70,5 +71,23 @@ function jsNav(){
 			nav.hide();
 		}, 400);
 	});
+	
+}
+
+function scrollFuncs(){
+	$(window).bind('scroll', function () {
+		var scrollY = $(window).scrollTop();
+		var windowHeight = screen.availHeight;
+		
+		var slideImage = $('.js-animation');
+		slideImage.each(function () {
+			var slideImageY = $(this).offset().top;
+
+			if (scrollY > slideImageY - windowHeight * 0.6) {
+				$(this).addClass('is-animated');
+			}
+		});
+	});
+	
 	
 }
