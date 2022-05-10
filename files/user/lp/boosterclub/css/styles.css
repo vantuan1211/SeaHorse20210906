@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=64918230-3074-44ed-9672-689972096acd&fontids=5563063");
+@font-face{
+	font-family:"DIN Next LT W01 Bold";
+	src:url("/files/user/lp/boosterclub/Fonts/5563063/03008527-67bd-478e-98e3-3b56dd9a6520.woff2") format("woff2"),url("/files/user/lp/boosterclub/Fonts/5563063/557f817d-9c25-4a23-baaf-a3cf84a7cd7c.woff") format("woff");
+}
 .wrp-container{
 	max-width: 1024px;
 	margin: 0 auto;
@@ -2346,7 +2351,7 @@
 	}
 }
 .txt-en{
-	font-family: 'Oswald', sans-serif;
+	font-family:"DIN Next LT W01 Bold";
 }
 
 .bg-gradient-diamond{
