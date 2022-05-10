@@ -1713,7 +1713,6 @@
 	}
 	.hdg-lv2__main--01{
 		white-space: nowrap;
-		font-size: 27px;
 	}
 	.hdg-lv2__main::after{
 		bottom: -3px;
@@ -1721,7 +1720,7 @@
 }
 @media screen and (max-width: 374px){
 	.hdg-lv2__main--01{
-		font-size: 23px;
+		font-size: 26px;
 	}
 }
 /* box-point */
