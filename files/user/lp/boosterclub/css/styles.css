@@ -433,7 +433,7 @@
 }
   
 .btn-season{
-	position: fixed;
+	position: absolute;
 	bottom: 125px;
 	right: 40px;
 	z-index: 4;	
