@@ -159,7 +159,7 @@
 }
 .lst-nav li a::after{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') center center no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-arrow-white.png') center center no-repeat;
 	width: 9px;
 	height: 10px;
 	position: absolute;
@@ -595,7 +595,7 @@
 }
 .m-arc-primary::before{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') center center no-repeat #00469B;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-arrow-white.png') center center no-repeat #00469B;
 	background-size: 7px 8px;
 	background-position-x: 10px;
 	width: 24px;
@@ -626,7 +626,7 @@
 }
 .m-arc-primary--blank[target="_blank"] span::after{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-blank.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-blank.png') no-repeat;
 	width: 18px;
 	height: 18px;
 	position: absolute;
@@ -641,7 +641,7 @@
 }
 .m-arc-primary--pdf[href$=".pdf"] span::after{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-pdf.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-pdf.png') no-repeat;
 	width: 18px;
 	height: 18px;
 	position: absolute;
@@ -696,7 +696,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url("/files/user/lp/boosterclub/img/bg-introduce-deco01.png") no-repeat center top;
+	background: url("/files/user/lp/boosterclub/img/2022-23/bg-introduce-deco01.png") no-repeat center top;
 	background-size: 100% auto;
 	z-index: 1;
 }
@@ -947,7 +947,7 @@
 }
 .box-course__inner::before{
 	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-06.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-06.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 1170px;
@@ -959,7 +959,7 @@
 }
 .box-course__inner::after{
 	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-04.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-04.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
@@ -1096,7 +1096,7 @@
 	}
 	.box-course__inner::before{
 		content: '';
-		background: url('/files/user/lp/boosterclub/img/img-fire-07.png') no-repeat;
+		background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-07.png') no-repeat;
 		background-size: 100% 100%;
 		width: 66.93vw;
 		height: 66.4vw;
@@ -1243,7 +1243,7 @@
 }
 .box-course-main.box-course-main--top::after{
 	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-02.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-02.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
@@ -1288,7 +1288,7 @@
 	display: inline-block;
 	width: 40px;
 	height: 40px;
-	background: #fff url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
+	background: #fff url("/files/user/lp/boosterclub/img/2022-23/icn-arrow.png") no-repeat center center;
 	background-size: 8px auto;
 	position: absolute;
 	z-index: 1;
@@ -1298,7 +1298,7 @@
 }
 .lst-course-main__item:hover::before{
 	content: '';
-	background: #00469B url("/files/user/lp/boosterclub/img/icn-arrow-white.png") no-repeat center center;
+	background: #00469B url("/files/user/lp/boosterclub/img/2022-23/icn-arrow-white.png") no-repeat center center;
 	background-position-x: 26px;
 	width: 56px;
 	height: 56px;
@@ -1471,7 +1471,7 @@
 	display: inline-block;
 	width: 119px;
 	height: 121px;
-	background: url("/files/user/lp/boosterclub/img/pct-member-macot01.png") no-repeat center;
+	background: url("/files/user/lp/boosterclub/img/2022-23/pct-member-macot01.png") no-repeat center;
 	position: absolute;
 	left: 50%;
 	bottom: -60px;
@@ -1733,7 +1733,7 @@
 }
 .box-point::after{
 	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-03.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-03.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
@@ -1816,7 +1816,7 @@
 }
 .btn::after{
 	content: "";
-	background: url(/files/user/lp/boosterclub/img/icn-arrow.png) no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-arrow.png') no-repeat;
 	position: absolute;
 	right: 29px;
 	top: 50%;
@@ -1832,7 +1832,7 @@
 }
 .btn:hover::after{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-arrow-white.png') no-repeat;
 	background-size: cover;
 }
 .btn--pdf[href$=".pdf"]{
@@ -1841,7 +1841,7 @@
 }
 .btn--pdf[href$=".pdf"] span::before{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-pdf.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-pdf.png') no-repeat;
 	width: 18px;
 	height: 18px;
 	position: absolute;
@@ -1851,18 +1851,18 @@
 }
 .btn--pdf[href$=".pdf"]:hover span::before{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-pdf-white.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-pdf-white.png') no-repeat;
 }
 
 .btn--blank[target="_blank"]::after{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-blank.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-blank.png') no-repeat;
 	width: 18px;
 	height: 18px;
 }
 .btn--blank[target="_blank"]:hover::after{
 	content: '';
-	background: url('/files/user/lp/boosterclub/img/icn-blank-white.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/icn-blank-white.png') no-repeat;
 }
 
 
@@ -2135,7 +2135,7 @@
 }
 .box-campaign::after{
 	content: "";
-	background: url('/files/user/lp/boosterclub/img/bg-campaign.png') no-repeat top center;
+	background: url('/files/user/lp/boosterclub/img/2022-23/bg-campaign.png') no-repeat top center;
 	background-size: cover;
 	display: inline-block;
 	position: absolute;
@@ -2162,7 +2162,7 @@
 }
 .box-campaign__inner::before{
 	content: "";
-	background: url(/files/user/lp/boosterclub/img/img-fire-01.png) no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-01.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
@@ -2182,7 +2182,7 @@
 }
 .box-campaign .sec-join::after{
 	content: "";
-	background: url('/files/user/lp/boosterclub/img/img-fire-03.png') no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-03.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
@@ -2264,7 +2264,7 @@
 }
 .list-banner::after{
 	content: "";
-	background: url(/files/user/lp/boosterclub/img/pct-campaign-macot01.png) no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/pct-campaign-macot01.png') no-repeat;
 	width: 322px;
 	height:640px;
 	display: block;
@@ -2403,7 +2403,7 @@
 }
 .box-heading-lv1::before{
 	content: "";
-	background: url(/files/user/lp/boosterclub/img/img-fire-03.png) no-repeat;
+	background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-03.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 404px;
@@ -2698,7 +2698,7 @@ h1.box-heading-lv1__jp{
 	content: "";
 	width: 8px;
 	height: 12px;
-	background: url("/files/user/lp/boosterclub/img/icn-arrow.png") no-repeat center center;
+	background: url("/files/user/lp/boosterclub/img/2022-23/icn-arrow.png") no-repeat center center;
 	background-size: 100%;
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
@@ -2742,7 +2742,7 @@ h1.box-heading-lv1__jp{
 	}
 	.section-agreement .box-heading-lv1::before{
 		display: block;
-		background: url(/files/user/lp/boosterclub/img/img-fire-05.png) no-repeat;
+		background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-05.png') no-repeat;
 		background-size: 100% 100%;
 		width: 156px;
 		height: 155px;
@@ -2767,7 +2767,7 @@ h1.box-heading-lv1__jp{
 	}
 	.box-heading-lv1--primary::before{
 		display: block;
-		background: url(/files/user/lp/boosterclub/img/img-fire-05.png) no-repeat;
+		background: url('/files/user/lp/boosterclub/img/2022-23/img-fire-05.png') no-repeat;
 		background-size: 100% 100%;
 		width: 156px;
 		height: 155px;
