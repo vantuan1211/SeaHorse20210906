@@ -3,7 +3,7 @@
 @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=64918230-3074-44ed-9672-689972096acd&fontids=5563063");
 @font-face{
 	font-family:"DIN Next LT W01 Bold";
-	src:url("/files/user/lp/boosterclub/Fonts/5563063/03008527-67bd-478e-98e3-3b56dd9a6520.woff2") format("woff2"),url("/files/user/lp/boosterclub/Fonts/5563063/557f817d-9c25-4a23-baaf-a3cf84a7cd7c.woff") format("woff");
+	src:url("/files/user/lp/boosterclub/Font/5563063/03008527-67bd-478e-98e3-3b56dd9a6520.woff2") format("woff2"),url("/files/user/lp/boosterclub/Font/5563063/557f817d-9c25-4a23-baaf-a3cf84a7cd7c.woff") format("woff");
 }
 .wrp-container{
 	max-width: 1024px;
@@ -496,7 +496,7 @@
 	text-align: center;
 	color: #fff;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 1000;
 }
 .box-join__club{
 	position: relative;
@@ -975,17 +975,17 @@
 	font-size: 40px;
 	letter-spacing: 0.04em;
 	color: #fff;
-	font-weight: bold;
+	font-weight: 1000;
 }
 .hdg-lv2-02 small{
-	display: block;
 	font-size: 18px;
 	letter-spacing: 0.04em;
-	margin-bottom: 5px;
+	border-bottom: 2px solid #FDE949;
+	display: inline-block;
+	padding-bottom: 5px;
 }
 .hdg-lv2-02 span{
-	display: inline-block;
-	border-top: 2px solid #FDE949;
+	display: block;
 	padding-top: 5px;
 }
 .lst-course{
@@ -1117,7 +1117,7 @@
 .hdg-lv3{
 	font-size: 24px;
 	letter-spacing: 0.04em;
-	font-weight: bold;
+	font-weight: 1000;
 	text-align: center;
 	color: #fff;
 }
@@ -1485,7 +1485,7 @@
 	font-size: 24px;
 	line-height: 1.2;
 	letter-spacing: 0.04em;
-	font-weight: 500;
+	font-weight: 1000;
 	color: #00469B;
 }
 .box-member__title__main{
@@ -1493,7 +1493,7 @@
 	font-size: 45px;
 	line-height: 1.2;
 	letter-spacing: 0.04em;
-	font-weight: 500;
+	font-weight: 1000;
 	color: #00469B;
 	margin-top: 20px;
 }
@@ -1999,6 +1999,7 @@
 	font-size: 32px;
 	line-height: 1.5;
 	color: #000;
+	font-weight: 1000;
 }
 .box-member__body__text{
 	font-size: 16px;
