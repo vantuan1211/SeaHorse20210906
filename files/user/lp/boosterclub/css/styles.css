@@ -1814,30 +1814,6 @@
 .btn--large{
 	min-width: 355px;
 }
-.btn--pdf::before{
-	content: "";
-	display: inline-block;
-	width: 18px;
-	height: 18px;
-	background: url(/files/user/lp/boosterclub/img/icn-pdf.png) no-repeat center;
-	background-size: cover;
-	position: relative;
-	margin-right: 8px;
-	bottom: -2px;
-}
-.btn::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: #00469B;
-	width: 100%;
-	height: 100%;
-	border-radius: 45px;
-	transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
-	transform: scale(0, 1);
-	transform-origin: top;
-}
 .btn::after{
 	content: "";
 	background: url(/files/user/lp/boosterclub/img/icn-arrow.png) no-repeat;
@@ -1854,20 +1830,15 @@
 .btn:hover span{
 	color: #fff;
 }
-.btn:hover::before{
-	transform: scale(1,1);
-}
 .btn:hover::after{
 	content: '';
 	background: url('/files/user/lp/boosterclub/img/icn-arrow-white.png') no-repeat;
+	background-size: cover;
 }
 .btn--pdf[href$=".pdf"]{
 	padding: 20px 50px 22px 65px;
 	margin: 0;
 }
-/* .btn--pdf[href$=".pdf"] span{
-	padding-left: 30px;
-} */
 .btn--pdf[href$=".pdf"] span::before{
 	content: '';
 	background: url('/files/user/lp/boosterclub/img/icn-pdf.png') no-repeat;
