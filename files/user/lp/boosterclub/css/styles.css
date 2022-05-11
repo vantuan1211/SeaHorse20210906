@@ -2449,6 +2449,10 @@ h1.box-heading-lv1__jp{
 	font-size: 40px;
 	line-height: 1.8;
 }
+.box-heading-lv1__content h1 img{
+	height: 72px;
+	width: auto;
+}
 @media screen and (max-width: 767px){
 	.box-heading-lv1{
 		padding: 40px 0 50px;
