@@ -2414,7 +2414,7 @@
 }
 
 .box-heading-lv1{
-	padding: 60px 0;
+	padding: 56px 0 64px;
 	position: relative;
 	overflow: hidden;
 }
@@ -2443,7 +2443,7 @@
 	display: block;
 }
 .box-heading-lv1 .box-capacity{
-	margin-top: 40px;
+	margin-top: 36px;
 }
 h1.box-heading-lv1__jp{
 	font-size: 40px;
@@ -2451,7 +2451,7 @@ h1.box-heading-lv1__jp{
 }
 @media screen and (max-width: 767px){
 	.box-heading-lv1{
-		padding: 40px 0;
+		padding: 40px 0 50px;
 	}
 	.box-heading-lv1::before{
 		display: none;
@@ -2462,10 +2462,14 @@ h1.box-heading-lv1__jp{
 	}
 	.box-heading-lv1 h1 span{}
 	.box-heading-lv1 .box-capacity{
-		margin-top: 25px;
+		margin-top: 20px;
 	}
 	h1.box-heading-lv1__jp{
 		font-size: 24px;
+	}
+	.box-heading-lv1__content h1 img{
+		height: 48px;
+		width: auto;
 	}
 }
 
