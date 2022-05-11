@@ -2295,13 +2295,20 @@
 	box-sizing: border-box;
 	margin-bottom: 10px;
 }
+.list-banner__item--01{
+	width: 100%;
+}
 .list-banner__item a{
 	display: block;
 	-webkit-transition: opacity 0.15s;
 	transition: opacity 0.15s;
 }
 .list-banner__item a:hover{
-	opacity: 0.7;
+	-webkit-filter: brightness(1.2);
+		-moz-filter: brightness(1.2);
+		-o-filter: brightness(1.2);
+		-ms-filter: brightness(1.2);
+		filter: brightness(1.2);
 }
 @media screen and (max-width: 1366px) {
 	.list-banner::after{
