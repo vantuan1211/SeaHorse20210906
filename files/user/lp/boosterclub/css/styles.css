@@ -1481,6 +1481,7 @@
 	width: 119px;
 	height: 121px;
 	background: url("/files/user/lp/boosterclub/img/2022-23/pct-member-macot01.png") no-repeat center;
+	background-size: cover;
 	position: absolute;
 	left: 50%;
 	bottom: -60px;
