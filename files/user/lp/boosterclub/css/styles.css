@@ -470,7 +470,7 @@
 }
 @media screen and (max-width: 767px){
 	.btn-season{
-		bottom: 75px;
+		bottom: 72px;
 		right: 20px;
 	}
 	.btn-season a::before{
@@ -2538,6 +2538,10 @@ h1.box-heading-lv1__jp{
 	.m-hdg-lv4{
 		font-size: 16px;
 		line-height: 1.7;
+		margin-top: 32px;
+	}
+	.m-hdg-lv2 + .lineup-detail-group > .m-hdg-lv3{
+		margin-top: 52px;
 	}
 }
 
@@ -2616,7 +2620,7 @@ h1.box-heading-lv1__jp{
 }
 @media screen and (max-width: 767px){
 	.m-lst-ordered li + li{
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 }
 
