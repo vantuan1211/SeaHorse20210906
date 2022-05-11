@@ -1841,7 +1841,7 @@
 .btn--pdf[href$=".pdf"]{
 	padding: 20px 50px 22px 65px;
 	margin: 0;
-	background: #fff url('/files/user/images/common/ico_link-pdf.png') left 0.2em no-repeat;
+	background: #fff;
 }
 .btn--pdf[href$=".pdf"]:hover{
 	background: #00469B;
