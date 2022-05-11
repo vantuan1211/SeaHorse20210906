@@ -2534,6 +2534,7 @@ h1.box-heading-lv1__jp{
 	.m-hdg-lv4{
 		font-size: 16px;
 		line-height: 1.7;
+		margin-top: 32px;
 	}
 	.m-hdg-lv2 + .lineup-detail-group > .m-hdg-lv3{
 		margin-top: 52px;
