@@ -2389,6 +2389,8 @@
 }
 .box-capacity__people span{
 	font-size: 20px;
+	position: relative;
+    top: -1px;
 }
 .box-capacity__fee{
 	color: #000;
