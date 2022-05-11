@@ -2535,6 +2535,9 @@ h1.box-heading-lv1__jp{
 		font-size: 16px;
 		line-height: 1.7;
 	}
+	.m-hdg-lv2 + .lineup-detail-group > .m-hdg-lv3{
+		margin-top: 52px;
+	}
 }
 
 .m-box-image{
@@ -2612,7 +2615,7 @@ h1.box-heading-lv1__jp{
 }
 @media screen and (max-width: 767px){
 	.m-lst-ordered li + li{
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 }
 
