@@ -441,7 +441,7 @@
 .btn-season a{
 	position: relative;
 	display: inline-block;
-	line-height: 1;
+	line-height: 0;
 	border-radius: 50%;
 	transition: all 0.3s;
 	-webkit-box-shadow: 4px 4px 8px 0px rgba(16,50,121,0.2);
@@ -455,18 +455,16 @@
 	background: rgba(255, 255, 255, 0.43);
 	position: absolute;
 	top: 50%;
-	left: 48%;
+	left: 50%;
 	border-radius: 50%;
-	transform: translate(-50%, -52%);
+	transform: translate(-50%, -50%);
 	z-index: 1;
 	transition: all 0.2s ease-in-out;
 }
 .btn-season a img{
 	z-index: 2;
 	position: relative;
-}
-.btn-season img{
-	width: 178px;
+	width: 162px;
 }
 .btn-season a:hover::before{
 	background: #fff;
@@ -480,7 +478,7 @@
 		width: 144px;
 		height: 144px;
 	}
-	.btn-season img{
+	.btn-season a img{
 		width: 136px;
 		height: auto;
 	}
@@ -562,6 +560,9 @@
 	transition: all 2s ease;
 	color: transparent;
 	-webkit-text-stroke: #fff 1px;
+}
+.box-join__club__btn img{
+	width: 264px;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	/* IE10+ CSS styles go here */
@@ -1994,6 +1995,7 @@
 }
 .box-member__head-label__item img{
 	width: 73px;
+	height: 25px;
 }
 .box-member__head-label__item:last-child{
 	margin-right: 0;
@@ -2010,6 +2012,7 @@
 	color: #222;
 	margin-top: 23px;
 }
+
 .box-member-tbl-base{
 	width: 94%;
 	margin: 0 0 0 6%;
@@ -2093,9 +2096,11 @@
 	}
 	.box-member__head-label__item:first-child img{
 		width: 67px;
+		height: 23px;
 	}
 	.box-member__head-label__item img{
-		width: 71px;
+		width: 67px;
+		height: 23px;
 	}
 	.box-member__body__title{
 		font-size: 20px;
