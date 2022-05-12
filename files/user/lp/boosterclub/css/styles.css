@@ -1978,11 +1978,17 @@
 	position: relative;
 	top: -7px;
 }
+.box-member__head-point__image img{
+	width: 111px;
+}
 .box-member__body{
 	margin-top: 2px;
 }
 .box-member__head-label__item{
 	margin-right: 5px;
+}
+.box-member__head-label__item img{
+	width: 73px;
 }
 .box-member__head-label__item:last-child{
 	margin-right: 0;
@@ -2499,7 +2505,15 @@ h1.box-heading-lv1__jp{
 .txt-lead--primary{
 	color: #222;
 }
-
+.txt-lead .m-arc-primary{
+	margin-right: 35px;
+	margin-left: 5px;
+}
+@media screen and (max-width: 767px){
+	.txt-lead .m-arc-primary{
+		margin-right: 10px;
+	}
+}
 .m-hdg-lv2{
 	font-size: 32px;
 	line-height: 1.5;
