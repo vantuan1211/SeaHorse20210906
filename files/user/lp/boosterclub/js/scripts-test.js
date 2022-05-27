@@ -42,6 +42,8 @@ $(document).ready(function($) {
 		autoplay: true,
 		autoplaySpeed: 4000,
 		speed: 600,
+		focusOnSelect: false,
+		pauseOnHover: false,
 		asNavFor: '.box-slid__title'
 	});
 	$('.box-slid__title').slick({

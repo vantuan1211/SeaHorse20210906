@@ -409,10 +409,6 @@
 	.box-mv__slogan__scroll{
 		height: 110px;
 	}
-	.box-mv__slogan__fire img{
-		width: 320px;
-		height: auto;
-	}
 }
 @media screen and (max-width: 767px){
 	.box-mv__main__title{
@@ -426,12 +422,7 @@
 		font-size: 32px;
 	}
 	.box-mv__slogan__fire{
-		bottom: 13px;
-		left: -22px;
-	}
-	.box-mv__slogan__fire img{
-		width: 177px;
-		height: auto;
+		top: -28vw;
 	}
 }
   
@@ -832,6 +823,10 @@
 	right: 10.46vw;
 }
 @media screen and (max-width: 767px){
+	.box-introduce::before{
+		background: url(/files/user/lp/boosterclub/img/2022-23/bg-introduce-deco01-sp.png) no-repeat center 24vw;
+		background-size: 100% auto;
+	}
 	.box-introduce__content{
 		padding: 45.333vw 0 118px;
 	}
