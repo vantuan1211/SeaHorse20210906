@@ -952,7 +952,7 @@
 .box-course__inner{
 	position: relative;
 	overflow: hidden;
-	padding-top: 201px;
+	padding-top: 185px;
 }
 .box-course__inner::before{
 	content: "";
@@ -3044,8 +3044,8 @@ h1.box-heading-lv1__jp{
 	display: block;
 	color: #fff;
 	opacity: 0.5;
-	transition: all	0.3s ease 0.25s;
 	width: 100%;
+	transition: all	0.3s ease 0.25s;
 }
 .box-slid__title__item small{
 	display: none;
@@ -3054,9 +3054,9 @@ h1.box-heading-lv1__jp{
 	font-weight: bold;
 	letter-spacing: 0.04em;
 	color: #fff;
-	transition: all	0.3s ease 0.25s;
 	opacity: 0;
 	width: 100%;
+	transition: all	0.3s ease 0.25s;
 }
 .box-slid__title__item.slick-current span{
 	font-size: 40px;
