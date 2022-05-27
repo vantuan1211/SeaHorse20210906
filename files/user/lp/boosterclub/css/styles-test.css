@@ -3177,7 +3177,7 @@ h1.box-heading-lv1__jp{
 	}
 	.box-slid__title__item{
 		height: 57px;
-		padding: 0 2px;
+		padding: 0 4px;
 	}
 	.box-slid__title{
 		margin-top: 30px;
@@ -3185,5 +3185,15 @@ h1.box-heading-lv1__jp{
 	}
 	.box-slid__images__item__image img{
 		width: 100%;
+	}
+	.box-slid__title .slick-list{
+		padding: 0!important;
+		margin: 0 -16px;
+	}
+	.box-slid__title__item{
+		width: 85px!important;
+	}
+	.box-slid__title__item.slick-current{
+		width: 160px!important;
 	}
 }
