@@ -190,9 +190,11 @@ t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'scrip
 
 
 <link href="/files/user/lp/boosterclub/css/animate-test.css" rel="stylesheet" media="all">
+<link href="/files/user/lp/boosterclub/css/slick.css" rel="stylesheet" media="all">
 <link href="/files/user/lp/boosterclub/css/styles-test.css" rel="stylesheet" media="all">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/files/user/lp/boosterclub/js/wow.min.js"></script>
+<script src="/files/user/lp/boosterclub/js/slick.min.js"></script>
 <script src="/files/user/lp/boosterclub/js/scripts-test.js"></script>
 <script>
 	new WOW().init();
@@ -278,9 +280,18 @@ t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'scrip
 					<img src="/files/user/lp/boosterclub/img/2022-23/img-ttl-mainvisual.png" alt="SEAHORSES MIKAWA BOOSTER CLUB" class="full-img is-visiblePc">
 					<img src="/files/user/lp/boosterclub/img/2022-23/img-ttl-mainvisual-sp.png" alt="SEAHORSES MIKAWA BOOSTER CLUB" class="full-img is-visibleSp">
 				</h2>
-			</div>
-			
+			</div>	
 		</div>
+		<!--▼① ファンクラブ会員募集ボタンの変更▼-->
+		<div class="btn-season wow fadeInUp" data-wow-delay="0.3s">
+				<a href="https://bleague-ticket.psrv.jp/member/fc/SM/202223/login/?redirect=/member/fc/SM/202223/regist/" target="_blank">
+				<img src="/files/user/lp/boosterclub/img/2022-23/btn-season.png" alt="2022-23 SEASON ファンクラブ 会員募集中!!" class="fluid-img">
+			</a>
+		</div>
+		<!--▲① ファンクラブ会員募集ボタンの変更▲-->
+	</div>
+
+	<div class="box-introduce">
 		<div class="box-mv__slogan">
 			<div class="box-mv__slogan__scroll">
 				<div class="box-mv__slogan__scroll__wrp">
@@ -320,19 +331,8 @@ t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'scrip
 					</div>
 				</div>
 			</div>
-			<span class="box-mv__slogan__fire"><img src="/files/user/lp/boosterclub/img/2022-23/img-fire-01.png" alt="" class="fluid-img"></span>
+			<span class="box-mv__slogan__fire"><img src="/files/user/lp/boosterclub/img/2022-23/pct-fire-main01.png" alt="" class="fluid-img"></span>
 		</div>
-	</div>
-
-	<!--▼① ファンクラブ会員募集ボタンの変更▼-->
-	<div class="btn-season wow fadeInUp" data-wow-delay="0.3s">
-			<a href="https://bleague-ticket.psrv.jp/member/fc/SM/202223/login/?redirect=/member/fc/SM/202223/regist/" target="_blank">
-			<img src="/files/user/lp/boosterclub/img/2022-23/btn-season.png" alt="2022-23 SEASON ファンクラブ 会員募集中!!" class="fluid-img">
-		</a>
-	</div>
-	<!--▲① ファンクラブ会員募集ボタンの変更▲-->
-
-	<div class="box-introduce">
 		<div class="box-introduce__content">
 			<h2 class="box-introduce__title wow fadeIn" data-wow-delay="0.3s" data-wow-duration="3s">
 				<img src="/files/user/lp/boosterclub/img/2022-23/hdg-introduce01.png" alt="ホームゲームをもっともっと楽しもう" class="fluid-img is-visiblePc">
@@ -380,26 +380,45 @@ t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'scrip
 			<p class="box-introduce__text wow fadeInUp">ホームゲームをもっと楽しむために、<br class="is-visiblePc">ブースタークラブには応援スタイルに合わせて<br class="is-visiblePc">7つのコースをご用意しています。<br>シーホース三河を共に盛り上げていきましょう！<br class="is-visiblePc">皆さまのご入会をお待ちしております！</p>
 		</div>
 		<div class="box-slid">
-			<div class="wrp-container">
+			<div class="box-slid__content">
 				<h2 class="hdg-lv2-02 wow fadeInUp"><small>選手との触れ合いやイベントなど盛りだくさん！</small><span>ブースタークラブの魅力</span></h2>
-				<ul class="lst-title">
-					<li class="lst-title__item">
-
-					</li>
-				</ul>
 				<div class="box-slid__title">
-					<p class="box-slid__title__item"><span>POINT</span>ポイント</p>
-					<p class="box-slid__title__item"><span>TICKET</span>チケット</p>
-					<p class="box-slid__title__item"><span>EVENT</span>イベント</p>
-					<p class="box-slid__title__item"><span>GOODS</span>グッズ</p>
-					<p class="box-slid__title__item"><span>CONTENTS</span>コンテンツ</p>
+					<p class="box-slid__title__item"><span class="txt-en">POINT</span><small>ポイント</small></p>
+					<p class="box-slid__title__item"><span class="txt-en">TICKET</span><small>チケット</small></p>
+					<p class="box-slid__title__item"><span class="txt-en">EVENT</span><small>イベント</small></p>
+					<p class="box-slid__title__item"><span class="txt-en">GOODS</span><small>グッズ</small></p>
+					<p class="box-slid__title__item"><span class="txt-en">CONTENTS</span><small>コンテンツ</small></p>
 				</div>
 				<div class="box-slid__images">
 					<div class="box-slid__images__item">
 						<figure class="box-slid__images__item__image">
+							<img src="/files/user/lp/boosterclub/img/2022-23/slid_point_pc.png" alt="" class="fluid-img">
+						</figure>
+						<p class="box-slid__images__item__text">選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、<br>非日常を味わえるイベントが盛りだくさん︕</p>
+					</div>
+					<div class="box-slid__images__item">
+						<figure class="box-slid__images__item__image">
+							<img src="/files/user/lp/boosterclub/img/2022-23/slid_ticket_pc.png" alt="" class="fluid-img">
+						</figure>
+						<p class="box-slid__images__item__text">選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、<br>非日常を味わえるイベントが盛りだくさん︕<br>選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、<br>非日常を味わえるイベントが盛りだくさん︕</p>
+					</div>
+					<div class="box-slid__images__item">
+						<figure class="box-slid__images__item__image">
 							<img src="/files/user/lp/boosterclub/img/2022-23/slid_event_pc.png" alt="" class="fluid-img">
 						</figure>
-						<p class="box-slid__images__item__text">選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、非日常を味わえるイベントが盛りだくさん︕</p>
+						<p class="box-slid__images__item__text">選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、<br>非日常を味わえるイベントが盛りだくさん︕</p>
+					</div>
+					<div class="box-slid__images__item">
+						<figure class="box-slid__images__item__image">
+							<img src="/files/user/lp/boosterclub/img/2022-23/slid_goods_pc.png" alt="" class="fluid-img">
+						</figure>
+						<p class="box-slid__images__item__text">選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、<br>非日常を味わえるイベントが盛りだくさん︕<br>選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、<br>非日常を味わえるイベントが盛りだくさん︕</p>
+					</div>
+					<div class="box-slid__images__item">
+						<figure class="box-slid__images__item__image">
+							<img src="/files/user/lp/boosterclub/img/2022-23/slid_cont_pc.png" alt="" class="fluid-img">
+						</figure>
+						<p class="box-slid__images__item__text">選手からサインを貰えたり、いつも熱戦を繰り広げるコートでバスケをしたり、<br>非日常を味わえるイベントが盛りだくさん︕</p>
 					</div>
 				</div>
 			</div>

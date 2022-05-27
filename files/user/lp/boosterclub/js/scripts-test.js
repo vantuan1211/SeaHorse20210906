@@ -34,6 +34,29 @@ $(document).ready(function($) {
 			}
 		});
 	}
+	$('.box-slid__images').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: false,
+		arrows: true,
+		autoplay: true,
+		autoplaySpeed: 4000,
+		speed: 600,
+		asNavFor: '.box-slid__title'
+	});
+	$('.box-slid__title').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.box-slid__images',
+		infinite: false,
+		dots: false,
+		arrows: false,
+		centerMode: true,
+		speed: 300,
+		focusOnSelect: false,
+		pauseOnHover: false,
+		variableWidth: true
+	});
 });//End -> ready method
 
 // mainvisual
