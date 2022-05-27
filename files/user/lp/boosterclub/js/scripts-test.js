@@ -55,7 +55,7 @@ $(document).ready(function($) {
 		arrows: false,
 		centerMode: true,
 		speed: 300,
-		focusOnSelect: false,
+		focusOnSelect: true,
 		pauseOnHover: false,
 		variableWidth: true
 	});

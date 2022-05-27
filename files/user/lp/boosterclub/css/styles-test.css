@@ -3030,6 +3030,7 @@ h1.box-heading-lv1__jp{
 	align-items: center;
 	height: 62px;
 	padding: 0 8px;
+	cursor: pointer;
 }
 .box-slid__title__item span{
 	font-size: 24px;
@@ -3121,6 +3122,16 @@ h1.box-heading-lv1__jp{
 }
 .slick-arrow.slick-disabled{
 	display: none!important;
+}
+@media screen and (max-width: 1023px){
+	.slick-prev.slick-arrow{
+		left: -16px;
+		top: 150px;
+	}
+	.slick-next.slick-arrow{
+		right: -16px;
+		top: 150px;
+	}
 }
 @media screen and (max-width: 767px){
 	.box-slid{
