@@ -3127,3 +3127,68 @@ h1.box-heading-lv1__jp{
 .slick-arrow.slick-disabled{
 	display: none!important;
 }
+@media screen and (max-width: 767px){
+	.box-slid{
+		padding-top: 52px;
+		margin-bottom: 93px;
+		margin-top: 0;
+	}
+	.box-slid::before{
+		background: url('/files/user/lp/boosterclub/img/2022-23/pct-point-bg-sp.jpg') no-repeat center;
+		height: 523px;
+		background-size: cover;
+		border-top: 4px solid #9F863F;
+		border-bottom: 4px solid #9F863F;
+	}
+	.box-slid__title__item span{
+		font-size: 16px;
+	}
+	.box-slid__title__item.slick-current span{
+		font-size: 32px;
+		line-height: 32px;
+	}
+	.box-slid__title__item small{
+		font-size: 12px;
+	}
+	.box-slid__images{
+		padding: 0 16px;
+		box-sizing: border-box;
+	}
+	.slick-next.slick-arrow{
+		right: 0;
+		width: 40px;
+		height: 40px;
+		top: 40vw;
+	}
+	.slick-next.slick-arrow::before{
+		border-width: 5px 0 5px 10px;
+		left: 57.6%;
+	}
+	.slick-prev.slick-arrow::before{
+		border-width: 5px 10px 5px 0;
+		left: 43%;
+	}
+	.slick-prev.slick-arrow{
+		left: 0;
+		width: 40px;
+		height: 40px;
+		top: 40vw;
+	}
+	.box-slid__images__item__text{
+		font-size: 16px;
+		line-height: 1.5;
+		font-weight: normal;
+		margin-top: 15px;
+	}
+	.box-slid__title__item{
+		height: 57px;
+		padding: 0 2px;
+	}
+	.box-slid__title{
+		margin-top: 30px;
+		margin-bottom: 17px;
+	}
+	.box-slid__images__item__image img{
+		width: 100%;
+	}
+}
