@@ -39,8 +39,6 @@ $(document).ready(function($) {
 		slidesToScroll: 1,
 		infinite: false,
 		arrows: true,
-		autoplay: true,
-		autoplaySpeed: 4000,
 		speed: 600,
 		focusOnSelect: false,
 		pauseOnHover: false,
