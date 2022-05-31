@@ -40,7 +40,7 @@ $(document).ready(function($) {
 		infinite: false,
 		arrows: true,
 		speed: 600,
-		initialSlide: 2,
+		initialSlide: 0,
 		focusOnSelect: false,
 		pauseOnHover: false,
 		asNavFor: '.box-slid__title'
@@ -54,7 +54,7 @@ $(document).ready(function($) {
 		arrows: false,
 		centerMode: true,
 		speed: 300,
-		initialSlide: 2,
+		initialSlide: 0,
 		focusOnSelect: true,
 		pauseOnHover: false,
 		variableWidth: true
